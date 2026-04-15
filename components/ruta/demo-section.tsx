@@ -61,17 +61,19 @@ export function DemoSection() {
       charIdx++;
       setInput(EXAMPLE_PROMPT.slice(0, charIdx));
       if (charIdx < EXAMPLE_PROMPT.length) {
-        timeout = setTimeout(typeNext, 35);
+        timeout = setTimeout(typeNext, 170);
       } else {
         // Auto-submit after typing
         setPhase("idle");
         timeout = setTimeout(() => {
           handleSubmitAuto(EXAMPLE_PROMPT);
-        }, 600);
+        }, 800);
       }
     };
 
-    timeout = setTimeout(typeNext, 800);
+
+// Auto-type the example prompt on mount
+    timeout = setTimeout(typeNext, 1000);
     return () => clearTimeout(timeout);
   }, []);
 
@@ -90,9 +92,9 @@ export function DemoSection() {
         setTimeout(() => {
           setPhase("done");
           setSubmitted(true);
-        }, 400);
+        }, 700);
       }
-    }, 420);
+    }, 700);
   };
 
   const handleSubmit = () => {

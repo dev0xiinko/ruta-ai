@@ -29,13 +29,7 @@ export function Navbar() {
             </span>
           </div>
 
-          {/* CTA */}
-          <Button
-            onClick={() => setIsWaitlistOpen(true)}
-            className="rounded-full px-7 py-3 text-base shadow-lg shadow-primary/20"
-          >
-            Coming soon.
-          </Button>
+          
         </div>
       </header>
 

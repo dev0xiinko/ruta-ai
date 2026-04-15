@@ -143,14 +143,6 @@ export function HeroSection() {
             Join Waitlist
             <ArrowRight className="ml-2 h-4 w-4" />
           </Button>
-
-          <Button
-            variant="outline"
-            size="lg"
-            className="h-12 w-full rounded-xl border-border/80 bg-background/70 px-8 text-base backdrop-blur-md hover:bg-background sm:w-auto"
-          >
-            See How It Works
-          </Button>
         </div>
 
         {/* value strip */}

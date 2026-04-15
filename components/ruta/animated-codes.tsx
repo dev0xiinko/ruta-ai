@@ -26,7 +26,7 @@ export function AnimatedCodes() {
         isTransitioning ? "opacity-0 scale-95" : "opacity-100 scale-100"
       }`}
     >
-      <span className="font-mono text-3xl sm:text-5xl lg:text-7xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+      <span className="font-mono text-7xl sm:text-7xl md:text-7xl lg:text-7xl font-bold bg-linear-to-r from-primary to-accent bg-clip-text text-transparent">
         {JEEPNEY_CODES[currentIndex]}
       </span>
     </span>
