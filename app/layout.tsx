@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { Inter } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
@@ -6,33 +6,40 @@ import './globals.css'
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: 'RUTA — Find Jeepney Routes in Cebu',
-  description: 'Stop guessing jeepney routes. RUTA helps you find the right jeepney, understand transfers, and navigate Cebu with confidence.',
-  generator: 'v0.app',
+  title: {
+    default: 'RUTA - Navigate Cebu Jeepneys with AI',
+    template: '%s | RUTA',
+  },
+  description:
+    'RUTA helps you navigate Cebu’s jeepney system with ease — find routes, transfers, and travel smarter.',
+  
+  applicationName: 'RUTA',
+  generator: 'RUTA by 0xiinko',
+
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
+        url: '/ruta.ico', // 🔥 PRIMARY favicon
       },
       {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
+        url: '/ruta-icon.svg',
         type: 'image/svg+xml',
       },
     ],
+    shortcut: '/ruta.ico',
     apple: '/apple-icon.png',
   },
 }
 
+export const viewport: Viewport = {
+  themeColor: '#0A0A0A',
+}
+
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode
-}>) {
+}) {
   return (
     <html lang="en" className={`${inter.variable} bg-background`}>
       <body className="font-sans antialiased">
