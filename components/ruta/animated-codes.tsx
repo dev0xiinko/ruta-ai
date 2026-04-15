@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-const JEEPNEY_CODES = ["17B", "13C", "04B", "01A", "06D", "11K", "03B"];
+const JEEPNEY_CODES = ["17B", "13C", "04C", "01A", "06D", "11K", "03B"];
 
 export function AnimatedCodes() {
   const [currentIndex, setCurrentIndex] = useState(0);
