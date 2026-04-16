@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { X, Mail, Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -13,23 +13,62 @@ export function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
   const [email, setEmail] = useState("");
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState("");
+
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    if (isOpen) {
+      const timer = setTimeout(() => {
+        inputRef.current?.focus();
+      }, 100);
+      return () => clearTimeout(timer);
+    }
+  }, [isOpen]);
+
+  const handleClose = () => {
+    setEmail("");
+    setError("");
+    setIsLoading(false);
+    setIsSubmitted(false);
+    onClose();
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsLoading(true);
+    setError("");
 
-    // Simulate API call
-    await new Promise((resolve) => setTimeout(resolve, 800));
+    try {
+      const res = await fetch("/api/waitlist", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          email,
+          source: "website",
+        }),
+      });
 
-    setIsSubmitted(true);
-    setIsLoading(false);
+      const data = await res.json();
 
-    // Reset after 3 seconds
-    setTimeout(() => {
-      setEmail("");
-      setIsSubmitted(false);
-      onClose();
-    }, 3000);
+      if (!res.ok) {
+        throw new Error(data.error || "Failed to join waitlist");
+      }
+
+      // ✅ now shows "check your email" instead of "you're in"
+      setIsSubmitted(true);
+
+      setTimeout(() => {
+        handleClose();
+      }, 3000);
+    } catch (err) {
+      console.error(err);
+      setError(err instanceof Error ? err.message : "Something went wrong");
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   if (!isOpen) return null;
@@ -38,81 +77,82 @@ export function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
     <>
       {/* Backdrop */}
       <div
-        className="fixed inset-0 z-40 bg-black/50 backdrop-blur-sm transition-opacity"
-        onClick={onClose}
-        aria-hidden="true"
+        className="fixed inset-0 z-40 bg-black/60 backdrop-blur-sm"
+        onClick={handleClose}
       />
 
       {/* Modal */}
-      <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6">
-        <div className="bg-background rounded-2xl border border-border shadow-2xl w-full max-w-md animate-in fade-in zoom-in-95">
-          {/* Header */}
-          <div className="flex items-center justify-between p-4 sm:p-6 border-b border-border">
-            <h2 className="text-lg sm:text-xl font-bold text-foreground">Join the Waitlist</h2>
-            <button
-              onClick={onClose}
-              className="p-1 hover:bg-secondary rounded-lg transition-colors"
-              aria-label="Close modal"
-            >
-              <X className="w-5 h-5 text-muted-foreground" />
-            </button>
-          </div>
+      <div className="fixed inset-0 z-50 flex items-center justify-center px-4">
+        <div className="relative w-full max-w-md rounded-2xl border border-border bg-background p-6 shadow-xl">
 
-          {/* Content */}
-          <div className="p-4 sm:p-6">
-            {!isSubmitted ? (
-              <>
-                <p className="text-sm text-muted-foreground mb-4">
-                  Be the first to navigate Cebu&apos;s jeepney codes with confidence. We&apos;ll notify you when RUTA launches.
-                </p>
+          {/* Close Button */}
+          <button
+            onClick={handleClose}
+            className="absolute right-6 top-6 text-muted-foreground hover:text-foreground"
+          >
+            <X size={20} />
+          </button>
 
-                <form onSubmit={handleSubmit} className="space-y-4">
-                  <div className="relative">
-                    <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
-                    <input
-                      type="email"
-                      value={email}
-                      onChange={(e) => setEmail(e.target.value)}
-                      placeholder="your@email.com"
-                      required
-                      className="w-full pl-10 pr-4 py-2.5 sm:py-3 rounded-lg border border-border bg-card text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-colors"
-                    />
-                  </div>
+          {/* FORM STATE */}
+          {!isSubmitted ? (
+            <>
+              <h2 className="mb-2 text-xl font-semibold">
+                Join the RUTA waitlist 🚍
+              </h2>
+              <p className="mb-6 text-sm text-muted-foreground">
+                Be the first to experience AI-powered commuting in Cebu.
+              </p>
 
-                  <Button
-                    type="submit"
-                    disabled={isLoading || !email.trim()}
-                    className="w-full h-10 sm:h-11 bg-primary text-primary-foreground hover:bg-primary/90 rounded-lg font-medium transition-colors disabled:opacity-50"
-                  >
-                    {isLoading ? (
-                      <span className="flex items-center gap-2">
-                        <div className="w-4 h-4 border-2 border-primary-foreground/30 border-t-primary-foreground rounded-full animate-spin" />
-                        Joining...
-                      </span>
-                    ) : (
-                      "Join Waitlist"
-                    )}
-                  </Button>
-                </form>
-
-                <p className="text-xs text-muted-foreground text-center mt-4">
-                  We&apos;ll never spam you. Unsubscribe anytime.
-                </p>
-              </>
-            ) : (
-              <div className="text-center py-4">
-                <div className="flex justify-center mb-4">
-                  <div className="w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center">
-                    <Check className="w-6 h-6 text-accent" />
-                  </div>
+              <form onSubmit={handleSubmit} className="space-y-4">
+                {/* Input */}
+                <div className="relative">
+                  <Mail
+                    size={18}
+                    className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground"
+                  />
+                  <input
+                    ref={inputRef}
+                    type="email"
+                    required
+                    autoComplete="email"
+                    placeholder="Enter your email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    className="w-full rounded-lg border border-border bg-background px-10 py-3 text-sm outline-none focus:ring-2 focus:ring-primary"
+                  />
                 </div>
-                <h3 className="font-semibold text-foreground mb-2">You&apos;re on the list!</h3>
-                <p className="text-sm text-muted-foreground">
-                  Check your email for updates. See you soon!
-                </p>
+
+                {/* Error */}
+                {error && (
+                  <p className="text-sm text-red-500">
+                    {error}
+                  </p>
+                )}
+
+                {/* Button */}
+                <Button
+                  type="submit"
+                  disabled={isLoading}
+                  className="w-full rounded-full py-3"
+                >
+                  {isLoading ? "Joining..." : "Join Waitlist"}
+                </Button>
+              </form>
+            </>
+          ) : (
+            /* ✅ EMAIL CONFIRMATION STATE */
+            <div className="flex flex-col items-center justify-center py-6 text-center">
+              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-green-500/10">
+                <Check className="text-green-500" />
               </div>
-            )}
-          </div>
+              <h3 className="mb-2 text-lg font-semibold">
+                Check your email 📩
+              </h3>
+              <p className="text-sm text-muted-foreground">
+                We sent you a confirmation link. Please confirm your email to join the RUTA waitlist.
+              </p>
+            </div>
+          )}
         </div>
       </div>
     </>
