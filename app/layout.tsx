@@ -1,51 +1,56 @@
-import type { Metadata, Viewport } from 'next'
-import { Inter } from 'next/font/google'
-import { Analytics } from '@vercel/analytics/next'
-import './globals.css'
+import type { Metadata, Viewport } from "next";
+import { Manrope, Space_Grotesk } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
+import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+const manrope = Manrope({ subsets: ["latin"], variable: "--font-manrope" });
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  variable: "--font-space-grotesk",
+});
 
 export const metadata: Metadata = {
   title: {
-    default: 'RUTA - Navigate Cebu Jeepneys with AI',
-    template: '%s | RUTA',
+    default: "RUTA | Cebu Jeepney Navigation, Decoded",
+    template: "%s | RUTA",
   },
   description:
-    'RUTA helps you navigate Cebu’s jeepney system with ease — find routes, transfers, and travel smarter.',
-  
-  applicationName: 'RUTA',
-  generator: 'RUTA by 0xiinko',
+    "RUTA helps commuters in Cebu understand jeepney codes, compare route options, and ride with more confidence.",
+  applicationName: "RUTA",
+  generator: "RUTA by 0xiinko",
 
   icons: {
     icon: [
       {
-        url: '/ruta.ico', // 🔥 PRIMARY favicon
+        url: "/ruta.ico",
       },
       {
-        url: '/ruta-icon.svg',
-        type: 'image/svg+xml',
+        url: "/ruta-icon.svg",
+        type: "image/svg+xml",
       },
     ],
-    shortcut: '/ruta.ico',
-    apple: '/apple-icon.png',
+    shortcut: "/ruta.ico",
   },
-}
+};
 
 export const viewport: Viewport = {
-  themeColor: '#0A0A0A',
-}
+  themeColor: "#08141d",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${inter.variable} bg-background`}>
+    <html
+      lang="en"
+      className={`${manrope.variable} ${spaceGrotesk.variable} bg-background`}
+    >
       <body className="font-sans antialiased">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>
-  )
+  );
 }

@@ -12,11 +12,11 @@ export default async function ConfirmedPage({
     {
       success: {
         title: "Email confirmed 🎉",
-        description: "You’re officially on the RUTA waitlist.",
+        description: "You’re on the RUTA waitlist and will be notified when we launch.",
       },
       already: {
         title: "Already confirmed",
-        description: "This email is already on the RUTA waitlist.",
+        description: "This email is already on the RUTA waitlist for launch notifications.",
       },
       invalid: {
         title: "Invalid confirmation link",
@@ -28,7 +28,7 @@ export default async function ConfirmedPage({
       },
     }[status] || {
       title: "Email confirmed 🎉",
-      description: "You’re officially on the RUTA waitlist.",
+      description: "You’re on the RUTA waitlist and will be notified when we launch.",
     };
 
   return (

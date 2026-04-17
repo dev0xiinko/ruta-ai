@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { X, Mail, Check } from "lucide-react";
+import { Check, Mail, Sparkles, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 interface WaitlistModalProps {
@@ -14,16 +14,13 @@ export function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState("");
-
   const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    if (isOpen) {
-      const timer = setTimeout(() => {
-        inputRef.current?.focus();
-      }, 100);
-      return () => clearTimeout(timer);
-    }
+    if (!isOpen) return;
+
+    const timer = setTimeout(() => inputRef.current?.focus(), 120);
+    return () => clearTimeout(timer);
   }, [isOpen]);
 
   const handleClose = () => {
@@ -34,8 +31,8 @@ export function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
     onClose();
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
+  const handleSubmit = async (event: React.FormEvent) => {
+    event.preventDefault();
     setIsLoading(true);
     setError("");
 
@@ -47,7 +44,7 @@ export function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
         },
         body: JSON.stringify({
           email,
-          source: "website",
+          source: "website-modal",
         }),
       });
 
@@ -57,12 +54,8 @@ export function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
         throw new Error(data.error || "Failed to join waitlist");
       }
 
-      // ✅ now shows "check your email" instead of "you're in"
       setIsSubmitted(true);
-
-      setTimeout(() => {
-        handleClose();
-      }, 3000);
+      setTimeout(() => handleClose(), 2800);
     } catch (err) {
       console.error(err);
       setError(err instanceof Error ? err.message : "Something went wrong");
@@ -75,82 +68,93 @@ export function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
 
   return (
     <>
-      {/* Backdrop */}
       <div
-        className="fixed inset-0 z-40 bg-black/60 backdrop-blur-sm"
+        className="fixed inset-0 z-40 bg-black/70 backdrop-blur-sm"
         onClick={handleClose}
       />
 
-      {/* Modal */}
-      <div className="fixed inset-0 z-50 flex items-center justify-center px-4">
-        <div className="relative w-full max-w-md rounded-2xl border border-border bg-background p-6 shadow-xl">
-
-          {/* Close Button */}
-          <button
-            onClick={handleClose}
-            className="absolute right-6 top-6 text-muted-foreground hover:text-foreground"
-          >
-            <X size={20} />
-          </button>
-
-          {/* FORM STATE */}
-          {!isSubmitted ? (
-            <>
-              <h2 className="mb-2 text-xl font-semibold">
-                Join the RUTA waitlist 🚍
-              </h2>
-              <p className="mb-6 text-sm text-muted-foreground">
-                Be the first to experience AI-powered commuting in Cebu.
+      <div className="fixed inset-0 z-50 flex items-center justify-center px-4 py-8">
+        <div className="w-full max-w-lg overflow-hidden rounded-[2rem] border border-white/10 bg-[linear-gradient(180deg,rgba(12,24,36,0.98),rgba(8,16,24,0.98))] shadow-2xl shadow-black/30">
+          <div className="flex items-start justify-between border-b border-white/10 px-6 py-5">
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.24em] text-primary">
+                Launch updates
               </p>
+              <h2 className="mt-2 font-display text-2xl font-bold text-foreground">
+                Join the RUTA waitlist
+              </h2>
+            </div>
+            <button
+              onClick={handleClose}
+              className="rounded-full border border-white/10 p-2 text-muted-foreground transition-colors hover:bg-white/5 hover:text-foreground"
+              aria-label="Close waitlist modal"
+            >
+              <X className="h-4 w-4" />
+            </button>
+          </div>
 
-              <form onSubmit={handleSubmit} className="space-y-4">
-                {/* Input */}
-                <div className="relative">
-                  <Mail
-                    size={18}
-                    className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground"
-                  />
-                  <input
-                    ref={inputRef}
-                    type="email"
-                    required
-                    autoComplete="email"
-                    placeholder="Enter your email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    className="w-full rounded-lg border border-border bg-background px-10 py-3 text-sm outline-none focus:ring-2 focus:ring-primary"
-                  />
+          {!isSubmitted ? (
+            <div className="px-6 py-6">
+              <div className="rounded-[1.5rem">
+                <div className="flex items-start gap-3">
+                  <div>
+                    <p className="text-sm font-semibold text-foreground">
+                      Get notified when RUTA launches
+                    </p>
+                    <p className="mt-1 text-sm leading-6 text-muted-foreground">
+                      Join the waitlist to receive launch updates and be notified as soon as
+                      RUTA is available.
+                    </p>
+                  </div>
                 </div>
+              </div>
 
-                {/* Error */}
-                {error && (
-                  <p className="text-sm text-red-500">
-                    {error}
-                  </p>
-                )}
+              <form onSubmit={handleSubmit} className="mt-5 space-y-4">
+                <label className="block">
+                  <span className="mb-2 block text-sm font-medium text-foreground">Email address</span>
+                  <div className="flex items-center gap-3 rounded-[1.25rem] border border-white/10 bg-background/75 px-4 py-3">
+                    <Mail className="h-4 w-4 text-muted-foreground" />
+                    <input
+                      ref={inputRef}
+                      type="email"
+                      required
+                      autoComplete="email"
+                      placeholder="you@example.com"
+                      value={email}
+                      onChange={(event) => setEmail(event.target.value)}
+                      className="w-full bg-transparent text-sm text-foreground outline-none placeholder:text-muted-foreground"
+                    />
+                  </div>
+                </label>
 
-                {/* Button */}
+                {error ? <p className="text-sm text-red-400">{error}</p> : null}
+
                 <Button
                   type="submit"
-                  disabled={isLoading}
-                  className="w-full rounded-full py-3"
+                  disabled={isLoading || !email.trim()}
+                  className="h-12 w-full rounded-full text-base shadow-lg shadow-primary/20"
                 >
-                  {isLoading ? "Joining..." : "Join Waitlist"}
+                  {isLoading ? "Joining..." : "Notify me at launch"}
                 </Button>
+
+                <p className="text-xs leading-5 text-muted-foreground">
+                  You will receive a confirmation email so we can notify you when RUTA launches.
+                </p>
               </form>
-            </>
+            </div>
           ) : (
-            /* ✅ EMAIL CONFIRMATION STATE */
-            <div className="flex flex-col items-center justify-center py-6 text-center">
-              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-green-500/10">
-                <Check className="text-green-500" />
+            <div className="px-6 py-10">
+              <div className="mx-auto flex max-w-sm flex-col items-center text-center">
+                <div className="flex h-14 w-14 items-center justify-center rounded-full bg-accent/15">
+                  <Check className="h-6 w-6 text-accent" />
+                </div>
+                <h3 className="mt-4 text-xl font-semibold text-foreground">
+                  Check your inbox
+                </h3>
+                <p className="mt-2 text-sm leading-6 text-muted-foreground">
+                  We sent a confirmation link to finish your RUTA waitlist signup.
+                </p>
               </div>
-              <h3 className="mb-2 text-lg font-semibold">
-                Check your email 📩
-              </h3>
-              <p className="text-sm text-muted-foreground">
-                We sent you a confirmation link. Please confirm your email to join the RUTA waitlist.
-              </p>
             </div>
           )}
         </div>

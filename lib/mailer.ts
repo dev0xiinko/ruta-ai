@@ -33,8 +33,8 @@ export async function sendWaitlistConfirmationEmail(
         <p>Thanks for joining the <strong>RUTA</strong> waitlist 🚍</p>
 
         <p>
-          RUTA is an AI-powered commuting guide in Cebu that helps you find the right jeepney routes,
-          fares, ETA, and traffic-aware directions.
+          Confirm your email so we can notify you when RUTA launches and send important updates
+          about the product.
         </p>
 
         <p>Please confirm your email by clicking the button below:</p>

@@ -157,7 +157,6 @@ export function MapCanvas() {
       ctx.stroke();
 
       // Animated glowing segment
-      const totalPts = pts.length - 1;
       const trailLength = 0.25;
       const start = Math.max(0, route.progress - trailLength);
       const end = route.progress;

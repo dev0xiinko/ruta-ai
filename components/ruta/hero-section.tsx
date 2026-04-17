@@ -1,6 +1,6 @@
 "use client";
 
-import { MapPin, ArrowRight, Sparkles } from "lucide-react";
+import { MapPin, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { WaitlistModal } from "./waitlist-modal";
@@ -31,18 +31,14 @@ function FloatingRouteChips() {
 function AnimatedBackground() {
   return (
     <div className="pointer-events-none absolute inset-0 overflow-hidden">
-      {/* base gradient */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(59,130,246,0.12),transparent_32%),radial-gradient(circle_at_80%_30%,rgba(20,184,166,0.10),transparent_24%),linear-gradient(to_bottom,hsl(var(--background)),hsl(var(--background)),hsl(var(--secondary)/0.35))]" />
 
-      {/* soft grid */}
       <div className="absolute inset-0 opacity-[0.06] [background-image:linear-gradient(to_right,hsl(var(--foreground))_1px,transparent_1px),linear-gradient(to_bottom,hsl(var(--foreground))_1px,transparent_1px)] [background-size:48px_48px]" />
 
-      {/* animated spotlight */}
       <div className="absolute left-1/2 top-[14%] h-[28rem] w-[28rem] -translate-x-1/2 rounded-full bg-primary/10 blur-3xl animate-[pulse_8s_ease-in-out_infinite]" />
       <div className="absolute right-[8%] top-[28%] h-[18rem] w-[18rem] rounded-full bg-accent/10 blur-3xl animate-[pulse_10s_ease-in-out_infinite]" />
       <div className="absolute left-[10%] bottom-[12%] h-[16rem] w-[16rem] rounded-full bg-primary/8 blur-3xl animate-[pulse_9s_ease-in-out_infinite]" />
 
-      {/* route-line style strokes */}
       <svg
         className="absolute inset-0 h-full w-full opacity-40"
         viewBox="0 0 1440 900"
@@ -103,7 +99,6 @@ function AnimatedBackground() {
         </defs>
       </svg>
 
-      {/* fade bottom */}
       <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-background to-transparent" />
     </div>
   );
@@ -118,22 +113,19 @@ export function HeroSection() {
       <FloatingRouteChips />
 
       <div className="relative mx-auto flex min-h-screen max-w-6xl flex-col items-center justify-center px-4 pb-12 pt-24 text-center sm:px-6 sm:pb-20 sm:pt-32">
-        {/* headline */}
         <h1 className="mt-6 max-w-5xl text-balance text-4xl font-bold tracking-tight text-foreground sm:mt-8 sm:text-6xl lg:text-7xl xl:text-[5.25rem] xl:leading-[0.95]">
           <span className="block">What does</span>
-          <span className="my-2 block">
+          <span className="my-2 block sm:my-3">
             <AnimatedCodes />
           </span>
           <span className="block">even mean?</span>
         </h1>
 
-        {/* subheading */}
         <p className="mt-5 max-w-2xl px-2 text-base leading-7 text-muted-foreground sm:mt-6 sm:text-lg sm:leading-8">
-          RUTA helps people understand Cebu jeepney routes — decoding route codes,
+          RUTA helps people understand Cebu jeepney routes, decoding route codes,
           showing where they pass, and suggesting what to ride with smarter, traffic-aware guidance.
         </p>
 
-        {/* CTA */}
         <div className="mt-8 flex w-full flex-col items-center justify-center gap-3 px-2 sm:mt-10 sm:w-auto sm:flex-row">
           <Button
             onClick={() => setIsWaitlistOpen(true)}
@@ -145,7 +137,6 @@ export function HeroSection() {
           </Button>
         </div>
 
-        {/* value strip */}
         <div className="mt-10 grid w-full max-w-3xl grid-cols-1 gap-3 px-2 sm:mt-14 sm:grid-cols-3 sm:gap-4">
           <div className="rounded-2xl border border-border/60 bg-background/60 px-4 py-4 text-sm text-muted-foreground shadow-sm backdrop-blur-md">
             <div className="mx-auto mb-2 flex h-9 w-9 items-center justify-center rounded-full bg-primary/10">
