@@ -31,7 +31,7 @@ from dataclasses import dataclass, asdict, field
 from typing import Dict, List, Optional
 
 import requests
-from bs4 import BeautifulSoup, Tag
+from bs4 import BeautifulSoup
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; RutaDatasetBot/1.0; +https://example.com)"
@@ -42,8 +42,9 @@ INDEX_SOURCES = [
     "https://cebujeepneys.weebly.com/jeepney-routes.html",
     "https://ph.commutetour.com/travel/transport/jeep/cebu-city-jeep-route-code/",
 ]
+WEEBLY_DETAIL_BASE = "https://cebujeepneys.weebly.com"
 
-ROUTE_CODE_RE = re.compile(r"\b(?:MI-\d{2}[A-Z]|\d{2}[A-Z]?|\d{2}[a-z]?|23D|62[BC])\b", re.I)
+ROUTE_CODE_RE = re.compile(r"^(?:MI-\d{2}[A-Z]|\d{2}[A-Z]?|23D|62[BC])$", re.I)
 
 SECTION_KEYS = {
     "Road:": "roads",
@@ -84,6 +85,17 @@ def fetch(url: str) -> str:
 def clean(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
+def normalize_code(text: str) -> str:
+    text = text.replace("\u200b", "").replace("​", "")
+    text = clean(text).upper()
+    text = re.sub(r"[^A-Z0-9\-]", "", text)
+
+    # Some pages emit partial variants like "23-"; keep the base code instead.
+    if text.endswith("-"):
+      text = text[:-1]
+
+    return text
+
 def dedupe_keep_order(items: List[str]) -> List[str]:
     seen = set()
     out = []
@@ -94,16 +106,132 @@ def dedupe_keep_order(items: List[str]) -> List[str]:
             out.append(x.strip())
     return out
 
+def strip_route_title_prefix(text: str, code: Optional[str] = None) -> str:
+    text = clean(text)
+    patterns = [
+        r"^cebu jeepneys\s*-\s*route map for\s*[A-Z0-9\-]+\s*-\s*",
+        r"^cebu jeepneys\s*-\s*",
+        r"^route map for\s*[A-Z0-9\-]+\s*-\s*",
+    ]
+    if code:
+        patterns.insert(0, rf"^{re.escape(code)}\s*[-:]\s*")
+
+    for pattern in patterns:
+        text = re.sub(pattern, "", text, flags=re.I)
+
+    return clean(text)
+
+def trim_route_endpoint(text: str) -> str:
+    text = clean(text.strip(" .:-"))
+    if not text:
+        return text
+
+    for separator in [" - ", ". ", " via "]:
+        if separator in text:
+            text = text.split(separator, 1)[0]
+            break
+
+    return clean(text.strip(" .:-"))
+
+def split_route_phrase(text: str) -> tuple[Optional[str], Optional[str]]:
+    text = strip_route_title_prefix(text)
+    text = clean(text.strip(" .:-"))
+    m = re.search(r"(.+?)\s+to\s+(.+)", text, re.I)
+    if not m:
+        return None, None
+
+    origin = trim_route_endpoint(m.group(1))
+    destination = trim_route_endpoint(m.group(2))
+    if not origin or not destination:
+        return None, None
+    return origin, destination
+
+def build_weebly_detail_url(code: str) -> str:
+    return f"{WEEBLY_DETAIL_BASE}/{code.lower()}.html"
+
 def parse_index_weebly(html: str, url: str) -> Dict[str, RouteRecord]:
     soup = BeautifulSoup(html, "lxml")
     routes: Dict[str, RouteRecord] = {}
-    for a in soup.find_all("a", href=True):
-        text = clean(a.get_text(" "))
-        if not text:
+
+    candidates: List[str] = []
+
+    for el in soup.select(".wsite-button-inner"):
+        text = normalize_code(el.get_text(" "))
+        if text:
+            candidates.append(text)
+
+    for text in soup.stripped_strings:
+        normalized = normalize_code(text)
+        if normalized:
+            candidates.append(normalized)
+
+    for candidate in dedupe_keep_order(candidates):
+        if not ROUTE_CODE_RE.fullmatch(candidate):
             continue
-        if ROUTE_CODE_RE.fullmatch(text.strip()):
-            code = text.strip().upper()
-            routes.setdefault(code, RouteRecord(code=code, label=code, source_urls=[url]))
+        routes.setdefault(
+            candidate,
+            RouteRecord(code=candidate, label=candidate, source_urls=[url]),
+        )
+    return routes
+
+def enrich_from_weebly_detail(routes: Dict[str, RouteRecord]) -> Dict[str, RouteRecord]:
+    for code, rec in routes.items():
+        detail_url = build_weebly_detail_url(code)
+
+        try:
+            html = fetch(detail_url)
+        except Exception:
+            continue
+
+        soup = BeautifulSoup(html, "lxml")
+        if detail_url not in rec.source_urls:
+            rec.source_urls.append(detail_url)
+
+        title = clean(soup.title.get_text(" ")) if soup.title else ""
+        meta_description = ""
+        meta = soup.find("meta", attrs={"name": "description"})
+        if meta and meta.get("content"):
+            meta_description = clean(str(meta["content"]))
+
+        h2_texts = [clean(el.get_text(" ")) for el in soup.find_all("h2")]
+        paragraph_texts = [
+            clean(el.get_text(" "))
+            for el in soup.select("div.paragraph")
+            if clean(el.get_text(" "))
+        ]
+
+        if not rec.route_name:
+            for text in [meta_description, title, *h2_texts, *paragraph_texts]:
+                origin, destination = split_route_phrase(text)
+                if origin and destination:
+                    rec.origin = rec.origin or origin
+                    rec.destination = rec.destination or destination
+                    rec.route_name = f"{rec.origin} to {rec.destination}"
+                    break
+
+        if not rec.info:
+            for text in paragraph_texts:
+                if " - " not in text:
+                    continue
+                if text.lower().startswith("for convenient viewing"):
+                    continue
+                rec.info.append(text)
+                break
+
+        if not rec.roads:
+            for text in paragraph_texts:
+                if " - " not in text:
+                    continue
+                if text.lower().startswith("for convenient viewing"):
+                    continue
+                parts = dedupe_keep_order([x.strip(" .") for x in text.split(" - ") if x.strip()])
+                if len(parts) >= 4:
+                    rec.roads.extend(parts)
+                    break
+
+        rec.roads = dedupe_keep_order(rec.roads)
+        rec.info = dedupe_keep_order(rec.info)
+
     return routes
 
 def parse_index_commutetour(html: str, url: str) -> Dict[str, RouteRecord]:
@@ -121,8 +249,8 @@ def parse_index_commutetour(html: str, url: str) -> Dict[str, RouteRecord]:
         m = re.match(r"^([A-Z0-9\-]+)\s*-\s*(.+?)\s*-\s*(.+)$", line, re.I)
         if m:
             code, origin, destination = m.groups()
-            code = code.upper()
-            if ROUTE_CODE_RE.search(code):
+            code = normalize_code(code)
+            if ROUTE_CODE_RE.fullmatch(code):
                 rec = routes.setdefault(code, RouteRecord(code=code))
                 rec.origin = rec.origin or origin.strip()
                 rec.destination = rec.destination or destination.strip()
@@ -133,7 +261,9 @@ def parse_index_commutetour(html: str, url: str) -> Dict[str, RouteRecord]:
         m2 = re.match(r"^([A-Z0-9\-]+)\s+Route\s+(.+?)\s+to\s+(.+)$", line, re.I)
         if m2:
             code, origin, destination = m2.groups()
-            code = code.upper()
+            code = normalize_code(code)
+            if not ROUTE_CODE_RE.fullmatch(code):
+                continue
             rec = routes.setdefault(code, RouteRecord(code=code))
             rec.origin = rec.origin or origin.strip()
             rec.destination = rec.destination or destination.strip()
@@ -157,7 +287,10 @@ def enrich_from_commutetour_detail_text(html: str, routes: Dict[str, RouteRecord
         m = re.match(r"^([A-Z0-9\-]+)\s+Route\s+(.+?)\s+to\s+(.+)$", line, re.I)
         if m:
             code, origin, destination = m.groups()
-            current_code = code.upper()
+            current_code = normalize_code(code)
+            if not ROUTE_CODE_RE.fullmatch(current_code):
+                current_code = None
+                continue
             rec = routes.setdefault(current_code, RouteRecord(code=current_code))
             rec.origin = rec.origin or origin
             rec.destination = rec.destination or destination
@@ -213,6 +346,8 @@ def main() -> None:
                 existing.source_urls = dedupe_keep_order(existing.source_urls + rec.source_urls)
 
         time.sleep(1)
+
+    routes = enrich_from_weebly_detail(routes)
 
     output = {
         "dataset_name": "cebu_jeepney_routes",

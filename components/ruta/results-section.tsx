@@ -33,7 +33,7 @@ const rutaFixes = [
 export function ResultsSection() {
   return (
     <section id="results" className="px-4 py-20 sm:px-6 lg:px-8">
-      <div className="mx-auto max-w-7xl">
+      <div className="mx-auto max-w-full">
         <div className="max-w-3xl">
           <p className="text-sm font-semibold uppercase tracking-[0.24em] text-primary">
             Why riders get confused
@@ -66,10 +66,10 @@ export function ResultsSection() {
           ))}
         </div>
 
-        <div className="mt-8 rounded-[2rem] border border-primary/15 bg-[linear-gradient(180deg,rgba(58,204,243,0.08),rgba(255,255,255,0.03))] p-6 shadow-[0_24px_90px_rgba(0,0,0,0.22)] sm:p-8">
+        <div className="mt-8 rounded-[2rem] sm:p-8">
           <div className="grid gap-6 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
             <div>
-              <p className="inline-flex items-center gap-2 rounded-full border border-primary/15 bg-primary/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-primary">
+              <p className="inline-flex items-center gap-2 rounded-full px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-primary">
                 <AlertCircle className="h-3.5 w-3.5" />
                 What RUTA changes
               </p>
