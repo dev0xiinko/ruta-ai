@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { Check, Mail, Sparkles, X } from "lucide-react";
+import { Check, Mail, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 interface WaitlistModalProps {

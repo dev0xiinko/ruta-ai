@@ -7,6 +7,7 @@ This project stores Cebu jeepney route data in Supabase/Postgres using:
 - `supabase/seed.sql` for dataset inserts generated from `scrapper/validation/cebu_jeepney_routes_validated.json`
 - `supabase/seed.mapping.sql` for database-backed known place coordinates used by schematic maps
 - `supabase/route-mapping-model.sql` as a proposed future mapping schema for true stop/shape/transfer data
+- `docs/dataset-structure.md` for the current persisted dataset shape plus the normalized runtime route model used by the deterministic route engine
 
 Regenerate the seed file after scraper updates:
 

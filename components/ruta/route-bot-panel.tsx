@@ -23,6 +23,16 @@ type BotResponse = {
   summary: string;
   lead: string;
   answer: string;
+  confidence: string;
+  lookFor: string;
+  keyLandmarks: string[];
+  roadClues: string[];
+  tip: string;
+  tripSteps: Array<{
+    title: string;
+    instruction: string;
+    landmarks: string[];
+  }>;
   reasoningLevel: "high" | "medium" | "low";
   reasoningLabel: string;
   instructionLevel: "direct" | "guided" | "shortlist";
@@ -288,11 +298,11 @@ export function RouteBotPanel() {
                   {result.primaryMatch && (
                     <div className="mt-4 rounded-[1.5rem] border border-emerald-500/20 bg-emerald-500/5 p-4">
                       <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-emerald-300">
-                        Main Jeep To Check
+                        Best Jeep To Check
                       </p>
                       <div className="mt-3 flex items-start justify-between gap-3">
                         <div>
-                          <div className="inline-flex rounded-full bg-emerald-400 px-4 py-1.5 text-sm font-bold tracking-[0.18em] text-black">
+                          <div className="inline-flex rounded-full bg-emerald-400 px-4 py-1.5 text-sm font-bold tracking-[0.18em] text-black shadow-lg shadow-emerald-500/20">
                             {result.primaryMatch.code}
                           </div>
                           <p className="mt-3 text-base font-semibold text-foreground">
@@ -303,45 +313,64 @@ export function RouteBotPanel() {
                             {result.primaryMatch.destination || "Unknown destination"}
                           </p>
                         </div>
-                        <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[11px] uppercase tracking-[0.16em] text-muted-foreground">
-                          {result.primaryMatch.qa_status.replaceAll("_", " ")}
-                        </span>
                       </div>
                     </div>
                   )}
 
-                  <div className="mt-4 grid gap-3 md:grid-cols-2">
-                    <div className="rounded-2xl border border-white/10 bg-background/40 p-4">
+                  {result.lookFor && (
+                    <div className="mt-4 rounded-2xl border border-white/10 bg-background/40 p-4">
                       <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-muted-foreground">
-                        Reasoning Level
+                        What to look for
                       </p>
-                      <p className="mt-2 text-sm font-semibold text-foreground">
-                        {result.reasoningLabel}
-                      </p>
-                      <p className="mt-2 text-sm leading-6 text-muted-foreground">
-                        {result.confidenceNote}
+                      <p className="mt-2 text-sm leading-6 text-foreground">
+                        {result.lookFor}
                       </p>
                     </div>
-                    <div className="rounded-2xl border border-white/10 bg-background/40 p-4">
-                      <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-muted-foreground">
-                        Instruction Level
-                      </p>
-                      <p className="mt-2 text-sm font-semibold text-foreground">
-                        {result.instructionLabel}
-                      </p>
-                      <p className="mt-2 text-sm leading-6 text-muted-foreground">
-                        {result.instructionLevel === "direct"
-                          ? "This looks like a likely one-ride answer from the current dataset."
-                          : result.instructionLevel === "guided"
-                            ? "This gives you the best route to check first, with rider clues to confirm on the ground."
-                            : "This is a shortlist, not yet a final ride recommendation."}
-                      </p>
+                  )}
+
+                  {(result.keyLandmarks.length > 0 || result.roadClues.length > 0) && (
+                    <div className="mt-4 grid gap-3 md:grid-cols-2">
+                      {result.keyLandmarks.length > 0 && (
+                        <div className="rounded-2xl border border-white/10 bg-background/40 p-4">
+                          <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-muted-foreground">
+                            Key landmarks
+                          </p>
+                          <div className="mt-3 flex flex-wrap gap-2">
+                            {result.keyLandmarks.map((landmark) => (
+                              <span
+                                key={landmark}
+                                className="rounded-full border border-primary/20 bg-primary/10 px-3 py-1 text-xs font-semibold text-primary"
+                              >
+                                {landmark}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+
+                      {result.roadClues.length > 0 && (
+                        <div className="rounded-2xl border border-white/10 bg-background/40 p-4">
+                          <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-muted-foreground">
+                            Also passes through
+                          </p>
+                          <div className="mt-3 flex flex-wrap gap-2">
+                            {result.roadClues.map((road) => (
+                              <span
+                                key={road}
+                                className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-medium text-muted-foreground"
+                              >
+                                {road}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
+                      )}
                     </div>
-                  </div>
+                  )}
 
                   <div className="mt-4 rounded-2xl border border-primary/15 bg-primary/5 p-4">
                     <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-primary">
-                      Rider Instructions
+                      Rider guide
                     </p>
                     <ol className="mt-3 space-y-2">
                       {result.commuterSteps.map((step, index) => (
@@ -355,31 +384,88 @@ export function RouteBotPanel() {
                     </ol>
                   </div>
 
-                  <div className="mt-4 space-y-4 text-sm">
-                    {result.sections.map((section) => (
-                      <div key={section.title}>
-                        <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-muted-foreground">
-                          {section.title}
-                        </p>
-                        <div className="mt-2 space-y-2">
-                          {section.items.map((item) => (
-                            <p key={item} className="font-medium text-foreground">
-                              {item}
+                  {result.tripSteps.length > 0 && (
+                    <div className="mt-4 rounded-2xl border border-white/10 bg-background/40 p-4">
+                      <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-muted-foreground">
+                        Trip guide
+                      </p>
+                      <div className="mt-3 space-y-3">
+                        {result.tripSteps.map((step) => (
+                          <div
+                            key={step.title}
+                            className="rounded-2xl border border-white/10 bg-white/5 p-4"
+                          >
+                            <p className="text-sm font-semibold text-foreground">
+                              {step.title}
                             </p>
-                          ))}
-                        </div>
+                            <p className="mt-2 text-sm leading-6 text-foreground">
+                              {step.instruction}
+                            </p>
+                            {step.landmarks.length > 0 && (
+                              <div className="mt-3 flex flex-wrap gap-2">
+                                {step.landmarks.map((landmark) => (
+                                  <span
+                                    key={`${step.title}-${landmark}`}
+                                    className="rounded-full border border-primary/20 bg-primary/10 px-3 py-1 text-xs font-semibold text-primary"
+                                  >
+                                    {landmark}
+                                  </span>
+                                ))}
+                              </div>
+                            )}
+                          </div>
+                        ))}
                       </div>
-                    ))}
+                    </div>
+                  )}
+
+                  <div className="mt-4 grid gap-3 md:grid-cols-2">
+                    {result.tip && (
+                      <div className="rounded-2xl border border-primary/15 bg-primary/5 p-4">
+                        <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-primary">
+                          Tip
+                        </p>
+                        <p className="mt-2 text-sm leading-6 text-foreground">
+                          {result.tip}
+                        </p>
+                      </div>
+                    )}
+
+                    {result.confidence && (
+                      <div className="rounded-2xl border border-white/10 bg-background/40 p-4">
+                        <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-muted-foreground">
+                          Confidence
+                        </p>
+                        <p className="mt-2 text-sm font-semibold text-foreground">
+                          {result.confidence}
+                        </p>
+                        {result.mode === "not_found" ? null : (
+                          <p className="mt-2 text-sm leading-6 text-muted-foreground">
+                            Double-check the signboard before boarding, especially if the route wording looks different on the ground.
+                          </p>
+                        )}
+                      </div>
+                    )}
                   </div>
 
-                  <div className="mt-4 rounded-2xl border border-amber-500/20 bg-amber-500/5 p-4">
-                    <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-amber-300">
-                      Map Status
-                    </p>
-                    <p className="mt-2 text-sm leading-6 text-muted-foreground">
-                      {result.map.note}
-                    </p>
-                  </div>
+                  {result.sections.length > 0 && (
+                    <div className="mt-4 space-y-4 text-sm">
+                      {result.sections.map((section) => (
+                        <div key={section.title}>
+                          <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-muted-foreground">
+                            {section.title}
+                          </p>
+                          <div className="mt-2 space-y-2">
+                            {section.items.map((item) => (
+                              <p key={item} className="font-medium text-foreground">
+                                {item}
+                              </p>
+                            ))}
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  )}
 
                   {result.matches.length > 0 && (
                     <div className="mt-4 space-y-3 border-y border-white/10 py-4">
@@ -390,16 +476,13 @@ export function RouteBotPanel() {
                         >
                           <div className="flex items-start justify-between gap-3">
                             <div>
-                              <p className="text-sm font-semibold text-foreground">
+                              <div className="inline-flex rounded-full bg-white px-3 py-1 text-xs font-bold tracking-[0.18em] text-black">
                                 {match.code}
-                              </p>
-                              <p className="mt-1 text-sm text-muted-foreground">
+                              </div>
+                              <p className="mt-2 text-sm font-semibold text-foreground">
                                 {match.route_name || "Route name not available"}
                               </p>
                             </div>
-                            <span className="rounded-full bg-white/5 px-2.5 py-1 text-[11px] uppercase tracking-[0.16em] text-muted-foreground">
-                              {match.qa_status.replaceAll("_", " ")}
-                            </span>
                           </div>
                           <p className="mt-2 text-sm text-muted-foreground">
                             {match.origin || "Unknown origin"} to{" "}
@@ -410,18 +493,25 @@ export function RouteBotPanel() {
                     </div>
                   )}
 
-                  <ol className="mt-4 space-y-2">
-                    {result.suggestions.map((step, index) => (
-                      <li key={step} className="flex gap-3">
-                        <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary text-xs font-semibold text-primary-foreground">
-                          {index + 1}
-                        </span>
-                        <span className="text-sm leading-6 text-muted-foreground">
-                          {step}
-                        </span>
-                      </li>
-                    ))}
-                  </ol>
+                  {result.suggestions.length > 0 && (
+                    <div className="mt-4">
+                      <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-muted-foreground">
+                        Try next
+                      </p>
+                      <ol className="mt-3 space-y-2">
+                        {result.suggestions.map((step, index) => (
+                          <li key={step} className="flex gap-3">
+                            <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary text-xs font-semibold text-primary-foreground">
+                              {index + 1}
+                            </span>
+                            <span className="text-sm leading-6 text-muted-foreground">
+                              {step}
+                            </span>
+                          </li>
+                        ))}
+                      </ol>
+                    </div>
+                  )}
                 </div>
               </div>
             )}
