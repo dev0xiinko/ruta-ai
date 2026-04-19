@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "db:routes:generate": "node scripts/generate-supabase-routes-seed.mjs",
+    "db:routes:seed": "node scripts/generate-supabase-routes-seed.mjs",
+    "db:mapping:generate": "node scripts/generate-supabase-mapping-seed.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
