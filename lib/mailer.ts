@@ -1,21 +1,30 @@
-import nodemailer from "nodemailer";
+import "server-only";
 
-export const transporter = nodemailer.createTransport({
-  host: process.env.SMTP_HOST,
-  port: Number(process.env.SMTP_PORT || 587),
-  secure: Number(process.env.SMTP_PORT) === 465,
-  auth: {
-    user: process.env.SMTP_USER,
-    pass: process.env.SMTP_PASS,
-  },
-});
+import nodemailer from "nodemailer";
+import { getSmtpConfig } from "@/lib/config/server";
+
+function createTransporter() {
+  const config = getSmtpConfig();
+  return nodemailer.createTransport({
+    host: config.host,
+    port: config.port,
+    secure: config.secure,
+    auth: {
+      user: config.user,
+      pass: config.pass,
+    },
+  });
+}
 
 export async function sendWaitlistConfirmationEmail(
   to: string,
   confirmUrl: string
 ) {
+  const transporter = createTransporter();
+  const config = getSmtpConfig();
+
   await transporter.sendMail({
-    from: process.env.SMTP_FROM,
+    from: config.from,
     to,
     subject: "Confirm your RUTA waitlist signup",
     html: `

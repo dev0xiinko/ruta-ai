@@ -1,12 +1,12 @@
 "use client";
 
-import { type MapOverview } from "@/lib/ruta-map";
+import type { RouteMapOverview } from "@/lib/ruta/contracts";
 
 type RouteMiniMapProps = {
-  map: MapOverview;
+  map: RouteMapOverview;
 };
 
-function projectPoints(points: MapOverview["points"]) {
+function projectPoints(points: RouteMapOverview["points"]) {
   const padding = 20;
   const width = 100;
   const height = 100;

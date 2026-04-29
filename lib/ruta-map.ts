@@ -1,4 +1,7 @@
-import { supabaseAdmin } from "@/lib/supabase/client";
+import "server-only";
+
+import type { RouteMapOverview, RouteMapPoint } from "@/lib/ruta/contracts";
+import { supabaseAdmin } from "@/lib/server/supabase-admin";
 
 type PlaceCoordinate = {
   label: string;
@@ -57,19 +60,8 @@ type RoutePlaceAliasRow = {
   } | null;
 };
 
-export type MapPoint = {
-  label: string;
-  lat: number;
-  lng: number;
-  kind: "origin" | "destination" | "waypoint";
-};
-
-export type MapOverview = {
-  feasible: boolean;
-  kind: "schematic" | "none";
-  note: string;
-  points: MapPoint[];
-};
+export type MapPoint = RouteMapPoint;
+export type MapOverview = RouteMapOverview;
 
 function resolvePlaceCoordinateFromFallback(value: string | null | undefined) {
   if (!value) return null;

@@ -32,6 +32,7 @@ export function MapCanvas() {
     if (!canvas) return;
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
+    const canvasCtx = ctx;
 
     let width = canvas.offsetWidth;
     let height = canvas.offsetHeight;
@@ -39,7 +40,7 @@ export function MapCanvas() {
     const dpr = window.devicePixelRatio || 1;
     canvas.width = width * dpr;
     canvas.height = height * dpr;
-    ctx.scale(dpr, dpr);
+    canvasCtx.scale(dpr, dpr);
 
     // OSM-inspired grid lines
     const gridLines: { x1: number; y1: number; x2: number; y2: number; horiz: boolean }[] = [];
@@ -141,20 +142,19 @@ export function MapCanvas() {
     }
 
     function drawRoute(route: Route) {
-      if (!ctx) return;
       const pts = route.points;
 
       // Full ghost route
-      ctx.beginPath();
-      ctx.moveTo(pts[0].x, pts[0].y);
+      canvasCtx.beginPath();
+      canvasCtx.moveTo(pts[0].x, pts[0].y);
       for (let i = 1; i < pts.length; i++) {
-        ctx.lineTo(pts[i].x, pts[i].y);
+        canvasCtx.lineTo(pts[i].x, pts[i].y);
       }
-      ctx.strokeStyle = route.color + "22";
-      ctx.lineWidth = route.width + 1;
-      ctx.lineCap = "round";
-      ctx.lineJoin = "round";
-      ctx.stroke();
+      canvasCtx.strokeStyle = route.color + "22";
+      canvasCtx.lineWidth = route.width + 1;
+      canvasCtx.lineCap = "round";
+      canvasCtx.lineJoin = "round";
+      canvasCtx.stroke();
 
       // Animated glowing segment
       const trailLength = 0.25;
@@ -163,79 +163,77 @@ export function MapCanvas() {
 
       // sample the trail
       const steps = 30;
-      ctx.beginPath();
+      canvasCtx.beginPath();
       for (let s = 0; s <= steps; s++) {
         const t = start + (end - start) * (s / steps);
         const pt = getPointOnRoute(route, t);
-        if (s === 0) ctx.moveTo(pt.x, pt.y);
-        else ctx.lineTo(pt.x, pt.y);
+        if (s === 0) canvasCtx.moveTo(pt.x, pt.y);
+        else canvasCtx.lineTo(pt.x, pt.y);
       }
-      const grad = ctx.createLinearGradient(
+      const grad = canvasCtx.createLinearGradient(
         getPointOnRoute(route, start).x, getPointOnRoute(route, start).y,
         getPointOnRoute(route, end).x, getPointOnRoute(route, end).y
       );
       grad.addColorStop(0, route.color + "00");
       grad.addColorStop(1, route.color + "cc");
-      ctx.strokeStyle = grad;
-      ctx.lineWidth = route.width;
-      ctx.lineCap = "round";
-      ctx.stroke();
+      canvasCtx.strokeStyle = grad;
+      canvasCtx.lineWidth = route.width;
+      canvasCtx.lineCap = "round";
+      canvasCtx.stroke();
     }
 
     function drawPin(pin: Pin, time: number) {
-      if (!ctx) return;
       const pulse = Math.sin(time * 0.002 + pin.pulse);
       const radius = 6 + pulse * 2;
       const outerRadius = 14 + pulse * 5;
 
       // Outer pulse ring
-      ctx.beginPath();
-      ctx.arc(pin.x, pin.y, outerRadius, 0, Math.PI * 2);
-      ctx.fillStyle = pin.color + "22";
-      ctx.fill();
+      canvasCtx.beginPath();
+      canvasCtx.arc(pin.x, pin.y, outerRadius, 0, Math.PI * 2);
+      canvasCtx.fillStyle = pin.color + "22";
+      canvasCtx.fill();
 
       // Mid ring
-      ctx.beginPath();
-      ctx.arc(pin.x, pin.y, radius, 0, Math.PI * 2);
-      ctx.fillStyle = pin.color + "44";
-      ctx.fill();
+      canvasCtx.beginPath();
+      canvasCtx.arc(pin.x, pin.y, radius, 0, Math.PI * 2);
+      canvasCtx.fillStyle = pin.color + "44";
+      canvasCtx.fill();
 
       // Solid center dot
-      ctx.beginPath();
-      ctx.arc(pin.x, pin.y, 5, 0, Math.PI * 2);
-      ctx.fillStyle = pin.color;
-      ctx.fill();
-      ctx.strokeStyle = "#ffffff";
-      ctx.lineWidth = 1.5;
-      ctx.stroke();
+      canvasCtx.beginPath();
+      canvasCtx.arc(pin.x, pin.y, 5, 0, Math.PI * 2);
+      canvasCtx.fillStyle = pin.color;
+      canvasCtx.fill();
+      canvasCtx.strokeStyle = "#ffffff";
+      canvasCtx.lineWidth = 1.5;
+      canvasCtx.stroke();
     }
 
     function drawDot(dot: Dot) {
-      if (!ctx) return;
       const route = routes[dot.routeIdx];
       const pt = getPointOnRoute(route, dot.progress);
-      ctx.beginPath();
-      ctx.arc(pt.x, pt.y, 4, 0, Math.PI * 2);
-      ctx.fillStyle = route.color;
-      ctx.fill();
-      ctx.strokeStyle = "#ffffff88";
-      ctx.lineWidth = 1.5;
-      ctx.stroke();
+      canvasCtx.beginPath();
+      canvasCtx.arc(pt.x, pt.y, 4, 0, Math.PI * 2);
+      canvasCtx.fillStyle = route.color;
+      canvasCtx.fill();
+      canvasCtx.strokeStyle = "#ffffff88";
+      canvasCtx.lineWidth = 1.5;
+      canvasCtx.stroke();
     }
 
     let time = 0;
     function draw() {
-      ctx.clearRect(0, 0, width, height);
+      canvasCtx.clearRect(0, 0, width, height);
       time++;
 
       // Grid
       gridLines.forEach((line) => {
-        ctx.beginPath();
-        ctx.moveTo(line.x1, line.y1);
-        ctx.lineTo(line.x2, line.y2);
-        ctx.strokeStyle = "#e2e8f022";
-        ctx.lineWidth = 1;
-        ctx.stroke();
+        canvasCtx.beginPath();
+        canvasCtx.moveTo(line.x1, line.y1);
+        canvasCtx.lineTo(line.x2, line.y2);
+        canvasCtx.strokeStyle = "#e2e8f022";
+        canvasCtx.lineWidth = 1;
+        canvasCtx.stroke();
       });
 
       // Routes

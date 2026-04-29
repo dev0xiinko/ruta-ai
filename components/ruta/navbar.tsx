@@ -12,7 +12,8 @@ const navItems = [
   { label: "How it works", href: "#about" },
   { label: "Demo", href: "#demo" },
   { label: "Routes", href: "#results" },
-  { label: "Bot", href: "/bot" },
+  { label: "RUTA BOT", href: "/bot" },
+  { label: "Simulation", href: "/simulation" },
 ];
 
 export function Navbar() {

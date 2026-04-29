@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Check, Mail, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { submitWaitlistSignup } from "@/lib/ruta/api-client";
 
 interface WaitlistModalProps {
   isOpen: boolean;
@@ -37,22 +38,10 @@ export function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
     setError("");
 
     try {
-      const res = await fetch("/api/waitlist", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          email,
-          source: "website-modal",
-        }),
+      await submitWaitlistSignup({
+        email,
+        source: "website-modal",
       });
-
-      const data = await res.json();
-
-      if (!res.ok) {
-        throw new Error(data.error || "Failed to join waitlist");
-      }
 
       setIsSubmitted(true);
       setTimeout(() => handleClose(), 2800);

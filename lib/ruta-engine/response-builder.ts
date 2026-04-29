@@ -1,4 +1,4 @@
-import type { MapOverview } from "@/lib/ruta-map";
+import type { RouteMapOverview as MapOverview } from "@/lib/ruta/contracts";
 import { dedupeDisplayNames } from "@/lib/ruta-engine/place-resolver";
 import type {
   ParsedQuery,

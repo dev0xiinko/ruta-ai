@@ -1,0 +1,131 @@
+[
+  {
+    "seed_id": "feedback:f802805b-ad87-4333-9f3c-7340935f8241",
+    "status": "triage",
+    "source": {
+      "feedback_id": "f802805b-ad87-4333-9f3c-7340935f8241",
+      "session_id": "a7d5b746-f6b5-4a4a-a8ec-a7a142f54147",
+      "page_context": "simulation",
+      "created_at": "2026-04-21 07:26:57.487784+00:00"
+    },
+    "query": "IT Park to Colon",
+    "notes": "there is no 04B now, best options are 17B, 17C",
+    "current_response": {
+      "response_type": "trip_search",
+      "query_kind": "trip_search",
+      "confidence": "High confidence",
+      "title": "IT Park to Colon",
+      "mode": "trip_search",
+      "route_codes": [
+        "04B",
+        "04C",
+        "04D"
+      ],
+      "answer": "From IT Park to Colon, ride 04B. It looks like a direct access option."
+    },
+    "suggested_assertions": [],
+    "expected": {}
+  },
+  {
+    "seed_id": "feedback:1b7b3706-3dd5-43ef-ae87-cb429d00ecd9",
+    "status": "triage",
+    "source": {
+      "feedback_id": "1b7b3706-3dd5-43ef-ae87-cb429d00ecd9",
+      "session_id": "a7d5b746-f6b5-4a4a-a8ec-a7a142f54147",
+      "page_context": "simulation",
+      "created_at": "2026-04-21 07:26:04.208509+00:00"
+    },
+    "query": "CITU to ACT",
+    "notes": "10M, 10H, 10F passes from CIT to ACT nearby",
+    "current_response": {
+      "response_type": "trip_search",
+      "query_kind": "trip_search",
+      "confidence": "Medium confidence",
+      "title": "CITU to ACT",
+      "mode": "trip_search",
+      "route_codes": [
+        "09F"
+      ],
+      "answer": "From CITU to ACT, ride 09F. It looks like a nearby access option. Expect around 3 minutes of walking to board. Expect around 3 minutes of walking after you get off. Best drop-off clue: Carlock St."
+    },
+    "suggested_assertions": [],
+    "expected": {}
+  },
+  {
+    "seed_id": "feedback:bec9e992-4a5f-4eb6-9159-6165fd5c7747",
+    "status": "triage",
+    "source": {
+      "feedback_id": "bec9e992-4a5f-4eb6-9159-6165fd5c7747",
+      "session_id": "a7d5b746-f6b5-4a4a-a8ec-a7a142f54147",
+      "page_context": "simulation",
+      "created_at": "2026-04-21 07:25:19.768702+00:00"
+    },
+    "query": "JY to ACT",
+    "notes": "17B from JY to ACT, you drop off in SSS which is near ACT",
+    "current_response": {
+      "response_type": "trip_search",
+      "query_kind": "trip_search",
+      "confidence": "Medium confidence",
+      "title": "JY to ACT",
+      "mode": "trip_search",
+      "route_codes": [
+        "04L",
+        "04M",
+        "04B"
+      ],
+      "answer": "From JY to ACT, ride 04L. It looks like an area access option. Expect around 5 minutes of walking after you get off. Best drop-off clue: Ayala."
+    },
+    "suggested_assertions": [],
+    "expected": {}
+  },
+  {
+    "seed_id": "feedback:2441cbe1-bf0c-4bc9-9b71-0ddbe57dc151",
+    "status": "triage",
+    "source": {
+      "feedback_id": "2441cbe1-bf0c-4bc9-9b71-0ddbe57dc151",
+      "session_id": "a7d5b746-f6b5-4a4a-a8ec-a7a142f54147",
+      "page_context": "simulation",
+      "created_at": "2026-04-21 07:24:00.521888+00:00"
+    },
+    "query": "Does 17B pass Cebu Doc?",
+    "notes": "it passes osmena st which is near cebu doc",
+    "current_response": {
+      "response_type": "place_search",
+      "query_kind": "place_search",
+      "confidence": "Medium confidence",
+      "title": "17B check",
+      "mode": "place_search",
+      "route_codes": [
+        "17B"
+      ],
+      "answer": "Yes, 17B looks usable for Cebu Doc with about a 3-minute walk. Best to get off near Gorordo Ave."
+    },
+    "suggested_assertions": [],
+    "expected": {}
+  },
+  {
+    "seed_id": "feedback:c0e10211-bf1e-4fb3-9f34-f76592f62592",
+    "status": "triage",
+    "source": {
+      "feedback_id": "c0e10211-bf1e-4fb3-9f34-f76592f62592",
+      "session_id": "a7d5b746-f6b5-4a4a-a8ec-a7a142f54147",
+      "page_context": "simulation",
+      "created_at": "2026-04-21 07:22:24.341772+00:00"
+    },
+    "query": "IT Park to Robinsons Galleria",
+    "notes": "04L and 10M",
+    "current_response": {
+      "response_type": "trip_search",
+      "query_kind": "trip_search",
+      "confidence": "High confidence",
+      "title": "IT Park to Robinsons Galleria",
+      "mode": "trip_search",
+      "route_codes": [
+        "04B"
+      ],
+      "answer": "There is no strong one-seat ride from IT Park to Robinsons Galleria, but you can likely do it in two legs: ride 04B first, then transfer to 03A around Cebu City Hall."
+    },
+    "suggested_assertions": [],
+    "expected": {}
+  }
+]

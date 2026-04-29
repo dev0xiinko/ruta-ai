@@ -185,7 +185,7 @@ export function RutaMapLibre() {
       },
       center: [123.9005, 10.317],
       zoom: 13,
-      attributionControl: true,
+      attributionControl: { compact: true },
     });
 
     mapRef.current = map;

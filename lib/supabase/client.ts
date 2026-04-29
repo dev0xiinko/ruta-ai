@@ -1,6 +1,3 @@
-import { createClient } from "@supabase/supabase-js";
-
-export const supabaseAdmin = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-);
+// Transitional compatibility wrapper. Prefer importing server-only admin access from
+// `@/lib/server/supabase-admin` in new code so the boundary is explicit.
+export { supabaseAdmin } from "@/lib/server/supabase-admin";
