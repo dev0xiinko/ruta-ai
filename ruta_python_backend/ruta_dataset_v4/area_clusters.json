@@ -1,0 +1,51 @@
+[
+  {
+    "cluster_id": "cluster_colon",
+    "name": "Colon",
+    "aliases": [
+      "colon",
+      "downtown",
+      "near colon"
+    ],
+    "place_ids": [
+      "pl_gaisano_main_colon",
+      "pl_act",
+      "pl_colon"
+    ]
+  },
+  {
+    "cluster_id": "cluster_tisa",
+    "name": "Tisa",
+    "aliases": [
+      "tisa"
+    ],
+    "place_ids": [
+      "pl_gaisano_south",
+      "pl_simbahan_tisa"
+    ]
+  },
+  {
+    "cluster_id": "cluster_lahug",
+    "name": "Lahug",
+    "aliases": [
+      "lahug",
+      "it park"
+    ],
+    "place_ids": [
+      "pl_it_park",
+      "pl_pagibig_cebu"
+    ]
+  },
+  {
+    "cluster_id": "cluster_as_fortuna",
+    "name": "A.S. Fortuna",
+    "aliases": [
+      "as fortuna",
+      "a.s. fortuna"
+    ],
+    "place_ids": [
+      "pl_as_fortuna_dunkin",
+      "pl_as_fortuna_roadside"
+    ]
+  }
+]

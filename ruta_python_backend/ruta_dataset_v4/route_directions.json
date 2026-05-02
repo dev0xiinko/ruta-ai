@@ -1,0 +1,1365 @@
+[
+  {
+    "direction_id": "01b_outbound",
+    "route_code": "01B",
+    "headsign": "To Pier 3 and 2",
+    "stop_place_ids": [
+      "pl_sambag_1_private",
+      "pl_private",
+      "pl_colon",
+      "pl_act",
+      "pl_metro_colon",
+      "pl_colonnade",
+      "pl_gaisano_main_colon",
+      "pl_mactan",
+      "pl_pier_3_and_2"
+    ]
+  },
+  {
+    "direction_id": "01c_outbound",
+    "route_code": "01C",
+    "headsign": "To Colon",
+    "stop_place_ids": [
+      "pl_private",
+      "pl_gaisano_main_colon",
+      "pl_university_of_cebu_main_campus",
+      "pl_colon"
+    ]
+  },
+  {
+    "direction_id": "01c_truth_pl_private_pl_swu",
+    "route_code": "01C",
+    "headsign": "To SWU",
+    "stop_place_ids": [
+      "pl_private",
+      "pl_swu"
+    ]
+  },
+  {
+    "direction_id": "01c_truth_pl_private_pl_university_of_visayas_main_campus",
+    "route_code": "01C",
+    "headsign": "To University of Visayas Main Campus",
+    "stop_place_ids": [
+      "pl_private",
+      "pl_university_of_visayas_main_campus"
+    ]
+  },
+  {
+    "direction_id": "01k_outbound",
+    "route_code": "01K",
+    "headsign": "To Urgello",
+    "stop_place_ids": [
+      "pl_parkmall",
+      "pl_swu",
+      "pl_colon",
+      "pl_gaisano_main_colon",
+      "pl_university_of_visayas_main_campus",
+      "pl_urgello"
+    ]
+  },
+  {
+    "direction_id": "01k_truth_pl_parkmall_pl_cebu_institute_of_technology_university_citu",
+    "route_code": "01K",
+    "headsign": "To Cebu Institute of Technology University CITU",
+    "stop_place_ids": [
+      "pl_parkmall",
+      "pl_cebu_institute_of_technology_university_citu"
+    ]
+  },
+  {
+    "direction_id": "02b_outbound",
+    "route_code": "02B",
+    "headsign": "To Colon",
+    "stop_place_ids": [
+      "pl_south_bus_terminal",
+      "pl_gaisano_main_colon",
+      "pl_colonnade",
+      "pl_university_of_visayas_main_campus",
+      "pl_cebu_metropolitan_cathedral",
+      "pl_cathedral",
+      "pl_colon"
+    ]
+  },
+  {
+    "direction_id": "02b_truth_pl_south_bus_terminal_pl_university_of_cebu_main_campus",
+    "route_code": "02B",
+    "headsign": "To University of Cebu Main Campus",
+    "stop_place_ids": [
+      "pl_south_bus_terminal",
+      "pl_university_of_cebu_main_campus"
+    ]
+  },
+  {
+    "direction_id": "03a_outbound",
+    "route_code": "03A",
+    "headsign": "To Carbon",
+    "stop_place_ids": [
+      "pl_mabolo",
+      "pl_pope_john_paul_ii_ave",
+      "pl_cebu_technological_university_main_campus",
+      "pl_gaisano_main_colon",
+      "pl_colonnade",
+      "pl_progreso_st",
+      "pl_carbon"
+    ]
+  },
+  {
+    "direction_id": "03b_outbound",
+    "route_code": "03B",
+    "headsign": "To Carbon",
+    "stop_place_ids": [
+      "pl_mabolo",
+      "pl_colon",
+      "pl_mango_ave",
+      "pl_fuente_osmena",
+      "pl_cebu_normal_university",
+      "pl_metro_colon",
+      "pl_carbon"
+    ]
+  },
+  {
+    "direction_id": "03l_outbound",
+    "route_code": "03L",
+    "headsign": "To Carbon",
+    "stop_place_ids": [
+      "pl_mabolo",
+      "pl_juan_luna_ave",
+      "pl_cebu_technological_university_main_campus",
+      "pl_progreso_st",
+      "pl_carbon"
+    ]
+  },
+  {
+    "direction_id": "03q_outbound",
+    "route_code": "03Q",
+    "headsign": "To SM",
+    "stop_place_ids": [
+      "pl_ayala",
+      "pl_sm"
+    ]
+  },
+  {
+    "direction_id": "04b_outbound",
+    "route_code": "04B",
+    "headsign": "To Carbon",
+    "stop_place_ids": [
+      "pl_lahug",
+      "pl_salinas_drive",
+      "pl_jy_square",
+      "pl_university_of_the_philippines_cebu",
+      "pl_cebu_doctors_university",
+      "pl_fuente_osmena",
+      "pl_robinsons_fuente",
+      "pl_metro_colon",
+      "pl_colon",
+      "pl_magallanes",
+      "pl_magallanes_st",
+      "pl_university_of_san_jose_recoletos",
+      "pl_progreso_st",
+      "pl_carbon"
+    ]
+  },
+  {
+    "direction_id": "04b_truth_pl_lahug_pl_university_of_san_carlos_main_campus",
+    "route_code": "04B",
+    "headsign": "To University of San Carlos Main Campus",
+    "stop_place_ids": [
+      "pl_lahug",
+      "pl_university_of_san_carlos_main_campus"
+    ]
+  },
+  {
+    "direction_id": "04c_outbound",
+    "route_code": "04C",
+    "headsign": "To Carbon",
+    "stop_place_ids": [
+      "pl_campo_lahug",
+      "pl_carbon"
+    ]
+  },
+  {
+    "direction_id": "04d_outbound",
+    "route_code": "04D",
+    "headsign": "To Carbon",
+    "stop_place_ids": [
+      "pl_route_no_04d",
+      "pl_plaza_housing",
+      "pl_jy_square",
+      "pl_gorordo_ave",
+      "pl_lahug",
+      "pl_university_of_the_philippines_cebu",
+      "pl_cebu_doctors_university",
+      "pl_fuente_osmena",
+      "pl_robinsons_fuente",
+      "pl_cebu_normal_university",
+      "pl_university_of_cebu_main_campus",
+      "pl_taboan",
+      "pl_magallanes",
+      "pl_magallanes_st",
+      "pl_cebu_metropolitan_cathedral",
+      "pl_carbon"
+    ]
+  },
+  {
+    "direction_id": "04h_outbound",
+    "route_code": "04H",
+    "headsign": "To Carbon",
+    "stop_place_ids": [
+      "pl_plaza_housing",
+      "pl_lahug",
+      "pl_jy_square",
+      "pl_gorordo_ave",
+      "pl_university_of_the_philippines_cebu",
+      "pl_fuente_osmena",
+      "pl_robinsons_fuente",
+      "pl_cebu_normal_university",
+      "pl_magallanes",
+      "pl_magallanes_st",
+      "pl_university_of_san_jose_recoletos",
+      "pl_progreso_st",
+      "pl_carbon"
+    ]
+  },
+  {
+    "direction_id": "04h_truth_pl_plaza_housing_pl_university_of_san_carlos_main_campus",
+    "route_code": "04H",
+    "headsign": "To University of San Carlos Main Campus",
+    "stop_place_ids": [
+      "pl_plaza_housing",
+      "pl_university_of_san_carlos_main_campus"
+    ]
+  },
+  {
+    "direction_id": "04i_outbound",
+    "route_code": "04I",
+    "headsign": "To Carbon",
+    "stop_place_ids": [
+      "pl_plaza_housing",
+      "pl_jy_square",
+      "pl_gorordo_ave",
+      "pl_lahug",
+      "pl_university_of_the_philippines_cebu",
+      "pl_mango_ave",
+      "pl_fuente_osmena",
+      "pl_magallanes",
+      "pl_magallanes_st",
+      "pl_university_of_san_jose_recoletos",
+      "pl_carbon"
+    ]
+  },
+  {
+    "direction_id": "04i_truth_pl_plaza_housing_pl_cim",
+    "route_code": "04I",
+    "headsign": "To CIM",
+    "stop_place_ids": [
+      "pl_plaza_housing",
+      "pl_cim"
+    ]
+  },
+  {
+    "direction_id": "04i_truth_pl_plaza_housing_pl_university_of_visayas_main_campus",
+    "route_code": "04I",
+    "headsign": "To University of Visayas Main Campus",
+    "stop_place_ids": [
+      "pl_plaza_housing",
+      "pl_university_of_visayas_main_campus"
+    ]
+  },
+  {
+    "direction_id": "04i_truth_pl_cim_pl_mango_ave",
+    "route_code": "04I",
+    "headsign": "To Mango Ave",
+    "stop_place_ids": [
+      "pl_cim",
+      "pl_mango_ave"
+    ]
+  },
+  {
+    "direction_id": "04l_outbound",
+    "route_code": "04L",
+    "headsign": "To Ayala",
+    "stop_place_ids": [
+      "pl_lahug",
+      "pl_jy_square",
+      "pl_gorordo_ave",
+      "pl_university_of_the_philippines_cebu",
+      "pl_pagibig_cebu",
+      "pl_mabolo",
+      "pl_sm",
+      "pl_sm_city_cebu",
+      "pl_ayala"
+    ]
+  },
+  {
+    "direction_id": "04l_truth_pl_lahug_pl_salinas_drive",
+    "route_code": "04L",
+    "headsign": "To Salinas Drive",
+    "stop_place_ids": [
+      "pl_lahug",
+      "pl_salinas_drive"
+    ]
+  },
+  {
+    "direction_id": "04m_outbound",
+    "route_code": "04M",
+    "headsign": "To Ayala",
+    "stop_place_ids": [
+      "pl_lahug",
+      "pl_university_of_the_philippines_cebu",
+      "pl_gorordo_ave",
+      "pl_jy_square",
+      "pl_ayala"
+    ]
+  },
+  {
+    "direction_id": "04m_truth_pl_lahug_pl_salinas_drive",
+    "route_code": "04M",
+    "headsign": "To Salinas Drive",
+    "stop_place_ids": [
+      "pl_lahug",
+      "pl_salinas_drive"
+    ]
+  },
+  {
+    "direction_id": "06b_outbound",
+    "route_code": "06B",
+    "headsign": "To Carbon",
+    "stop_place_ids": [
+      "pl_guadalupe",
+      "pl_guadalupe_church",
+      "pl_prc",
+      "pl_fuente_osmena",
+      "pl_university_of_san_jose_recoletos",
+      "pl_cebu_metropolitan_cathedral",
+      "pl_gaisano_main_colon",
+      "pl_colon",
+      "pl_cebu_normal_university",
+      "pl_cebu_doctors_university",
+      "pl_carbon"
+    ]
+  },
+  {
+    "direction_id": "06b_truth_pl_guadalupe_pl_cebu_doctors_university_hospital",
+    "route_code": "06B",
+    "headsign": "To Cebu Doctors University Hospital",
+    "stop_place_ids": [
+      "pl_guadalupe",
+      "pl_cebu_doctors_university_hospital"
+    ]
+  },
+  {
+    "direction_id": "06c_outbound",
+    "route_code": "06C",
+    "headsign": "To Carbon",
+    "stop_place_ids": [
+      "pl_guadalupe",
+      "pl_colon",
+      "pl_guadalupe_church",
+      "pl_prc",
+      "pl_fuente_osmena",
+      "pl_cebu_normal_university",
+      "pl_carbon"
+    ]
+  },
+  {
+    "direction_id": "06f_outbound",
+    "route_code": "06F",
+    "headsign": "To Carbon guadalupe to capitol guadalupe to jones ave",
+    "stop_place_ids": [
+      "pl_guadalupe",
+      "pl_carbon",
+      "pl_guadalupe_church",
+      "pl_prc",
+      "pl_fuente_osmena",
+      "pl_cebu_normal_university",
+      "pl_gaisano_main_colon",
+      "pl_colon",
+      "pl_progreso_st",
+      "pl_carbon_guadalupe_to_capitol_guadalupe_to_jones_ave"
+    ]
+  },
+  {
+    "direction_id": "06g_outbound",
+    "route_code": "06G",
+    "headsign": "To Tabo-an",
+    "stop_place_ids": [
+      "pl_guadalupe",
+      "pl_guadalupe_church",
+      "pl_prc",
+      "pl_calamba_cemetery",
+      "pl_taboan",
+      "pl_tabo_an"
+    ]
+  },
+  {
+    "direction_id": "06g_truth_pl_calamba_cemetery_pl_prc",
+    "route_code": "06G",
+    "headsign": "To PRC",
+    "stop_place_ids": [
+      "pl_calamba_cemetery",
+      "pl_prc"
+    ]
+  },
+  {
+    "direction_id": "06h_outbound",
+    "route_code": "06H",
+    "headsign": "To SM",
+    "stop_place_ids": [
+      "pl_guadalupe",
+      "pl_guadalupe_church",
+      "pl_banawa",
+      "pl_cebu_doctors_university",
+      "pl_ayala",
+      "pl_mabolo",
+      "pl_sm_city_cebu",
+      "pl_mango_ave",
+      "pl_robinsons_fuente",
+      "pl_fuente_osmena",
+      "pl_prc",
+      "pl_sm"
+    ]
+  },
+  {
+    "direction_id": "06h_truth_pl_pagibig_cebu_pl_guadalupe_church",
+    "route_code": "06H",
+    "headsign": "To Guadalupe Church",
+    "stop_place_ids": [
+      "pl_pagibig_cebu",
+      "pl_guadalupe_church"
+    ]
+  },
+  {
+    "direction_id": "07b_outbound",
+    "route_code": "07B",
+    "headsign": "To Carbon",
+    "stop_place_ids": [
+      "pl_banawa",
+      "pl_fuente_osmena",
+      "pl_robinsons_fuente",
+      "pl_metro_colon",
+      "pl_colon",
+      "pl_university_of_san_jose_recoletos",
+      "pl_magallanes",
+      "pl_magallanes_st",
+      "pl_progreso_st",
+      "pl_carbon"
+    ]
+  },
+  {
+    "direction_id": "07b_truth_pl_banawa_pl_cebu_doctors_university_hospital",
+    "route_code": "07B",
+    "headsign": "To Cebu Doctors University Hospital",
+    "stop_place_ids": [
+      "pl_banawa",
+      "pl_cebu_doctors_university_hospital"
+    ]
+  },
+  {
+    "direction_id": "07b_truth_pl_banawa_pl_cebu_doctors_university",
+    "route_code": "07B",
+    "headsign": "To Cebu Doctors University",
+    "stop_place_ids": [
+      "pl_banawa",
+      "pl_cebu_doctors_university"
+    ]
+  },
+  {
+    "direction_id": "08f_outbound",
+    "route_code": "08F",
+    "headsign": "To SM",
+    "stop_place_ids": [
+      "pl_alumnos",
+      "pl_sm"
+    ]
+  },
+  {
+    "direction_id": "08g_outbound",
+    "route_code": "08G",
+    "headsign": "To Colon",
+    "stop_place_ids": [
+      "pl_alumnos",
+      "pl_colonnade",
+      "pl_gaisano_main_colon",
+      "pl_university_of_visayas_main_campus",
+      "pl_colon"
+    ]
+  },
+  {
+    "direction_id": "08g_truth_pl_alumnos_pl_magallanes_st",
+    "route_code": "08G",
+    "headsign": "To Magallanes St",
+    "stop_place_ids": [
+      "pl_alumnos",
+      "pl_magallanes_st"
+    ]
+  },
+  {
+    "direction_id": "08g_truth_pl_alumnos_pl_cebu_technological_university_main_campus",
+    "route_code": "08G",
+    "headsign": "To Cebu Technological University Main Campus",
+    "stop_place_ids": [
+      "pl_alumnos",
+      "pl_cebu_technological_university_main_campus"
+    ]
+  },
+  {
+    "direction_id": "09c_outbound",
+    "route_code": "09C",
+    "headsign": "To Colon",
+    "stop_place_ids": [
+      "pl_basak",
+      "pl_colon"
+    ]
+  },
+  {
+    "direction_id": "09f_outbound",
+    "route_code": "09F",
+    "headsign": "To Ibabao",
+    "stop_place_ids": [
+      "pl_basak",
+      "pl_colon",
+      "pl_swu",
+      "pl_cebu_institute_of_technology_university_citu",
+      "pl_act",
+      "pl_gaisano_main_colon",
+      "pl_university_of_visayas_main_campus",
+      "pl_cebu_metropolitan_cathedral",
+      "pl_cathedral",
+      "pl_ibabao"
+    ]
+  },
+  {
+    "direction_id": "09f_truth_pl_basak_pl_university_of_san_jose_recoletos",
+    "route_code": "09F",
+    "headsign": "To University of San Jose Recoletos",
+    "stop_place_ids": [
+      "pl_basak",
+      "pl_university_of_san_jose_recoletos"
+    ]
+  },
+  {
+    "direction_id": "09g_outbound",
+    "route_code": "09G",
+    "headsign": "To Colon",
+    "stop_place_ids": [
+      "pl_basak",
+      "pl_ibabao",
+      "pl_university_of_san_jose_recoletos",
+      "pl_carbon",
+      "pl_magallanes",
+      "pl_magallanes_st",
+      "pl_cebu_metropolitan_cathedral",
+      "pl_colon"
+    ]
+  },
+  {
+    "direction_id": "09g_truth_pl_basak_pl_swu",
+    "route_code": "09G",
+    "headsign": "To SWU",
+    "stop_place_ids": [
+      "pl_basak",
+      "pl_swu"
+    ]
+  },
+  {
+    "direction_id": "10f_outbound",
+    "route_code": "10F",
+    "headsign": "To Colon",
+    "stop_place_ids": [
+      "pl_bulacao",
+      "pl_pardo",
+      "pl_basak",
+      "pl_cebu_institute_of_technology_university_citu",
+      "pl_south_bus_terminal",
+      "pl_colon"
+    ]
+  },
+  {
+    "direction_id": "10f_truth_pl_simbahan_tisa_pl_act",
+    "route_code": "10F",
+    "headsign": "To Asian College of Technology (ACT)",
+    "stop_place_ids": [
+      "pl_simbahan_tisa",
+      "pl_act"
+    ]
+  },
+  {
+    "direction_id": "10f_truth_pl_bulacao_pl_university_of_san_jose_recoletos",
+    "route_code": "10F",
+    "headsign": "To University of San Jose Recoletos",
+    "stop_place_ids": [
+      "pl_bulacao",
+      "pl_university_of_san_jose_recoletos"
+    ]
+  },
+  {
+    "direction_id": "10g_outbound",
+    "route_code": "10G",
+    "headsign": "To Magallanes",
+    "stop_place_ids": [
+      "pl_pardo",
+      "pl_university_of_san_jose_recoletos",
+      "pl_basak",
+      "pl_colon",
+      "pl_carbon",
+      "pl_magallanes_st",
+      "pl_magallanes"
+    ]
+  },
+  {
+    "direction_id": "10g_truth_pl_pardo_pl_university_of_visayas_main_campus",
+    "route_code": "10G",
+    "headsign": "To University of Visayas Main Campus",
+    "stop_place_ids": [
+      "pl_pardo",
+      "pl_university_of_visayas_main_campus"
+    ]
+  },
+  {
+    "direction_id": "10h_outbound",
+    "route_code": "10H",
+    "headsign": "To SM",
+    "stop_place_ids": [
+      "pl_bulacao",
+      "pl_pardo",
+      "pl_basak",
+      "pl_cebu_institute_of_technology_university_citu",
+      "pl_south_bus_terminal",
+      "pl_act",
+      "pl_sm"
+    ]
+  },
+  {
+    "direction_id": "10h_truth_pl_simbahan_tisa_pl_act",
+    "route_code": "10H",
+    "headsign": "To Asian College of Technology (ACT)",
+    "stop_place_ids": [
+      "pl_simbahan_tisa",
+      "pl_act"
+    ]
+  },
+  {
+    "direction_id": "10m_outbound",
+    "route_code": "10M",
+    "headsign": "To SM",
+    "stop_place_ids": [
+      "pl_bulacao",
+      "pl_cebu_institute_of_technology_university_citu",
+      "pl_pardo",
+      "pl_basak",
+      "pl_university_of_san_jose_recoletos",
+      "pl_south_bus_terminal",
+      "pl_colon",
+      "pl_metro_colon",
+      "pl_colonnade",
+      "pl_gaisano_main_colon",
+      "pl_university_of_visayas_main_campus",
+      "pl_benedicto_st",
+      "pl_sm_city_cebu",
+      "pl_sm"
+    ]
+  },
+  {
+    "direction_id": "10m_truth_pl_simbahan_tisa_pl_act",
+    "route_code": "10M",
+    "headsign": "To Asian College of Technology (ACT)",
+    "stop_place_ids": [
+      "pl_simbahan_tisa",
+      "pl_act"
+    ]
+  },
+  {
+    "direction_id": "11a_outbound",
+    "route_code": "11A",
+    "headsign": "To Colon",
+    "stop_place_ids": [
+      "pl_inayawan",
+      "pl_magallanes",
+      "pl_magallanes_st",
+      "pl_cebu_metropolitan_cathedral",
+      "pl_gaisano_main_colon",
+      "pl_university_of_visayas_main_campus",
+      "pl_colon"
+    ]
+  },
+  {
+    "direction_id": "11a_truth_pl_inayawan_pl_colonnade",
+    "route_code": "11A",
+    "headsign": "To Colonnade",
+    "stop_place_ids": [
+      "pl_inayawan",
+      "pl_colonnade"
+    ]
+  },
+  {
+    "direction_id": "12d_outbound",
+    "route_code": "12D",
+    "headsign": "To Colon",
+    "stop_place_ids": [
+      "pl_labangon",
+      "pl_south_bus_terminal",
+      "pl_act",
+      "pl_university_of_san_carlos_main_campus",
+      "pl_gaisano_main_colon",
+      "pl_university_of_visayas_main_campus",
+      "pl_university_of_southern_philippines_foundation",
+      "pl_cebu_metropolitan_cathedral",
+      "pl_cathedral",
+      "pl_colon"
+    ]
+  },
+  {
+    "direction_id": "12d_truth_pl_labangon_pl_university_of_san_jose_recoletos",
+    "route_code": "12D",
+    "headsign": "To University of San Jose Recoletos",
+    "stop_place_ids": [
+      "pl_labangon",
+      "pl_university_of_san_jose_recoletos"
+    ]
+  },
+  {
+    "direction_id": "12g_outbound",
+    "route_code": "12G",
+    "headsign": "To SM",
+    "stop_place_ids": [
+      "pl_labangon",
+      "pl_university_of_cebu_main_campus",
+      "pl_sm_city_cebu",
+      "pl_sm"
+    ]
+  },
+  {
+    "direction_id": "12i_outbound",
+    "route_code": "12I",
+    "headsign": "To SM",
+    "stop_place_ids": [
+      "pl_labangon",
+      "pl_sm_city_cebu",
+      "pl_cebu_technological_university_main_campus",
+      "pl_cebu_metropolitan_cathedral",
+      "pl_cathedral",
+      "pl_sm"
+    ]
+  },
+  {
+    "direction_id": "12l_outbound",
+    "route_code": "12L",
+    "headsign": "To Ayala",
+    "stop_place_ids": [
+      "pl_labangon",
+      "pl_fuente_osmena",
+      "pl_mango_ave",
+      "pl_gorordo_ave",
+      "pl_ayala"
+    ]
+  },
+  {
+    "direction_id": "13b_outbound",
+    "route_code": "13B",
+    "headsign": "To Carbon",
+    "stop_place_ids": [
+      "pl_talamban",
+      "pl_university_of_san_carlos_talamban_campus",
+      "pl_gaisano_country_mall",
+      "pl_university_of_cebu_banilad_campus",
+      "pl_ayala",
+      "pl_gorordo_ave",
+      "pl_university_of_san_carlos_main_campus",
+      "pl_colon",
+      "pl_gaisano_main_colon",
+      "pl_university_of_visayas_main_campus",
+      "pl_progreso_st",
+      "pl_carbon"
+    ]
+  },
+  {
+    "direction_id": "13b_truth_pl_talamban_pl_university_of_cebu_main_campus",
+    "route_code": "13B",
+    "headsign": "To University of Cebu Main Campus",
+    "stop_place_ids": [
+      "pl_talamban",
+      "pl_university_of_cebu_main_campus"
+    ]
+  },
+  {
+    "direction_id": "13c_outbound",
+    "route_code": "13C",
+    "headsign": "To Colon",
+    "stop_place_ids": [
+      "pl_talamban",
+      "pl_university_of_san_carlos_talamban_campus",
+      "pl_banilad_town_center",
+      "pl_gaisano_country_mall",
+      "pl_university_of_cebu_banilad_campus",
+      "pl_university_of_cebu_main_campus",
+      "pl_ayala",
+      "pl_pagibig_cebu",
+      "pl_gorordo_ave",
+      "pl_gaisano_main_colon",
+      "pl_university_of_visayas_main_campus",
+      "pl_colonnade",
+      "pl_colon"
+    ]
+  },
+  {
+    "direction_id": "13c_truth_pl_talamban_pl_university_of_san_jose_recoletos",
+    "route_code": "13C",
+    "headsign": "To University of San Jose Recoletos",
+    "stop_place_ids": [
+      "pl_talamban",
+      "pl_university_of_san_jose_recoletos"
+    ]
+  },
+  {
+    "direction_id": "13h_outbound",
+    "route_code": "13H",
+    "headsign": "To Mandaue",
+    "stop_place_ids": [
+      "pl_pit_os",
+      "pl_talamban",
+      "pl_university_of_san_carlos_talamban_campus",
+      "pl_university_of_visayas_main_campus",
+      "pl_as_fortuna_roadside",
+      "pl_andy_hotel",
+      "pl_colonnade",
+      "pl_mandaue"
+    ]
+  },
+  {
+    "direction_id": "13h_truth_pl_pit_os_pl_cebu_institute_of_technology_university_citu",
+    "route_code": "13H",
+    "headsign": "To Cebu Institute of Technology University CITU",
+    "stop_place_ids": [
+      "pl_pit_os",
+      "pl_cebu_institute_of_technology_university_citu"
+    ]
+  },
+  {
+    "direction_id": "14d_outbound",
+    "route_code": "14D",
+    "headsign": "To Colon",
+    "stop_place_ids": [
+      "pl_ayala",
+      "pl_fuente_osmena",
+      "pl_gaisano_main_colon",
+      "pl_university_of_visayas_main_campus",
+      "pl_colon"
+    ]
+  },
+  {
+    "direction_id": "14d_truth_pl_ayala_pl_university_of_san_carlos_main_campus",
+    "route_code": "14D",
+    "headsign": "To University of San Carlos Main Campus",
+    "stop_place_ids": [
+      "pl_ayala",
+      "pl_university_of_san_carlos_main_campus"
+    ]
+  },
+  {
+    "direction_id": "17b_outbound",
+    "route_code": "17B",
+    "headsign": "To Carbon",
+    "stop_place_ids": [
+      "pl_apas",
+      "pl_it_park",
+      "pl_salinas_drive",
+      "pl_jy_square",
+      "pl_gorordo_ave",
+      "pl_cebu_doctors_university",
+      "pl_fuente_osmena",
+      "pl_robinsons_fuente",
+      "pl_metro_colon",
+      "pl_colon",
+      "pl_magallanes",
+      "pl_magallanes_st",
+      "pl_carbon"
+    ]
+  },
+  {
+    "direction_id": "17b_truth_pl_apas_pl_university_of_san_jose_recoletos",
+    "route_code": "17B",
+    "headsign": "To University of San Jose Recoletos",
+    "stop_place_ids": [
+      "pl_apas",
+      "pl_university_of_san_jose_recoletos"
+    ]
+  },
+  {
+    "direction_id": "17b_truth_pl_apas_pl_university_of_the_philippines_cebu",
+    "route_code": "17B",
+    "headsign": "To University of the Philippines Cebu",
+    "stop_place_ids": [
+      "pl_apas",
+      "pl_university_of_the_philippines_cebu"
+    ]
+  },
+  {
+    "direction_id": "17c_outbound",
+    "route_code": "17C",
+    "headsign": "To Carbon",
+    "stop_place_ids": [
+      "pl_apas",
+      "pl_it_park",
+      "pl_salinas_drive",
+      "pl_lahug",
+      "pl_jy_square",
+      "pl_gorordo_ave",
+      "pl_university_of_the_philippines_cebu",
+      "pl_mango_ave",
+      "pl_robinsons_fuente",
+      "pl_fuente_osmena",
+      "pl_university_of_san_carlos_main_campus",
+      "pl_university_of_cebu_main_campus",
+      "pl_magallanes",
+      "pl_magallanes_st",
+      "pl_university_of_san_jose_recoletos",
+      "pl_carbon"
+    ]
+  },
+  {
+    "direction_id": "17c_truth_pl_it_park_pl_colon",
+    "route_code": "17C",
+    "headsign": "To Colon",
+    "stop_place_ids": [
+      "pl_it_park",
+      "pl_colon"
+    ]
+  },
+  {
+    "direction_id": "17c_truth_pl_apas_pl_university_of_visayas_main_campus",
+    "route_code": "17C",
+    "headsign": "To University of Visayas Main Campus",
+    "stop_place_ids": [
+      "pl_apas",
+      "pl_university_of_visayas_main_campus"
+    ]
+  },
+  {
+    "direction_id": "17d_outbound",
+    "route_code": "17D",
+    "headsign": "To Carbon",
+    "stop_place_ids": [
+      "pl_apas",
+      "pl_taboan",
+      "pl_it_park",
+      "pl_salinas_drive",
+      "pl_university_of_southern_philippines_foundation",
+      "pl_jy_square",
+      "pl_lahug",
+      "pl_gorordo_ave",
+      "pl_university_of_the_philippines_cebu",
+      "pl_fuente_osmena",
+      "pl_cebu_normal_university",
+      "pl_university_of_cebu_main_campus",
+      "pl_magallanes",
+      "pl_magallanes_st",
+      "pl_university_of_san_jose_recoletos",
+      "pl_carbon"
+    ]
+  },
+  {
+    "direction_id": "17d_truth_pl_apas_pl_university_of_san_carlos_main_campus",
+    "route_code": "17D",
+    "headsign": "To University of San Carlos Main Campus",
+    "stop_place_ids": [
+      "pl_apas",
+      "pl_university_of_san_carlos_main_campus"
+    ]
+  },
+  {
+    "direction_id": "20a_outbound",
+    "route_code": "20A",
+    "headsign": "To Mandaue",
+    "stop_place_ids": [
+      "pl_ayala",
+      "pl_mabolo",
+      "pl_parkmall",
+      "pl_colonnade",
+      "pl_ibabao",
+      "pl_mandaue"
+    ]
+  },
+  {
+    "direction_id": "20a_truth_pl_ayala_pl_pope_john_paul_ii_ave",
+    "route_code": "20A",
+    "headsign": "To Pope John Paul II Ave",
+    "stop_place_ids": [
+      "pl_ayala",
+      "pl_pope_john_paul_ii_ave"
+    ]
+  },
+  {
+    "direction_id": "20b_outbound",
+    "route_code": "20B",
+    "headsign": "To Mandaue and vice versa",
+    "stop_place_ids": [
+      "pl_route_no_20b",
+      "pl_ayala",
+      "pl_mabolo",
+      "pl_ibabao",
+      "pl_mandaue",
+      "pl_centro_mandaue",
+      "pl_mandaue_and_vice_versa"
+    ]
+  },
+  {
+    "direction_id": "21a_outbound",
+    "route_code": "21A",
+    "headsign": "To Cathedral",
+    "stop_place_ids": [
+      "pl_mandaue",
+      "pl_colonnade",
+      "pl_centro_mandaue",
+      "pl_as_fortuna_roadside",
+      "pl_mabolo",
+      "pl_cebu_technological_university_main_campus",
+      "pl_cathedral"
+    ]
+  },
+  {
+    "direction_id": "21a_truth_pl_mandaue_pl_benedicto_st",
+    "route_code": "21A",
+    "headsign": "To Benedicto St",
+    "stop_place_ids": [
+      "pl_mandaue",
+      "pl_benedicto_st"
+    ]
+  },
+  {
+    "direction_id": "21a_truth_pl_andy_hotel_pl_benedicto_st",
+    "route_code": "21A",
+    "headsign": "To Benedicto St",
+    "stop_place_ids": [
+      "pl_andy_hotel",
+      "pl_benedicto_st"
+    ]
+  },
+  {
+    "direction_id": "21d_outbound",
+    "route_code": "21D",
+    "headsign": "To MANDAUE cathedral",
+    "stop_place_ids": [
+      "pl_cebu_metropolitan_cathedral",
+      "pl_cathedral",
+      "pl_mandaue",
+      "pl_benedicto_st",
+      "pl_sm",
+      "pl_sm_city_cebu",
+      "pl_parkmall",
+      "pl_centro_mandaue",
+      "pl_colonnade",
+      "pl_mabolo",
+      "pl_cebu_institute_of_technology_university_citu",
+      "pl_mandaue_cathedral"
+    ]
+  },
+  {
+    "direction_id": "22a_outbound",
+    "route_code": "22A",
+    "headsign": "To Cathedral",
+    "stop_place_ids": [
+      "pl_mandaue",
+      "pl_ouano",
+      "pl_colonnade",
+      "pl_centro_mandaue",
+      "pl_as_fortuna_roadside",
+      "pl_parkmall",
+      "pl_mabolo",
+      "pl_cebu_technological_university_main_campus",
+      "pl_cathedral"
+    ]
+  },
+  {
+    "direction_id": "22a_truth_pl_mandaue_pl_sm_city_cebu",
+    "route_code": "22A",
+    "headsign": "To SM City Cebu",
+    "stop_place_ids": [
+      "pl_mandaue",
+      "pl_sm_city_cebu"
+    ]
+  },
+  {
+    "direction_id": "22d_outbound",
+    "route_code": "22D",
+    "headsign": "To Cathedral",
+    "stop_place_ids": [
+      "pl_mandaue",
+      "pl_colonnade",
+      "pl_as_fortuna_roadside",
+      "pl_parkmall",
+      "pl_sm_city_cebu",
+      "pl_sm",
+      "pl_mango_ave",
+      "pl_benedicto_st",
+      "pl_ouano",
+      "pl_cathedral"
+    ]
+  },
+  {
+    "direction_id": "22d_truth_pl_mandaue_pl_cebu_technological_university_main_campus",
+    "route_code": "22D",
+    "headsign": "To Cebu Technological University Main Campus",
+    "stop_place_ids": [
+      "pl_mandaue",
+      "pl_cebu_technological_university_main_campus"
+    ]
+  },
+  {
+    "direction_id": "22g_outbound",
+    "route_code": "22G",
+    "headsign": "To Cathedral to Mabolo",
+    "stop_place_ids": [
+      "pl_ouano_mandaue",
+      "pl_cathedral",
+      "pl_cebu_technological_university_main_campus",
+      "pl_sm",
+      "pl_sm_city_cebu",
+      "pl_as_fortuna_roadside",
+      "pl_colonnade",
+      "pl_mandaue",
+      "pl_ouano",
+      "pl_cathedral_to_mabolo"
+    ]
+  },
+  {
+    "direction_id": "22i_outbound",
+    "route_code": "22I",
+    "headsign": "To Gaisano Country Mall",
+    "stop_place_ids": [
+      "pl_mandaue",
+      "pl_banilad_town_center",
+      "pl_as_fortuna_roadside",
+      "pl_colonnade",
+      "pl_gaisano_country_mall"
+    ]
+  },
+  {
+    "direction_id": "22i_truth_pl_as_fortuna_roadside_pl_banilad_town_center",
+    "route_code": "22I",
+    "headsign": "To Banilad Town Center",
+    "stop_place_ids": [
+      "pl_as_fortuna_roadside",
+      "pl_banilad_town_center"
+    ]
+  },
+  {
+    "direction_id": "22i_truth_pl_as_fortuna_dunkin_pl_banilad_town_center",
+    "route_code": "22I",
+    "headsign": "To Banilad Town Center",
+    "stop_place_ids": [
+      "pl_as_fortuna_dunkin",
+      "pl_banilad_town_center"
+    ]
+  },
+  {
+    "direction_id": "23_outbound",
+    "route_code": "23",
+    "headsign": "To Punta Enga\u00f1o",
+    "stop_place_ids": [
+      "pl_parkmall",
+      "pl_cebu_doctors_university",
+      "pl_ouano",
+      "pl_mandaue",
+      "pl_university_of_visayas_main_campus",
+      "pl_mactan",
+      "pl_punta_enga\u00f1o"
+    ]
+  },
+  {
+    "direction_id": "23d_outbound",
+    "route_code": "23D",
+    "headsign": "To Opon",
+    "stop_place_ids": [
+      "pl_parkmall",
+      "pl_mactan",
+      "pl_mandaue",
+      "pl_opon"
+    ]
+  },
+  {
+    "direction_id": "24_outbound",
+    "route_code": "24",
+    "headsign": "To Sm City Cebu / White Gold and vice versa",
+    "stop_place_ids": [
+      "pl_consolacion",
+      "pl_mandaue",
+      "pl_basak",
+      "pl_sm",
+      "pl_sm_city_cebu",
+      "pl_sm_city_cebu_white_gold_and_vice_versa"
+    ]
+  },
+  {
+    "direction_id": "25_outbound",
+    "route_code": "25",
+    "headsign": "To White Gold and SM",
+    "stop_place_ids": [
+      "pl_liloan",
+      "pl_consolacion",
+      "pl_mandaue",
+      "pl_basak",
+      "pl_sm",
+      "pl_sm_city_cebu",
+      "pl_mango_ave",
+      "pl_galleria",
+      "pl_white_gold_and_sm"
+    ]
+  },
+  {
+    "direction_id": "62b_outbound",
+    "route_code": "62B",
+    "headsign": "To Carbon",
+    "stop_place_ids": [
+      "pl_pit_os",
+      "pl_talamban",
+      "pl_university_of_san_carlos_talamban_campus",
+      "pl_gaisano_country_mall",
+      "pl_university_of_cebu_banilad_campus",
+      "pl_ayala",
+      "pl_gorordo_ave",
+      "pl_colon",
+      "pl_progreso_st",
+      "pl_carbon"
+    ]
+  },
+  {
+    "direction_id": "62b_truth_pl_pit_os_pl_university_of_visayas_main_campus",
+    "route_code": "62B",
+    "headsign": "To University of Visayas Main Campus",
+    "stop_place_ids": [
+      "pl_pit_os",
+      "pl_university_of_visayas_main_campus"
+    ]
+  },
+  {
+    "direction_id": "62c_outbound",
+    "route_code": "62C",
+    "headsign": "To Talamban to Banilad to Ayala to Carbon and Vice versa",
+    "stop_place_ids": [
+      "pl_pit_os",
+      "pl_carbon",
+      "pl_talamban",
+      "pl_university_of_san_carlos_talamban_campus",
+      "pl_gaisano_country_mall",
+      "pl_juan_luna_ave",
+      "pl_ayala",
+      "pl_gorordo_ave",
+      "pl_university_of_san_carlos_main_campus",
+      "pl_colon",
+      "pl_gaisano_main_colon",
+      "pl_university_of_visayas_main_campus",
+      "pl_progreso_st",
+      "pl_talamban_to_banilad_to_ayala_to_carbon_and_vice_versa"
+    ]
+  },
+  {
+    "direction_id": "mi-01a_outbound",
+    "route_code": "MI-01A",
+    "headsign": "To Punta Enga\u00f1o",
+    "stop_place_ids": [
+      "pl_mactan",
+      "pl_opon",
+      "pl_punta_enga\u00f1o"
+    ]
+  },
+  {
+    "direction_id": "mi-02b_outbound",
+    "route_code": "MI-02B",
+    "headsign": "To Parkmall",
+    "stop_place_ids": [
+      "pl_mandaue",
+      "pl_mactan",
+      "pl_cebu_doctors_university",
+      "pl_parkmall"
+    ]
+  },
+  {
+    "direction_id": "mi-02b_truth_pl_mandaue_pl_university_of_visayas_main_campus",
+    "route_code": "MI-02B",
+    "headsign": "To University of Visayas Main Campus",
+    "stop_place_ids": [
+      "pl_mandaue",
+      "pl_university_of_visayas_main_campus"
+    ]
+  },
+  {
+    "direction_id": "mi-03a_outbound",
+    "route_code": "MI-03A",
+    "headsign": "To Lapu-Lapu",
+    "stop_place_ids": [
+      "pl_cordova",
+      "pl_opon",
+      "pl_lapu_lapu"
+    ]
+  },
+  {
+    "direction_id": "mi-03b_outbound",
+    "route_code": "MI-03B",
+    "headsign": "To Cordova",
+    "stop_place_ids": [
+      "pl_mactan",
+      "pl_opon",
+      "pl_cordova"
+    ]
+  },
+  {
+    "direction_id": "mi-03b_truth_pl_mactan_pl_lapu_lapu",
+    "route_code": "MI-03B",
+    "headsign": "To Lapu-Lapu",
+    "stop_place_ids": [
+      "pl_mactan",
+      "pl_lapu_lapu"
+    ]
+  },
+  {
+    "direction_id": "mi-04a_outbound",
+    "route_code": "MI-04A",
+    "headsign": "To Tamiya",
+    "stop_place_ids": [
+      "pl_mactan",
+      "pl_mandaue",
+      "pl_parkmall",
+      "pl_cebu_doctors_university",
+      "pl_ouano",
+      "pl_tamiya"
+    ]
+  },
+  {
+    "direction_id": "mi-04a_truth_pl_mactan_pl_university_of_cebu_main_campus",
+    "route_code": "MI-04A",
+    "headsign": "To University of Cebu Main Campus",
+    "stop_place_ids": [
+      "pl_mactan",
+      "pl_university_of_cebu_main_campus"
+    ]
+  },
+  {
+    "direction_id": "mi-04b_outbound",
+    "route_code": "MI-04B",
+    "headsign": "To MEPZ2",
+    "stop_place_ids": [
+      "pl_mactan",
+      "pl_tamiya",
+      "pl_mepz2"
+    ]
+  },
+  {
+    "direction_id": "mi-05a_outbound",
+    "route_code": "MI-05A",
+    "headsign": "To Opon",
+    "stop_place_ids": [
+      "pl_mactan",
+      "pl_mandaue",
+      "pl_opon"
+    ]
+  },
+  {
+    "direction_id": "mi-05a_truth_pl_mactan_pl_lapu_lapu",
+    "route_code": "MI-05A",
+    "headsign": "To Lapu-Lapu",
+    "stop_place_ids": [
+      "pl_mactan",
+      "pl_lapu_lapu"
+    ]
+  }
+]

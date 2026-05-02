@@ -1,0 +1,464 @@
+[
+  {
+    "route_code": "01B",
+    "name": "Sambag 1 (Private) to Pier 3 and 2",
+    "description": "Sambag 1 (PRIVATE) - Pier 3&2 via Colon St. sambag 1 to ACT sambag 1 to e mall sambag 1 to colon sambag 1 to metro colon sambag 1 to colonnade sambag 1 to gaisano main sambag 1 to UV sambag 1 to t. padilla st. sambag 1 to Pier 4 sambag 1 to peir 3 sambag 1 to pier 2 sambag 1 to cebu-mactan ferry terminal private to colon private to metro colon private to e mall private to t. padilla st. private to pier 4 private to pier 3 private to cebu-mactan ferry terminal private to pier 2 colon to t. padilla st. colon to pier 4 colon to pier 3 colon to pier 2 colon to cebu-mactan ferry terminal t. padilla to pier 4 t. padilla to pier 3 t. padilla to pier 2 t. padilla to ferry terminal",
+    "qa_status": "high_confidence",
+    "confidence": 0.89
+  },
+  {
+    "route_code": "01C",
+    "name": "Private to Colon",
+    "description": "Pier 3 to v. rama ave. Pier 3 to colon pier 3 to university of cebu pier 3 to gaisano main pier 3 to sancianko\\ pier 3 to e-mall pier 4 to colon pier 4 to e-mall pier 4 to private pier 3 to private sancianko to private uv to private uv to v. rama uv to e-mall uv to usc - girls hs",
+    "qa_status": "high_confidence",
+    "confidence": 0.92
+  },
+  {
+    "route_code": "01K",
+    "name": "Parkmall to Urgello",
+    "description": "Urgello St. - Sacred Heart Hospital - South Western University - E. Mall - L. Kilat St. - Colon St. Metro Gaisano (colon) - Collonade Supermarket - University of the Visayas - Gaisano Main - Brgy. Parian - Zulueta St. - MJ. Cuenco Ave. - NSO - General Maxilom Ave. - A. Soriano Ave. - SM - SM Hypermarket - North Bus Terminal.",
+    "qa_status": "high_confidence",
+    "confidence": 0.82
+  },
+  {
+    "route_code": "02B",
+    "name": "South Bus Terminal to Colon",
+    "description": "CCMC - N. Bacalso Ave. - Cebu South Bus Terminal - E Mall - L. Kilat St. - Colon St. - Metro Gaisano Colon - Colonnade Supermarket - Gaisano Main - University of the Visayas - P. Burgos St. - Cebu Metropolitan Cathedral - F. Urdanet St. - Legaspi Ext. - Plaza Independencia - C. Arellano Blvd. - Pier 1 - Pier 2 - Pier 3",
+    "qa_status": "high_confidence",
+    "confidence": 0.78
+  },
+  {
+    "route_code": "03A",
+    "name": "Mabolo to Carbon",
+    "description": "Mabolo (Panagdait) to Carbon Cityscape Hotel - Brgy, Kasambagan - F. Cabahug St. - Panagdait - Sykes Asia - Synergis Center - Rainforest Park - Citi Park Hotel - Fooda (Kasambagan) - Sarrosa International Hotel - Castle Peak Hotel - Pope John Paul II Ave. - PLDT Smart Communications - Camelite Monastery - Mabolo Church - MJ. Cuenco Ave. - The Persimmon - Hipodromo - Carreta Cemetery - Imus Ave. - MJ. Cuenco ave. - Museo Sugbo - CPILS - NSO - Cebu Technological University - V. Gullas St. - Gaisano Main - Manalili St. - Colonnade Supermarket - Progreso St. - Carbon Public Market.",
+    "qa_status": "high_confidence",
+    "confidence": 0.76
+  },
+  {
+    "route_code": "03B",
+    "name": "Mabolo to Carbon",
+    "description": "Mabolo to Colon via Jones ave. Sindulan - carwash - mabolo - mabolo church - M.J. Cuenco ave. - hipodromo - Carreta cemetery - G. Maxilom Ave. - mango ave - USC (north campus) - Fooda saversmart - horizons 101 - mango square - national bookstore - robinsons place - Fuente osmena circle - crown regency hotel - jones ave. - osmena boulevard - abellana sports complex - CNU - SSS - GV tower hotel - colon st. - Metro Colon.",
+    "qa_status": "high_confidence",
+    "confidence": 0.7
+  },
+  {
+    "route_code": "03L",
+    "name": "Mabolo to Carbon",
+    "description": "Cabantan St. - C. Rosales ave. - Juan Luna ave. - M.J. Cuenco Ave. - Mabolo Church - Carreta Cemetery - Imus Ave. - M.J. Cuenco ave. - NSO - CTU - V. Gullas St. - Manalili st. - Progreso St. - Carbon Public Market.",
+    "qa_status": "high_confidence",
+    "confidence": 0.73
+  },
+  {
+    "route_code": "03Q",
+    "name": "Ayala to SM",
+    "description": null,
+    "qa_status": "usable_with_caution",
+    "confidence": 0.63
+  },
+  {
+    "route_code": "04B",
+    "name": "Lahug to Carbon",
+    "description": "Lahug to Carbon Camp Lapulapu - Salinas Drive - JY Square Mall - Lahug - University of the Philippines - Harolds Hotel - Escario St. - Cebu Provincial Capitol - Osmena Blvd. - Cebu Doctors University - Fuente Osmena Circle - Robinsons Fuente - Crown Regency Hotel - Jones Ave. - SSS - Metro Colon - P. Lopez St. - Magallanes St. - University of San Jose-Recoletos - Carbon Public Market - F. Calderon St. - Progreso St.",
+    "qa_status": "high_confidence",
+    "confidence": 0.81
+  },
+  {
+    "route_code": "04C",
+    "name": "(campo) Lahug to Carbon",
+    "description": null,
+    "qa_status": "usable_with_caution",
+    "confidence": 0.6
+  },
+  {
+    "route_code": "04D",
+    "name": "Route No. 04D to Carbon",
+    "description": "PLAZA HOUSING TO CARBON Plaza Housing (Busay) - Cebu Transcentral Highway - Cebu Veterans Drive - Marco Polo Hotel - Jy Square Mall - Gorordo Ave. - Lahug - UP Lahug - Harolds Hotel - Morales St. - Escario St. - Cebu Provincial Capitol - S. Osmena Blvd. - Cebu Doctors University - Fuente Osmena Circle - Robinsons Fuente Cebu - JOnes Ave. - - Abellana Sports Complex - Cebu NOrmal University - SSS - Sancianko ST. - UC Main - E. Mall - Taboan PUblic Market - Lakandula St. - Tupas St. - Magallanes St. - Carbon Public Market - Basilica del Sto. Nino - Cebu City hall .",
+    "qa_status": "high_confidence",
+    "confidence": 0.91
+  },
+  {
+    "route_code": "04H",
+    "name": "Plaza Housing to Carbon",
+    "description": "Plaza Housing to Carbon via Jones Ave. Plaza Housing (Busay) - Cebu Transcentral Highway - Cebu Veterans Drive - Marco Polo Plaza Hotel - Lahug - Jy Square Mall - Gorordo Ave. - Dep-ed - Beverly Hills - Mormons Church (church of Jesus Christ of Latter day Saints - Lahug Elem. School - Sugbo Cultural Center - University of the Philippines (Cebu) - Harolds Hotel - Molave St. - Morales St. - N. Escario St. - Our Lady of Sacred Heart Parish - Capitol Tourist Inn - Cebu Pension Plaza - - The Maxwell Hotel - Escario Central - Cebu Provincial Capitol - Osmena Blvd (Jones Ave.) - Cebu Doctors Hospital - Fuente Osmena Circle - Robinsons Fuente - Crown Regency Hotel - Visayas Community Medical Center - Harrison Park - Cebu City Sports Center(Abellana) - Cebu Normal University - GV Tower Hotel - Sanciangko St. - Elizabeth Mall - New Cebu Coliseum - Panganiban St. - Magallanes St. - University of San Jose Recoletos - Carbon Public Market - Escano St. - El Filibusterismo St. - Progreso St.",
+    "qa_status": "high_confidence",
+    "confidence": 0.86
+  },
+  {
+    "route_code": "04I",
+    "name": "Plaza Housing to Carbon",
+    "description": "BUSAY(plaza housing) to CARBON Busay -Plaza Housing - Trancentral Highway - Cebu Veterans Drive - Marco Polo Hotel - Jy Square Mall - Gorordo Ave. - Lahug - UP(lahug) - Harolds Hotel - Golden Peak Hotel - Philhealth - Royal Concourse - Perpetual Soccor - Asilo dela Milagrosa - Mango Ave. - Gen. Maxilom Ave. - Fooda Mango - Horizon 101 - Robinsons Place (fuente) - F. Ramos St. - Junquera ext. - Junquera St. - Sancianko St. - elizabeth Mall - Panganbiban ST. - Magallanes St. - Usjr - Manalili St. - Carbon Public Market - Progresso St. -",
+    "qa_status": "high_confidence",
+    "confidence": 0.92
+  },
+  {
+    "route_code": "04L",
+    "name": "Lahug to Ayala",
+    "description": "Lahug to Sm via Ayala Lahug- JY Square Mall - Gorordo Ave. - corner Sudlon - Corner Beverly Hills - Corner Dep-ed (ecotech) - Mormons Church (Church of Jesus Christ of Latter-day Saints) - Lahug Brgy Hall - University of the Philippines (Cebu) - Sugbo Cultural Center - Harolds Hotel - Tonross Apartelle - The Golden Peak Hotel - N. Escario Hotel - Philhealth - Kuya J's Restaurant - Cebu Parklane Hotel - Grand Cenia Hotel - Hongkong Plaza Hotel - Cebu Business Park - Mindanao Ave. - Pag-ibig Fund - Ayala Center Cebu - Cardinal Rosales Ave. - Pope John Paul ll Ave. - PLDT - Carmelite Monastery - St. Joseph Parish (Mabolo Church) - Sm City Cebu.",
+    "qa_status": "high_confidence",
+    "confidence": 0.77
+  },
+  {
+    "route_code": "04M",
+    "name": "Lahug to Ayala",
+    "description": "Ayala Terminal to Lahug (JY Square Mall) Ayala Terminal - Gorordo Ave. - Royal Concourse - Philhealth - Golden peak Hotel - UP (lahug) - Lahug Brgy. Hall - The Church of Christ of Latter Day Saints Temple - Corner Sudlon - Jy Square Mall.",
+    "qa_status": "high_confidence",
+    "confidence": 0.71
+  },
+  {
+    "route_code": "06B",
+    "name": "Guadalupe to Carbon",
+    "description": "Guadalupe Church - Fooda (guadalupe0 - PRC - M. Velez St. - Provincial Capitol - Jones Ave. - Fuente Osmena Circle - Robinsons Place - Crown Regency Hotel - Osmena Blvd. - Abellana Sports Complex - Metro Gaisano - USJR - Carbon Public Market - Cebu City Hall - Basilica Menore del Snr. Snto. Nino - Osmena Blvd. Osmena Blvd. - Basilica del sto. Nino - Metro Gaisano (colon) - Abellana Sports Complex - Cebu Normal University - Crown Regency Hotel - Robinsons Place Cebu - Fuente Osmena Circle - Cebu Doctors University - Provincial Capitol - M. Velez St. - PRC - Fooda (guadalupe) - Guadalupe Church.",
+    "qa_status": "high_confidence",
+    "confidence": 0.72
+  },
+  {
+    "route_code": "06C",
+    "name": "Guadalupe to Carbon",
+    "description": "Guadalupe to Colon Guadalupe church - Fooda Guadalupe - PRC - V. Rama Ave. - B. Rodriguez St. - Vicente Sotto Hospital - Fuente Osmena Circle - Robinsons Place - Crown Regency Hotel - Osmena Blvd. - Abellana Sports Center - Cebu Normal University - SSS - Metro Gaisano - Plaridel St. - MC. Briones St. - Cebu City Hall - Basilica Menore del Santo Nino - La Nueva - MCWD -Osmena Blvd.",
+    "qa_status": "high_confidence",
+    "confidence": 0.71
+  },
+  {
+    "route_code": "06F",
+    "name": "Guadalupe to Carbon guadalupe to capitol guadalupe to jones ave",
+    "description": "Guadalupe to Carbon Guadalupe Church - V. Rama Ave. - Fooda Saversmart - Guadalupe Brgy. Hall - PRC - R. Duterte St. - M. Velez St. - Don Gil Garcia St. - Cebu Provincial Capitol - Don Jose Avila St. - Osmena Blvd.(Jones Ave) - Cebu Doctors Hospital - Fuente Osmena Circle - Robinsons Place Fuente - Crown Regency Hotel & Suites - Cebu City Sports Center - Abellana Sports Complex - Cebu Normal University - SSS - GV Tower Hotel - Metro Gaisano (Colon) - Happy Mart - Plaridel St. - Carbon Public Market - Progreso St.",
+    "qa_status": "high_confidence",
+    "confidence": 0.86
+  },
+  {
+    "route_code": "06G",
+    "name": "Guadalupe to Tabo-an",
+    "description": "Guadalupe Church - V. rama Ave. - Fooda Saversmart - PRC - Securities and Exchange Commission - Calamba Cemetery - University of San Carlos (girls high school) - Katipunan st. - tres de abril st. - Carlock st. - San Nicolas Elementary school - B. aranas St. - Taboan Public Market - Pasil Fish Market - San Nicolas Church - Carlos Gothong HS - C. Padilla St.",
+    "qa_status": "high_confidence",
+    "confidence": 0.7
+  },
+  {
+    "route_code": "06H",
+    "name": "Guadalupe to SM",
+    "description": "Guadalupe Church - V. rama ave. - crown regency residences - Fooda Saversmart (guadalupe branch) -corner banawa - cebu provincial capitol - bo's coffee (jones ave.) - cebu doctors university (jones ave.) - n. escario st. - philhealth - ayala center cebu - cabantan st. - juan luna avenue (mabolo) - mabolo church - Sm City cebu puj terminal sm terminal - mabolo church - ayala center terminal - asilo - fooda mango - mango avenue - robinsons fuente - fuente circle - vicente sotto hospital - b. rodriguez st. - v. rama avenue. corner banawa - PRC (professional regulations commission) - fooda (guadalupe branch) - guadalupe church.",
+    "qa_status": "high_confidence",
+    "confidence": 0.75
+  },
+  {
+    "route_code": "07B",
+    "name": "Banawa to Carbon",
+    "description": "Banawa - R. Duterte St. - V. rama ave. - B. Rodriguez St. - Vicente Sotto Hospital - Fuente Osmena Circle - Robinsons Fuente - Crown Regency Hotel - Osmena Blvd. - Metro Colon - P. Lopez St. - USJR - Magallanes St. - Manalili St. - Carbon Public Market - Progreso St.",
+    "qa_status": "high_confidence",
+    "confidence": 0.76
+  },
+  {
+    "route_code": "08F",
+    "name": "Alumnos to SM",
+    "description": null,
+    "qa_status": "high_confidence",
+    "confidence": 0.8
+  },
+  {
+    "route_code": "08G",
+    "name": "Alumnos to Colon",
+    "description": "ALUMNOS TO COLON VIA C. PADILLA ST. Alumnos - Tagunol St. - UC-METC - C. Padilla St. - Jai-alai - Carlock St. - Spoliarium St. - Pasil - San NIcolas Parish - Colon - Metro Gaisano - Colonnade Mall - Gaisano Main - University of the Visayas - Zulueta St.",
+    "qa_status": "high_confidence",
+    "confidence": 0.73
+  },
+  {
+    "route_code": "09C",
+    "name": "Basak to Colon",
+    "description": null,
+    "qa_status": "high_confidence",
+    "confidence": 0.71
+  },
+  {
+    "route_code": "09F",
+    "name": "Basak to Ibabao",
+    "description": "Basak-Ibabao (Quiot) to Colon Quiot - Ibabao - Sabellano St. - Southwestern University - Don Vicente Rama Memorial National High School - Basak - Mambaling - Shopwise - Mambaling Flyover - CIT - SCSIT - Natalio Bacalso Ave. - E.mall - ACT - P. del Rosario - University of San Carlos - Junquera St. - Colon St. - Gaisano Main - University of the Visayas - Zulueta St. -M.J. Cuenco Ave. - Legaspi St. - Cebu Metropolitan Cathedral.",
+    "qa_status": "high_confidence",
+    "confidence": 0.75
+  },
+  {
+    "route_code": "09G",
+    "name": "Basak to Colon",
+    "description": "Basak(Ibabao) to Colon Basak (Ibabao) - Hi way - Shopwise - Fooda (mambaling) - Mambaling flyover - C. Padilla St. - Carlock St. - Spoliarium St. - Pasil - San Nicolas Parish Church - Colon St. - L. Kilat St. - USJR - Carbon Public Market - Magallanes St. - Basilica Menore Del Sto. Nino - Cebu City Hall - MCWD - Lucky 7 supermarket - Legaspi St.",
+    "qa_status": "high_confidence",
+    "confidence": 0.76
+  },
+  {
+    "route_code": "09H",
+    "name": "09H",
+    "description": null,
+    "qa_status": "partial",
+    "confidence": 0.1
+  },
+  {
+    "route_code": "10F",
+    "name": "Bulacao to Colon",
+    "description": "Bulacao - Pardo - Basak - Mambaling - CIT - SCSIT - Cor. V. Rama Ave. Cor. V. Rama Ave. - Citilink Terminal - CCMC - Cebu South Bus Terminal - E.mall - P.del Rosario St. - University of San Carlos - Junquera St. Junquera St. - Colon St. - Metro Gaisano - Borromeo St. - Sancianco St. - Panganiban St. - CCMC - N. Bacalso Ave. (hi-way) - CIT - Mambaling - Fooda (Basak) - Shopwise - Basak - Pardo - Bulacao",
+    "qa_status": "high_confidence",
+    "confidence": 0.69
+  },
+  {
+    "route_code": "10G",
+    "name": "Pardo to Magallanes",
+    "description": "Magallanes st. to Pardo carbon to colon carbon to c.padilla st. carbon to jai-alai carbon to mambaling carbon to fooda (mambaling) carbon to Shopwise carbon to Super Metro - mambaling carbon to basak carbon to bontorres carbon to usjr basak carbon to bayanihan village carbon to pardo carbon to pardo church colon to c. padilla st. colon to jai-alai colon to mambaling colon to Fooda-mambaling colon to Shopwise colon to Super Metro-mambaling colon to basak colon to usjr-basak colon to bayanihan village colon to pardo colon to pardo church c. padilla st. to mambaling c. padilla st. to Shopwise-mambaling c. padilla st. to Fooda - mambaling c. padilla st. to Super Metro - mambaling c. padilla st. to basak c. padilla st. to bontorres c. padilla st. to bayanihan village c. padilla st. to pardo c. padilla st. to pardo church",
+    "qa_status": "high_confidence",
+    "confidence": 0.75
+  },
+  {
+    "route_code": "10H",
+    "name": "Bulacao to SM",
+    "description": "From bulacao (Saint Paul College foundation) - Pardo - Basak - mambaling - CIT -SCSIT - Citilink - CCMC - Cebu South Bus terminal - E. mall - ACT - P.del Rosario - Sikatun st. - T. padilla st. - white gold house - white gold club - Sm.",
+    "qa_status": "high_confidence",
+    "confidence": 0.79
+  },
+  {
+    "route_code": "10M",
+    "name": "Bulacao to SM",
+    "description": "BULACAO TO SM Bulcao - St. Paul College (bulacao) - Cit Hardware - Prince Warehouse Club - Pardo - Basak - USJR (High School) - Mamabaling - Shopwise - Fooda - Mambaling Flyover - CIT - Salazar College - Napolcom - CCMC - Cebu South Bus Terminal - E mall - L. Kilat St. - Colon St. - Metro Colon - Colonnade Supermarket - 138 Mall - Gaisano Main - University of the visayas - Colon Obelisk - Zulueta St. - MJ. Cuenco Ave. - NSO - T. Padilla St. - B. Benedicto St. - White Gold House - A. Soriano Ave. - White Gold Club - Queen City Memorial Garden - Sm City Cebu (terminal).",
+    "qa_status": "high_confidence",
+    "confidence": 0.81
+  },
+  {
+    "route_code": "11A",
+    "name": "Inayawan to Colon",
+    "description": "Inayawan Church - Rizal Ave. - Tagunol St. - Mambaling Flyover - C. Padilla St. - Carlock St. - Spoliarium St. - Pasil - San Nicolas Parish - Magallanes St. - Basilica Menore del Sto Nino - D. Jakosalem St. - Gaisano Main - University of the Visayas - Colon St.",
+    "qa_status": "high_confidence",
+    "confidence": 0.74
+  },
+  {
+    "route_code": "12D",
+    "name": "Labangon to Colon",
+    "description": "LABANGON TO COLON Punta Princesa - F. Llamas St. - Tisa - Labangon - Katipunan St. - Tres de Abril St. - N. Bacalso Ave. - Citilink - CCMC - Cebu South Bus Terminal - E Mall - ACT - P. del rosario St. - University of San Carlos (main) - Junquera st. - Colon st. - Gaisano Main - University of the Visayas - P. Burgos St. - University of Southern Philippines Foundation - Cebu Metropolitan Cathedral.",
+    "qa_status": "high_confidence",
+    "confidence": 0.75
+  },
+  {
+    "route_code": "12G",
+    "name": "Labangon to SM",
+    "description": "Sm City Cebu to Labangon via Katipunan St. SM City Cebu PUJ Terminal - J. Luna Ave. - F. Cabahug St. - APM Mall - Cebu Institute Academy - Sergio Osmena Blvd. - Cebu Daily News - Pier 6 - Sugbutel - Pier 5 - PCSO - Pier 4 - T. Padilla st. - Martires - MJ. Cuenco Ave. - A. Bonifacio St. - Sikatuna St. - Parian Brgy. Hall - JC. Zamora st. - Sancianko St. - University of Cebu - Sogo Hotel - GV Tower Hotel - University of Cebu - E mall - Panganiban St. - CCMC - N. Bacalso Ave. - One Citilink Terminal - Katipunan St. - Labangon - F. Llamas st. - Brgy. Tisa - Punta Prinsesa - Tres De Abril st.",
+    "qa_status": "high_confidence",
+    "confidence": 0.89
+  },
+  {
+    "route_code": "12I",
+    "name": "Labangon to SM",
+    "description": "SM to Labangon (Tres de Abril St.) Sm City Cebu Puj Terminal - J. Luna Ave. - F. Cabajug St. - APM Mall - Cebu Institute Academy - Natasha - S. Osmena Blvd. - Radisson Blu - Sugbutel Bed and Bath - PCSO Main Office cebu - Robinsons Mall (reclamation area) - cebu technological university - Legaspit Ext. - Plaza Independencia - Port San Pedro - Legaspit St. - Metropolitan cebu Cathedral - Sto nino - V. Gullas St. - Manalili st. - Manila Foodshoppe - Pacific Tourist Inn - A. Borromeo St - Sancianko st. - Airol Pensione House - Panganiban St. - CCMC - N. Bacalso Ave. - Comglasco - Katipunan St. - Tres de Abril St - Punta Princesa.",
+    "qa_status": "high_confidence",
+    "confidence": 0.98
+  },
+  {
+    "route_code": "12L",
+    "name": "Labangon to Ayala",
+    "description": "Labangon to Ayala Punta Princesa Church - Tres de Abril - Salvador St. - Katipunan St. - Tres de Abril St. - N. Bacalso Ave. - V. Rama Ave. B. Rodriguez Ave. - Fuente Osmena Circle - Robinsons Place Cebu (fuente) - Mango Ave. - Gen. Maxilom Ave. - Gorordo Ave. Cebu City Police Station - Ayala Road - Ayala Center Cebu PUJ Terminal.",
+    "qa_status": "high_confidence",
+    "confidence": 0.75
+  },
+  {
+    "route_code": "13B",
+    "name": "Talamban to Carbon",
+    "description": "Talamban to Carbon Tintay - H. Abella St. - Gov. M. Cuenco Ave. Talamban - Gaisano Grand Talamban - The Family Park - University of San Carlos(talamban) - Gaisano Country Mall - UC (banilad) - Arch. Reyes Ave. - Cebu Business Park - Mindanao Ave. - Ayala Center Cebu - Samar Loop - Luzon Ave. - Metro Ayala - Arch. Reyes Ave. - Gorordo Ave - Asilo dela Milagrosa church - Gen. Echavez St. - Allson's Inn - Sikatuna st. - D. Jakosalem St. - Echavez Ext. - Brgy Cogon Ramos - Ramos Public Market - Junquera Ext.- Junquera St. - University of San Carlos Main - Colon St.- Gaisano Main - University of the Visayas - Colon Obelisk - Mabini St. - V. Gullas St. - Manalili St. - Carbon Public Market - Progreso St.",
+    "qa_status": "high_confidence",
+    "confidence": 0.87
+  },
+  {
+    "route_code": "13C",
+    "name": "Talamban to Colon",
+    "description": "Talamban - Gov. M. Cuenco Ave. - Gaisano Grand Mall (talamban) - University of San Carlos (talamban) - Banilad - Banilad Town Center - Gaisano Country Mall - University of Cebu (Banilad) - Paradise Village - Cebu Country Club - Samantabhadra Institute - Arch. Reyes Ave. - BIR - Cebu Business Park - Pag-ibig Fund - Ayala Center Cebu - Mindanao Ave. - Samar Loop - Luzon Ave. - Tune Hotels - Arch. Reyes Ave. - Hotel Elizabeth - Gorordo Ave. - Asilo dela Melagrosa - Camp Sutero (Cebu City Police office) - Gen. Echavez St. - Sikatuna St. - Parian - Colon St. - Gaisano Main - University of the Visayas - Colonnade Supermarket.",
+    "qa_status": "high_confidence",
+    "confidence": 0.84
+  },
+  {
+    "route_code": "13H",
+    "name": "Pit-os to Mandaue",
+    "description": "Pit-os to Mandaue Public Market Pit-os - Bacayan - Talamban Rd. - Cebu North General Hospital - Talamban - Gov. M. Cuenco Ave. - Gaisano Grand (talamban) - The Family Park - University of San Carlos (talamban) - Banilad - University of the Visayas (banilad) - Foodland - AS. Fortuna St. - Cebu Home & Builders - Oftana Suites - Allure Hotel & Suites - Benedicto College - J Centre Mall - The Orchard Cebu Hotel & Suites - Highway - AS. Fortuna St. Ext. - Andy Hotel - Guizo - A. del Rosario St. - Mantuyong - Sosyoland Supermarket - Colonnade Supermarket - North Reclamation Area - A. Soriano Ave. - Manduae City Sports Complex - Bureau of Internal Revenue - Mandaue City Public Market.",
+    "qa_status": "high_confidence",
+    "confidence": 0.78
+  },
+  {
+    "route_code": "14D",
+    "name": "Ayala to Colon",
+    "description": "Ayala Terminal to Colon From ayala terminal - harolds hotel - escario st. - provincial capitol - jones avenue - fuente osmena circle - robinsons cybergate - chung hua hospital - robinsons place cebu (fuente) - f. ramos st. - saint paul college foundation (ramos) - university of san carlos - junquera st. - colon st.- gaisano main - university of the visayas - v. gullas st. - manalili st. - metro gaisano - osmena boulevard - landbank - central bank of the philippines - abellana sports complex - crown regency hotel - back to fuente osmena circle - jones avenue - escario st. - philhealth - back to ayala terminal.",
+    "qa_status": "high_confidence",
+    "confidence": 0.8
+  },
+  {
+    "route_code": "15",
+    "name": "15",
+    "description": "OPPRA - CARBON VIA OSMENA BLVD. AND VICE VERSA",
+    "qa_status": "partial",
+    "confidence": 0.11
+  },
+  {
+    "route_code": "17B",
+    "name": "Apas to Carbon",
+    "description": "Apas - IT Park - Geonzon St - Salinas Drive - Jy square Mall - Gorordo Ave. - UP - Harolds Hotel - Escario St. - Provincial Capitol - Osmena Blvd - CDU - Fuente Osmena Circle - Robinsons Fuente - Crown Regency Hotel - Abellane Sports Complex - Jones Ave. - SSS - Metro Colon - P. Lopez St. - Magallanes St. - Manalili St. - Carbon Public Market - Progresso St.",
+    "qa_status": "high_confidence",
+    "confidence": 0.89
+  },
+  {
+    "route_code": "17C",
+    "name": "Apas to Carbon",
+    "description": "Apas to Carbon Apas - IT Park - Salinas Drive - University of the Southern Philippines Foundation (Lahug) - Jy Square Mall - Gorordo Ave. - Lahug High School - University of the Philippines - Golden Peak Hotel - Philhealth - Royal Concourse - Asilo dela Milagrosa - Gen. Maxilom Ave. - Mango Ave. - Fooda Saversmart - Horizons 101 - Mango Square - The Beat - Robinsons Fuente - F. Ramos St. - Junquera St. - University of San Carlos Main - Sanciangko St. - University of Cebu Main - GV Tower - E Mall - Panganiban St. - Magallanes St. - - University of San Jose-Recoletos - Carbon Public Market - F. Calderon st. - Progresso st.",
+    "qa_status": "high_confidence",
+    "confidence": 0.91
+  },
+  {
+    "route_code": "17D",
+    "name": "Apas to Carbon",
+    "description": "Apas to Carbon via Taboan Apas - Wilson St. - Omega St. - San Miguel Rd. - IT Park - Aegis - Skyrise 1 - Skyrise 2 - Inez Villa St. - J. Maria del Mar St. - Skyrise 3 - Abad St. - W. Geonzon St. - Salinas Drive - University of Southern Philippines Foundation - JY Square Mall - Lahug - Gorordo Ave. - Mormons Church - University of the Philippines - Harolds Hotel - Morales St. - Escario St. - Cebu Provincial Capitol - Osmena Blvd. (Jones Ave. - Cebu Doctors Hospital - Fuente Osmena Circle - Robinsons Mall - Crown Regency Hotel & Suites - Abellana Sports Complex - Cebu Normal University - SSS - Sanciangko St. - GV Tower - UC Main - E Mall - Taboan Public Market - Taboan Dried Fish Market - Lakandula St. - San Nicolas Parish Church - Pasil Fish Market - Spolarium St. - Magallanes St. - University of San Jose-Recoletos - Carbon Public Market - F. Calderon St. - Progresso st. - MC. Briones St.",
+    "qa_status": "high_confidence",
+    "confidence": 0.92
+  },
+  {
+    "route_code": "20A",
+    "name": "Ayala to Mandaue",
+    "description": "ayala terminal - mabolo - subandako - wireless - tipolo - san miguel corporation - Parkmall - CICC - Guizo - Uwell - Mantuyong - Sosyoland Supermarket - Colonnade Supermarket - North reclamation area - mandaue public market (NEW) - BIR (mandaue) - Bureau of Immigration - Mandaue City Hall - Saint Joseph Parish - SB. Cabahug St. - Mandaue Colliseum - Estancia-ibabao - Super Metro Mandaue - Pacific Mall - Department of Foreign Affairs(mandaue) Pacific Mall - Super metro mandaue - UN Ave. - Plaridel St. - AC Cortes Ave. - Maguikay Flyover - Hi-way - Coca Cola plant - San Miguel Plant - tipolo - Wireless - Subangdako - Mabolo - Dela Montana St. (Pope John Paul Ave.) - Cardinal Rosales Ave. - Mindanao ave. - Ayala Terminal",
+    "qa_status": "high_confidence",
+    "confidence": 0.83
+  },
+  {
+    "route_code": "20B",
+    "name": "Route No. 20B to Mandaue and vice versa",
+    "description": "Ayala terminal - mabolo - subandako - wireless - tipolo - San miguel brewery plant - coca cola bottlers plant - maguikay flyover - ibabao (estancia). ibabao (estancia) mandaue colliseum - sb cabahug st. - centro mandaue - gaisano grand (centro mandaue) - a. del rosario st. - guizo mandaue - caltex ( san miguel brewery) - tipolo - wireless - subandako - mabolo - cebu business park - ayala terminal.",
+    "qa_status": "high_confidence",
+    "confidence": 0.77
+  },
+  {
+    "route_code": "21A",
+    "name": "Mandaue to Cathedral",
+    "description": "Cathedral - MJ. Cuenco Ave. - CTU - NSO - Museo Subgo - CPILS - Imus Ave. - MJ. Cuenco Ave. - Carreta Cemetery - Hipodromo - The Persimmon - Mabolo Church - Mabolo - Subandaku - Innodata - Wireless - Tipolo - CD Seno St. - AS. Fortuna St. - Guizo - Mantuyong - Centro Mandaue - Sosyoland supermarket - Colonnade Supermarket - New Mandaue Public Market - BIR - Bureau of Immigration - Mandaue City Hall - St Joseph Parish - SB. Cabahug St. - Mandaue Coliseum - Esrancia - Pacific Mall - Super Metro Mandaue - DFA.",
+    "qa_status": "high_confidence",
+    "confidence": 0.88
+  },
+  {
+    "route_code": "21D",
+    "name": "CEBU METROPOLITAN CATHEDRAL to MANDAUE cathedral",
+    "description": "CEBU METROPOLITAN CATHEDRAL TO MANDAUE cathedral - plaza independencia - pier 3 - pier 4 - t. padilla st. - b. benedicto st. - white gold house - a. soriano ave. - white gold club - queen city memorial garden - sm city cebu - sm hypermarket - aboitiz football field - cebu north bus termina - M. Logarta ave. - wireless - tipolo - san miguel brewery - parkmall - CICC - guizo - uwell - centro mandaue - sioland supermarket - colonnade supermarket - new mandaue public market - bureau of immigration - pj burgos st. - mandaue city hall - st. joseph parish - s.b. cabahug st. - mandaue coliseum - brgy estancia - pacific mall - super metro mandaue. MANDAUE TO METROPOLITAN CATHEDRAL pacific mall - super metro mandaue - un. avenue - hi-land - plaridel st. - total gas station - a.c. cortez st. - prince warehouse club mandaue - mandaue coliseum - maguikay flyover - hi-way - coca-cola bottlers plant - san miguel brewery plant - tipolo - wireless - subangdako - andoks mabolo - mabolo church - hipodromo - m.j. cuenco ave. - imus ave. - m.j. cuenco ave. - CPILS - cor. t. padilla st. - brgy tejero - NSO - CITU - cebu metropolitan cathedral.",
+    "qa_status": "high_confidence",
+    "confidence": 1.0
+  },
+  {
+    "route_code": "22A",
+    "name": "Mandaue to Cathedral",
+    "description": "Cathedral - F. Urdaneta St. - MJ. Cuenco Ave. - CTU - NSO - CPILS - Museo Sugbo - DSWD - Carreta Cemetery - Hipodromo - The Persimmon - Mabolo - Lopez Jaena St. - Subangdako - Wireless - Tipolo - A. del Rosario St. - San Miguel Brewery Plant - C.D. Seno St. - W.O. Seno St. - Parkmall - CICC - As. Fortuna St. ext. - A. del Rosario St. - Mantuyong - Centro Mandaue - Sosyoland Supermarket - Colonnade Supermarket - Ouano Ave. - A.Soriano Ave. - New Mandaue Public Market - BIR Mandaue - A. Soriano Ave. - JL. Briones St - A. Mabini St. - Ouano.",
+    "qa_status": "high_confidence",
+    "confidence": 0.86
+  },
+  {
+    "route_code": "22D",
+    "name": "Mandaue to Cathedral",
+    "description": "Cathedral to Mandaue (ouano) Cathedral - F. Urdaneta St. - Plaza Independencia - Legaspi Ext. - S. Osmena Blvd. - Pier 3 - Pier 4 - 13th Ave. - B. Benedicto St. - Gen. Maxilom Ave. Ext. - A. Soriano Ave. - White Gold Club - Queen City Memorial Gardens - Sm City Cebu - F. Cabahug St. - M. Logarta St. - Sm Hypermarket - M. Logarta Ave. - Aboitiz Football Field - Cebu North Bus Terminal - Wireless Flyover - Lopez jaena St. - Tipolo - San Miguel Brewery Plant - A. del Rosario St. - C.D. Seno St. -Parkmall - CICC - W.O. Seno St. - A.S Fortuna St. Ext. - A. del Rosario St. - Uwell - Mantuyong - Sosyoland Supermarket - Colonnade Supermarket - A. Soriano Ave. - New Public Market - A. Mabini St. - Ouano.",
+    "qa_status": "high_confidence",
+    "confidence": 0.86
+  },
+  {
+    "route_code": "22G",
+    "name": "Ouano Mandaue to Cathedral to Mabolo",
+    "description": "Cathedral - F. Urdaneta St. - MJ. Cuenco Ave. - CTU - NSO - T. Padilla St. - B.Bendicto St. - G.maxilom ave. ext. - A. Soriano Ave. - White Gold Club - Sm City Cebu - F. Cabahug St. - APM mall - M.Logarta St. - Sm Hypermarket - Aboitiz Football field - Cebu North Bus Terminal - L.Jaena St. - Wireless - Tipolo - A. del rosario St. - CD. Seno St. - CICC - WO. Seno St. - AS. Fortuna St. Ext. - A. del Rosario St. - Guizo - Mantuyong - uwell - B. Ceniza St. - Sosyoland supermarket - Colonnade Supermarket - A. Soriano Ave. - New Mandaue Public Market - Bir Mandaue - JL. Briones St. - Norkis Park - A. Mabini St. - Ouano.",
+    "qa_status": "high_confidence",
+    "confidence": 0.98
+  },
+  {
+    "route_code": "22I",
+    "name": "Mandaue to Gaisano Country Mall",
+    "description": "Country Mall - Gov. M.Cuenco Ave. - Banilad Town Center - A.S. Fortuna St. - J Centre Mall - A. del Rosario St. - UWELL - B. Ceniza St. - Sosyoland Supermarket - Colonnade Supermarket - A. Soriano Ave. - Mandaue Public Market. - Bureau of Immigration.",
+    "qa_status": "high_confidence",
+    "confidence": 0.98
+  },
+  {
+    "route_code": "23",
+    "name": "Parkmall to Punta Enga\u00f1o",
+    "description": "Parkmall to Punta Engano Parkmall - W.O. Seno St. - Chung Hua Hospital (ongoing) - MO2 - E.O. Perez St. - S&R Membership Shopping - P. Larazzabal Ave. - Cebu Doctors University - Ouano Ave. - St. James Amusement Park - A. Soriano Ave. - Mandaue City College - BIR mandaue - New Mandaue City Public Market - Jose L Briones Ave. - Norkis Park - University of the Visayas (mandaue) - Hotel Nenita - Plaridel St. - Metro Fresh & Easy (Tita Gwapa) - Umapad - Bridges Town Square - UN. Ave. - New Mactan-Mandaue Bridge - Pusok - Quezon National Highway - Marina Mall - Savemore Mactan - Mepz 1 - Gate 1, 2, 3, 4, 5 - Ibo - Buaya - Punta Engano Rd. - Brgy. Mactan - Mactan Shrine - Lapulapu Monument - Punta Engano - Shanrila's Mactan Resort & Spa - Movenpick Resort - Cebu Paradive Resort - Abaca Boutique Resort - Be Resort - Palm Beach Resort & Spa - Cebu Sea World - Casa Carmela Mactan Resort - Amisa Residences - Discovery Bay Hotel - Hilton Resort.",
+    "qa_status": "high_confidence",
+    "confidence": 1.0
+  },
+  {
+    "route_code": "23D",
+    "name": "Parkmall to Opon",
+    "description": "Opon to Mandaue Opon PUJ terminal - ML. Quezon Ave. - OLD Mactan-Mandaue Bridge - AC. Cortes Ave. - UCLM - Natures Spring Plant - Mandaue Coliseum - STI - B. B. Cabahug St. - Mandaue Catholic Cemetery - A. del Rosario St. - Guizo - C.D. Seno - Cicc - Parkmall.",
+    "qa_status": "high_confidence",
+    "confidence": 0.76
+  },
+  {
+    "route_code": "24",
+    "name": "Consolacion to Sm City Cebu / White Gold and vice versa",
+    "description": "SM / White Gold to Consolacion white gold to north bus terminal white gold to tipolo white gold to highway white gold to maguikay white gold to pacific mall / super metro-mandaue white gold to paknaan white gold to basak white gold to canduman white gold to abs cbn white gold to consolacion white gold to fooda consolacion white gold to sm consolacion white gold to bagong daan sm city cebu to mandaue sm city cebu to highway sm city cebu to maguikay sm city cebu to pacific mall / super metro - mandaue sm city cebu to paknaan sm city cebu to basak sm city cebu to canduman sm city cebu to abs-cbn sm city cebu to consolacion sm city cebu to fooda consolacion sm city cebu to sm consolacion sm city cebu to bagon daan north bus terminal to highway north bus terminal to pacific mall north bus terminal to paknaan north bus terminal to abs-cbn north bus terminal to consolacion north bus terminal to fooda - consolacion north bus terminal to sm city - consolacion mandaue to fooda consolacion mandaue to sm city consolacion highway to pacific mall highway to paknaan highway to basak highway to canduman highway to abs-cbn highway to consolacion highway to sm consolacion",
+    "qa_status": "high_confidence",
+    "confidence": 0.65
+  },
+  {
+    "route_code": "25",
+    "name": "Liloan to White Gold and SM",
+    "description": "Liloan to White Gold Club Liloan - consolacion - sm consolacion - fooda consolacion - mandaue city - jagobiao - canduman - basak - insular square - paknaan - mc briones st. - super metro mandaue - pacific mall - DFA - maguikay - highway - coca cola plant - san miguel plant - lopez jaena st. - tipolo - wireless - albano st. - north bus terminal - M. logarta ave. - aboitiz sports field - sm hypermarket - sm city cebu - f. cabahug st. - sergio osmena blvd. - gen. maxilom ave. ext. - robinsons galleria cebu - a. soriano ave. - white gold club. - white gold terminal.",
+    "qa_status": "high_confidence",
+    "confidence": 0.95
+  },
+  {
+    "route_code": "62B",
+    "name": "Pit-os to Carbon",
+    "description": "Pit-os - Bacayan - Talamban - Gov. M. Cuenco Gaisano Talamban - The Family Park - University of San Carlos (talamban campus) - Gaisano Country Mall - UC-Banilad - Banilad - Pope John Paul 2 Ave. - Cebu Business Park - Ayala Center Cebu - Marriot Hotel - Samar Loop - Luzon Ave. - Arch. Reyes Ave. - Gorordo Ave. - Asilo dela Milagrosa - Gen. Echavez St. - Sikatuna St. - Zapatera - colon Obelisk - V. Gullas St. - Manalili St. - Carbon Public Market - Progreso St.",
+    "qa_status": "high_confidence",
+    "confidence": 0.89
+  },
+  {
+    "route_code": "62C",
+    "name": "Pit-os to Talamban to Banilad to Ayala to Carbon and Vice versa",
+    "description": "PIT-OS TO CARBON Pit-os - Talamban - Gaisano Grand Talamban - USC-talamban - Banilad - Gaisano Country mall - Gov. M.Cuenco ave. - Juan Luna Ave. - Sn. Carlos Seminary College - C. Rosales Ave. - Ayala Center Cebu - Keppel - Samar Loop - Luzon Ave. - Arch. Reyes ave. - Hotel Elizabeth - Asilo dela Milagrosa - Gorordo ave. - G. Echavez St. - Sikatuna St. - D. Jakosalem st. - Ramos Public Market - Junquera St. ext. - Junquera st. - University of San Carlos (main) - Colon St. - Gaisano Main - University of the visayas - P. Burgos St. - V. gullas st. - Manalili st. - Carbon Public Market - Progreso st.",
+    "qa_status": "high_confidence",
+    "confidence": 0.94
+  },
+  {
+    "route_code": "MI-01A",
+    "name": "Mactan to Punta Enga\u00f1o",
+    "description": "Punta Engano to Opon Public Market Punta Engano - Mactan Shrine - Mepza - Marina Mall - Pusok - SSS - Lapulapu City Hall - Gaisano Island Mall - Metro-lapulapu - Opon Public Market.",
+    "qa_status": "high_confidence",
+    "confidence": 0.72
+  },
+  {
+    "route_code": "MI-02B",
+    "name": "Mandaue to Parkmall",
+    "description": "Maribago to Mandaue maribago to mepz 1 maribago to marina mall maribago to savemore mactan maribago to pusok maribago to new mactan-mandaue bridge maribago to highland maribago to a.c. cortes ave. maribago to mandaue coliseum maribago to STI - mandaue maribago to Highway maribago to brgy. guizo maribago to Tipolo - San Miguel maribago to Parkmall maribago to Cebu Doctors University maribago to CICC Mactan to mepz 1 Mactan to pusok Mactan to mandaue Mactan to highland Mactan to mandaue coliseum Mactan to highway Mactan to san miguel corp. Mactan to tipolo Mactan to parkmall Mactan to cebu doctors university Mactan to CICC Mepz 1 to mandaue Mepz 1 to highland Mepz 1 to STI Mepz 1 to Highway Mepz 1 to Tipolo (san miguel) Mepz 1 to parkmall Mepz 1 to cebu doctors university Mepz 1 to CICC Mepz 1 to Palace of Justice Pusok to mandaue Pusok to highway mandue Pusok to san miguel corp Pusok to tipolo Pusok to hall of justice Pusok to parkmall Pusok to cebu doctors university Pusok to CICC",
+    "qa_status": "high_confidence",
+    "confidence": 0.77
+  },
+  {
+    "route_code": "MI-03A",
+    "name": "Cordova to Lapu Lapu",
+    "description": "Cordova to Opon Public Market Cordova - Babag 2 - Deca Homes - Babag 1 - Tiangue Rd. -Looc - Lapulapu City Central School - GY. dela Serna St. - Yanadia - S. Osmena St. - Lapulapu City Public Market",
+    "qa_status": "high_confidence",
+    "confidence": 0.8
+  },
+  {
+    "route_code": "MI-03B",
+    "name": "Mactan to Cordova",
+    "description": "Cordova to Mepz 1 via Opon Public Market Cordova - Quezon National Highway - Cordova Terminal - Babab 2 - Pilipog - Mactan Circumferential Rd. - Babag 1 - Deca Homes - Canjulao - Looc - Lapu2x City Central School - GY. dela Serna St. - Opon Public Market - Lapulapu City Public Market - La Nueva Supermart - GV Hotel - Metro Gaisano (opon) - General Milling Corp. - ML Quezo Ave. - Gaisano Mactan - Lapulapu City Hall - Goldberry Hotel and Suites - The Villavista Hotel - Pusok - Lancaster Hotel - Marina Mall - Savemore supermarket (mactan) - mepz 1 - gate 1 - Lear - Taiyo Yuden - gate 2 - gate 3 - gate 4.",
+    "qa_status": "high_confidence",
+    "confidence": 0.89
+  },
+  {
+    "route_code": "MI-04A",
+    "name": "Mactan to Tamiya",
+    "description": "A. del Rosario St. - C.D. Seno St. - Hall of Justice (mandaue) - Parkmall - W.O. Seno St. - E.O. Perez St. - P. Larazzabal Ave. - CDU - F.F. Cruz St. - Ouano Ave. - St. James Amusement Park - A. Soriano Ave. - Mandaue City Hospital - Jose L. Briones St. - A.C. Cortez Ave. - UCLM - Mactan Mandaue Bridge (OLD) - M.V. Patalinghug Ave. - Crown Regency Suites Mactan - Robinsons Supermarket mactan - Tamiya Terminal.",
+    "qa_status": "high_confidence",
+    "confidence": 0.72
+  },
+  {
+    "route_code": "MI-04B",
+    "name": "Mactan to MEPZ2",
+    "description": "Tamiya (Mepz 2) - Mepz 1 Tamiya to crown regency suites tamiya to gaisano mactan tamiya to lapulapu city hall tamiya to SSS tamiya to pusok tamiya to marina mall tamiya to savemore mactan tamiya to Mepz 1 tamiya to Gate 1, 2, 3, 4 gaisano to sss gaisano to pusok gaisano to marina mall gaisano to savemore mactan gaisano to mepz 1 gaisano to Gate 1, 2, 3, 4 pusok to marina mall pusok to mepz 1",
+    "qa_status": "high_confidence",
+    "confidence": 0.8
+  },
+  {
+    "route_code": "MI-05A",
+    "name": "Mactan to Opon",
+    "description": "Mactan Airport - Marina Mall - Quezon National Highway - Pusok - Hotel Cesario - SSS (Lapu2x branch) - Lapulapu City Hall - Gaisano Mactan Island Mall - General Milling Corporation - Gaisano Metro (opon) - Mantawe Road - B.M. Dimataga St. - Muelle Osmena Port - Cebu-Mactan Ferry Terminal.",
+    "qa_status": "high_confidence",
+    "confidence": 0.72
+  },
+  {
+    "route_code": "MI-23A",
+    "name": "MI-23A",
+    "description": null,
+    "qa_status": "partial",
+    "confidence": 0.0
+  }
+]

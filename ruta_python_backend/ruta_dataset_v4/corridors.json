@@ -1,0 +1,7 @@
+[
+  {
+    "corridor_id": "corridor_colon",
+    "name": "Colon Corridor",
+    "place_ids": ["pl_gaisano_main_colon", "pl_act", "pl_colon"]
+  }
+]

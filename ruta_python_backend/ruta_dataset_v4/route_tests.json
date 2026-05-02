@@ -1,0 +1,1122 @@
+[
+  {
+    "query": "IT Park to Colon",
+    "origin_place_id": "pl_it_park",
+    "destination_place_id": "pl_colon",
+    "expected_type": "direct",
+    "expected_routes": [
+      "17B",
+      "17C"
+    ],
+    "should_not_include": [
+      "04D"
+    ]
+  },
+  {
+    "query": "gaisano near colon to ACT",
+    "origin_place_id": "pl_gaisano_main_colon",
+    "destination_place_id": "pl_act",
+    "expected_type": "walk_only",
+    "expected_routes": []
+  },
+  {
+    "query": "Sambag 1 (Private) to Pier 3 and 2",
+    "origin_place_id": "pl_sambag_1_private",
+    "destination_place_id": "pl_pier_3_and_2",
+    "expected_type": "direct",
+    "expected_routes": [
+      "01B"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Private to SWU",
+    "origin_place_id": "pl_private",
+    "destination_place_id": "pl_swu",
+    "expected_type": "direct",
+    "expected_routes": [
+      "01C"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "('Parkmall' to SWU",
+    "origin_place_id": "pl_parkmall",
+    "destination_place_id": "pl_swu",
+    "expected_type": "direct",
+    "expected_routes": [
+      "01K"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "South Bus Terminal to ('Colonnade'",
+    "origin_place_id": "pl_south_bus_terminal",
+    "destination_place_id": "pl_colonnade",
+    "expected_type": "direct",
+    "expected_routes": [
+      "02B"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Mabolo to ('Progreso St'",
+    "origin_place_id": "pl_mabolo",
+    "destination_place_id": "pl_progreso_st",
+    "expected_type": "direct",
+    "expected_routes": [
+      "03A"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Mabolo to ('Carbon'",
+    "origin_place_id": "pl_mabolo",
+    "destination_place_id": "pl_carbon",
+    "expected_type": "direct",
+    "expected_routes": [
+      "03B"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "('Ayala' to SM",
+    "origin_place_id": "pl_ayala",
+    "destination_place_id": "pl_sm",
+    "expected_type": "direct",
+    "expected_routes": [
+      "03Q"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "('Lahug' to ('University of San Carlos Main Campus'",
+    "origin_place_id": "pl_lahug",
+    "destination_place_id": "pl_university_of_san_carlos_main_campus",
+    "expected_type": "direct",
+    "expected_routes": [
+      "04B"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "(campo) Lahug to ('Carbon'",
+    "origin_place_id": "pl_campo_lahug",
+    "destination_place_id": "pl_carbon",
+    "expected_type": "direct",
+    "expected_routes": [
+      "04C"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Route No. 04D to ('Magallanes St'",
+    "origin_place_id": "pl_route_no_04d",
+    "destination_place_id": "pl_magallanes_st",
+    "expected_type": "direct",
+    "expected_routes": [
+      "04D"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Plaza Housing to ('University of San Carlos Main Campus'",
+    "origin_place_id": "pl_plaza_housing",
+    "destination_place_id": "pl_university_of_san_carlos_main_campus",
+    "expected_type": "direct",
+    "expected_routes": [
+      "04H"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Plaza Housing to CIM",
+    "origin_place_id": "pl_plaza_housing",
+    "destination_place_id": "pl_cim",
+    "expected_type": "direct",
+    "expected_routes": [
+      "04I"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "('Lahug' to ('Salinas Drive'",
+    "origin_place_id": "pl_lahug",
+    "destination_place_id": "pl_salinas_drive",
+    "expected_type": "direct",
+    "expected_routes": [
+      "04L"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Guadalupe to ('Cebu Doctors University Hospital'",
+    "origin_place_id": "pl_guadalupe",
+    "destination_place_id": "pl_cebu_doctors_university_hospital",
+    "expected_type": "direct",
+    "expected_routes": [
+      "06B"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Guadalupe to ('Carbon'",
+    "origin_place_id": "pl_guadalupe",
+    "destination_place_id": "pl_carbon",
+    "expected_type": "direct",
+    "expected_routes": [
+      "06C"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Guadalupe to Carbon guadalupe to capitol guadalupe to jones ave",
+    "origin_place_id": "pl_guadalupe",
+    "destination_place_id": "pl_carbon_guadalupe_to_capitol_guadalupe_to_jones_ave",
+    "expected_type": "direct",
+    "expected_routes": [
+      "06F"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Guadalupe to Tabo-an",
+    "origin_place_id": "pl_guadalupe",
+    "destination_place_id": "pl_tabo_an",
+    "expected_type": "direct",
+    "expected_routes": [
+      "06G"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Guadalupe to SM",
+    "origin_place_id": "pl_guadalupe",
+    "destination_place_id": "pl_sm",
+    "expected_type": "direct",
+    "expected_routes": [
+      "06H"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Banawa to ('Cebu Doctors University Hospital'",
+    "origin_place_id": "pl_banawa",
+    "destination_place_id": "pl_cebu_doctors_university_hospital",
+    "expected_type": "direct",
+    "expected_routes": [
+      "07B"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Alumnos to SM",
+    "origin_place_id": "pl_alumnos",
+    "destination_place_id": "pl_sm",
+    "expected_type": "direct",
+    "expected_routes": [
+      "08F"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Alumnos to ('Magallanes St'",
+    "origin_place_id": "pl_alumnos",
+    "destination_place_id": "pl_magallanes_st",
+    "expected_type": "direct",
+    "expected_routes": [
+      "08G"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Basak to Colon",
+    "origin_place_id": "pl_basak",
+    "destination_place_id": "pl_colon",
+    "expected_type": "direct",
+    "expected_routes": [
+      "09C"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Basak to ('University of San Jose Recoletos'",
+    "origin_place_id": "pl_basak",
+    "destination_place_id": "pl_university_of_san_jose_recoletos",
+    "expected_type": "direct",
+    "expected_routes": [
+      "09F"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Bulacao to ('University of San Jose Recoletos'",
+    "origin_place_id": "pl_bulacao",
+    "destination_place_id": "pl_university_of_san_jose_recoletos",
+    "expected_type": "direct",
+    "expected_routes": [
+      "10F"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Pardo to ('University of San Jose Recoletos'",
+    "origin_place_id": "pl_pardo",
+    "destination_place_id": "pl_university_of_san_jose_recoletos",
+    "expected_type": "direct",
+    "expected_routes": [
+      "10G"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Bulacao to SM",
+    "origin_place_id": "pl_bulacao",
+    "destination_place_id": "pl_sm",
+    "expected_type": "direct",
+    "expected_routes": [
+      "10H"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Inayawan to ('Colonnade'",
+    "origin_place_id": "pl_inayawan",
+    "destination_place_id": "pl_colonnade",
+    "expected_type": "direct",
+    "expected_routes": [
+      "11A"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Labangon to ('University of San Jose Recoletos'",
+    "origin_place_id": "pl_labangon",
+    "destination_place_id": "pl_university_of_san_jose_recoletos",
+    "expected_type": "direct",
+    "expected_routes": [
+      "12D"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Labangon to SM",
+    "origin_place_id": "pl_labangon",
+    "destination_place_id": "pl_sm",
+    "expected_type": "direct",
+    "expected_routes": [
+      "12G"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Labangon to ('Gorordo Ave'",
+    "origin_place_id": "pl_labangon",
+    "destination_place_id": "pl_gorordo_ave",
+    "expected_type": "direct",
+    "expected_routes": [
+      "12L"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Talamban to ('University of Cebu Banilad Campus'",
+    "origin_place_id": "pl_talamban",
+    "destination_place_id": "pl_university_of_cebu_banilad_campus",
+    "expected_type": "direct",
+    "expected_routes": [
+      "13B"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Talamban to ('University of San Jose Recoletos'",
+    "origin_place_id": "pl_talamban",
+    "destination_place_id": "pl_university_of_san_jose_recoletos",
+    "expected_type": "direct",
+    "expected_routes": [
+      "13C"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Pit-os to ('Cebu Institute of Technology University CITU'",
+    "origin_place_id": "pl_pit_os",
+    "destination_place_id": "pl_cebu_institute_of_technology_university_citu",
+    "expected_type": "direct",
+    "expected_routes": [
+      "13H"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "('Ayala' to ('University of San Carlos Main Campus'",
+    "origin_place_id": "pl_ayala",
+    "destination_place_id": "pl_university_of_san_carlos_main_campus",
+    "expected_type": "direct",
+    "expected_routes": [
+      "14D"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Apas to ('University of San Jose Recoletos'",
+    "origin_place_id": "pl_apas",
+    "destination_place_id": "pl_university_of_san_jose_recoletos",
+    "expected_type": "direct",
+    "expected_routes": [
+      "17B"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Apas to ('University of San Carlos Main Campus'",
+    "origin_place_id": "pl_apas",
+    "destination_place_id": "pl_university_of_san_carlos_main_campus",
+    "expected_type": "direct",
+    "expected_routes": [
+      "17C"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "('Ayala' to Pope John Paul II Ave",
+    "origin_place_id": "pl_ayala",
+    "destination_place_id": "pl_pope_john_paul_ii_ave",
+    "expected_type": "direct",
+    "expected_routes": [
+      "20A"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Route No. 20B to Mandaue and vice versa",
+    "origin_place_id": "pl_route_no_20b",
+    "destination_place_id": "pl_mandaue_and_vice_versa",
+    "expected_type": "direct",
+    "expected_routes": [
+      "20B"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "('Mandaue' to Benedicto St",
+    "origin_place_id": "pl_mandaue",
+    "destination_place_id": "pl_benedicto_st",
+    "expected_type": "direct",
+    "expected_routes": [
+      "21A"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "CEBU METROPOLITAN CATHEDRAL to Mabolo",
+    "origin_place_id": "pl_cebu_metropolitan_cathedral",
+    "destination_place_id": "pl_mabolo",
+    "expected_type": "direct",
+    "expected_routes": [
+      "21D"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "('Mandaue' to ('SM City Cebu'",
+    "origin_place_id": "pl_mandaue",
+    "destination_place_id": "pl_sm_city_cebu",
+    "expected_type": "direct",
+    "expected_routes": [
+      "22A"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "('Mandaue' to ('Colonnade'",
+    "origin_place_id": "pl_mandaue",
+    "destination_place_id": "pl_colonnade",
+    "expected_type": "direct",
+    "expected_routes": [
+      "22D"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Ouano Mandaue to Cathedral to Mabolo",
+    "origin_place_id": "pl_ouano_mandaue",
+    "destination_place_id": "pl_cathedral_to_mabolo",
+    "expected_type": "direct",
+    "expected_routes": [
+      "22G"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "('Mandaue' to Gaisano Country Mall",
+    "origin_place_id": "pl_mandaue",
+    "destination_place_id": "pl_gaisano_country_mall",
+    "expected_type": "direct",
+    "expected_routes": [
+      "22I"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "('Parkmall' to Punta Enga\u00f1o",
+    "origin_place_id": "pl_parkmall",
+    "destination_place_id": "pl_punta_enga\u00f1o",
+    "expected_type": "direct",
+    "expected_routes": [
+      "23"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "('Parkmall' to ('Mandaue'",
+    "origin_place_id": "pl_parkmall",
+    "destination_place_id": "pl_mandaue",
+    "expected_type": "direct",
+    "expected_routes": [
+      "23D"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Consolacion to Sm City Cebu / White Gold and vice versa",
+    "origin_place_id": "pl_consolacion",
+    "destination_place_id": "pl_sm_city_cebu_white_gold_and_vice_versa",
+    "expected_type": "direct",
+    "expected_routes": [
+      "24"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Liloan to White Gold and SM",
+    "origin_place_id": "pl_liloan",
+    "destination_place_id": "pl_white_gold_and_sm",
+    "expected_type": "direct",
+    "expected_routes": [
+      "25"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Pit-os to ('University of Cebu Banilad Campus'",
+    "origin_place_id": "pl_pit_os",
+    "destination_place_id": "pl_university_of_cebu_banilad_campus",
+    "expected_type": "direct",
+    "expected_routes": [
+      "62B"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Pit-os to Talamban to Banilad to Ayala to Carbon and Vice versa",
+    "origin_place_id": "pl_pit_os",
+    "destination_place_id": "pl_talamban_to_banilad_to_ayala_to_carbon_and_vice_versa",
+    "expected_type": "direct",
+    "expected_routes": [
+      "62C"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Mactan to Punta Enga\u00f1o",
+    "origin_place_id": "pl_mactan",
+    "destination_place_id": "pl_punta_enga\u00f1o",
+    "expected_type": "direct",
+    "expected_routes": [
+      "MI-01A"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "('Mandaue' to ('Cebu Doctors University'",
+    "origin_place_id": "pl_mandaue",
+    "destination_place_id": "pl_cebu_doctors_university",
+    "expected_type": "direct",
+    "expected_routes": [
+      "MI-02B"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Cordova to ('Lapu-Lapu'",
+    "origin_place_id": "pl_cordova",
+    "destination_place_id": "pl_lapu_lapu",
+    "expected_type": "direct",
+    "expected_routes": [
+      "MI-03A"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Mactan to ('Lapu-Lapu'",
+    "origin_place_id": "pl_mactan",
+    "destination_place_id": "pl_lapu_lapu",
+    "expected_type": "direct",
+    "expected_routes": [
+      "MI-03B"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Mactan to Tamiya",
+    "origin_place_id": "pl_mactan",
+    "destination_place_id": "pl_tamiya",
+    "expected_type": "direct",
+    "expected_routes": [
+      "MI-04A"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Mactan to MEPZ2",
+    "origin_place_id": "pl_mactan",
+    "destination_place_id": "pl_mepz2",
+    "expected_type": "direct",
+    "expected_routes": [
+      "MI-04B"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Simbahan sa Tisa to Asian College of Technology (ACT)",
+    "origin_place_id": "pl_simbahan_tisa",
+    "destination_place_id": "pl_act",
+    "expected_type": "direct",
+    "expected_routes": [
+      "10H"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "CIM to Mango Ave",
+    "origin_place_id": "pl_cim",
+    "destination_place_id": "pl_mango_ave",
+    "expected_type": "direct",
+    "expected_routes": [
+      "04I"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Andy Hotel to Benedicto St",
+    "origin_place_id": "pl_andy_hotel",
+    "destination_place_id": "pl_benedicto_st",
+    "expected_type": "direct",
+    "expected_routes": [
+      "21A"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "A.S. Fortuna Roadside to Banilad Town Center",
+    "origin_place_id": "pl_as_fortuna_roadside",
+    "destination_place_id": "pl_banilad_town_center",
+    "expected_type": "direct",
+    "expected_routes": [
+      "22I"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Banilad Town Center to Pag-IBIG Fund Cebu Office",
+    "origin_place_id": "pl_banilad_town_center",
+    "destination_place_id": "pl_pagibig_cebu",
+    "expected_type": "direct",
+    "expected_routes": [
+      "13C"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Pag-IBIG Fund Cebu Office to Guadalupe Church",
+    "origin_place_id": "pl_pagibig_cebu",
+    "destination_place_id": "pl_guadalupe_church",
+    "expected_type": "direct",
+    "expected_routes": [
+      "06H"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Calamba Cemetery to PRC",
+    "origin_place_id": "pl_calamba_cemetery",
+    "destination_place_id": "pl_prc",
+    "expected_type": "direct",
+    "expected_routes": [
+      "06G"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Private to ('University of Visayas Main Campus'",
+    "origin_place_id": "pl_private",
+    "destination_place_id": "pl_university_of_visayas_main_campus",
+    "expected_type": "direct",
+    "expected_routes": [
+      "01C"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "('Parkmall' to ('Cebu Institute of Technology University CITU'",
+    "origin_place_id": "pl_parkmall",
+    "destination_place_id": "pl_cebu_institute_of_technology_university_citu",
+    "expected_type": "direct",
+    "expected_routes": [
+      "01K"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "South Bus Terminal to ('University of Cebu Main Campus'",
+    "origin_place_id": "pl_south_bus_terminal",
+    "destination_place_id": "pl_university_of_cebu_main_campus",
+    "expected_type": "direct",
+    "expected_routes": [
+      "02B"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Route No. 04D to Magallanes",
+    "origin_place_id": "pl_route_no_04d",
+    "destination_place_id": "pl_magallanes",
+    "expected_type": "direct",
+    "expected_routes": [
+      "04D"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Plaza Housing to ('University of Visayas Main Campus'",
+    "origin_place_id": "pl_plaza_housing",
+    "destination_place_id": "pl_university_of_visayas_main_campus",
+    "expected_type": "direct",
+    "expected_routes": [
+      "04I"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Banawa to ('Cebu Doctors University'",
+    "origin_place_id": "pl_banawa",
+    "destination_place_id": "pl_cebu_doctors_university",
+    "expected_type": "direct",
+    "expected_routes": [
+      "07B"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Alumnos to ('Cebu Technological University Main Campus'",
+    "origin_place_id": "pl_alumnos",
+    "destination_place_id": "pl_cebu_technological_university_main_campus",
+    "expected_type": "direct",
+    "expected_routes": [
+      "08G"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Basak to SWU",
+    "origin_place_id": "pl_basak",
+    "destination_place_id": "pl_swu",
+    "expected_type": "direct",
+    "expected_routes": [
+      "09G"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Pardo to ('University of Visayas Main Campus'",
+    "origin_place_id": "pl_pardo",
+    "destination_place_id": "pl_university_of_visayas_main_campus",
+    "expected_type": "direct",
+    "expected_routes": [
+      "10G"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Talamban to ('University of Cebu Main Campus'",
+    "origin_place_id": "pl_talamban",
+    "destination_place_id": "pl_university_of_cebu_main_campus",
+    "expected_type": "direct",
+    "expected_routes": [
+      "13B"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Apas to ('University of the Philippines Cebu'",
+    "origin_place_id": "pl_apas",
+    "destination_place_id": "pl_university_of_the_philippines_cebu",
+    "expected_type": "direct",
+    "expected_routes": [
+      "17B"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Apas to ('University of Visayas Main Campus'",
+    "origin_place_id": "pl_apas",
+    "destination_place_id": "pl_university_of_visayas_main_campus",
+    "expected_type": "direct",
+    "expected_routes": [
+      "17C"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "CEBU METROPOLITAN CATHEDRAL to ('Cebu Institute of Technology University CITU'",
+    "origin_place_id": "pl_cebu_metropolitan_cathedral",
+    "destination_place_id": "pl_cebu_institute_of_technology_university_citu",
+    "expected_type": "direct",
+    "expected_routes": [
+      "21D"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "('Mandaue' to ('Cebu Technological University Main Campus'",
+    "origin_place_id": "pl_mandaue",
+    "destination_place_id": "pl_cebu_technological_university_main_campus",
+    "expected_type": "direct",
+    "expected_routes": [
+      "22D"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "('Parkmall' to Mactan",
+    "origin_place_id": "pl_parkmall",
+    "destination_place_id": "pl_mactan",
+    "expected_type": "direct",
+    "expected_routes": [
+      "23D"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Pit-os to ('University of Visayas Main Campus'",
+    "origin_place_id": "pl_pit_os",
+    "destination_place_id": "pl_university_of_visayas_main_campus",
+    "expected_type": "direct",
+    "expected_routes": [
+      "62B"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "('Mandaue' to ('University of Visayas Main Campus'",
+    "origin_place_id": "pl_mandaue",
+    "destination_place_id": "pl_university_of_visayas_main_campus",
+    "expected_type": "direct",
+    "expected_routes": [
+      "MI-02B"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Mactan to ('University of Cebu Main Campus'",
+    "origin_place_id": "pl_mactan",
+    "destination_place_id": "pl_university_of_cebu_main_campus",
+    "expected_type": "direct",
+    "expected_routes": [
+      "MI-04A"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Private to Colon",
+    "origin_place_id": "pl_private",
+    "destination_place_id": "pl_colon",
+    "expected_type": "direct",
+    "expected_routes": [
+      "01C"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "('Parkmall' to Urgello",
+    "origin_place_id": "pl_parkmall",
+    "destination_place_id": "pl_urgello",
+    "expected_type": "direct",
+    "expected_routes": [
+      "01K"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "South Bus Terminal to Colon",
+    "origin_place_id": "pl_south_bus_terminal",
+    "destination_place_id": "pl_colon",
+    "expected_type": "direct",
+    "expected_routes": [
+      "02B"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "('Lahug' to ('Carbon'",
+    "origin_place_id": "pl_lahug",
+    "destination_place_id": "pl_carbon",
+    "expected_type": "direct",
+    "expected_routes": [
+      "04B"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Route No. 04D to ('Carbon'",
+    "origin_place_id": "pl_route_no_04d",
+    "destination_place_id": "pl_carbon",
+    "expected_type": "direct",
+    "expected_routes": [
+      "04D"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Plaza Housing to ('Carbon'",
+    "origin_place_id": "pl_plaza_housing",
+    "destination_place_id": "pl_carbon",
+    "expected_type": "direct",
+    "expected_routes": [
+      "04H"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "('Lahug' to ('Ayala'",
+    "origin_place_id": "pl_lahug",
+    "destination_place_id": "pl_ayala",
+    "expected_type": "direct",
+    "expected_routes": [
+      "04L"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Banawa to ('Carbon'",
+    "origin_place_id": "pl_banawa",
+    "destination_place_id": "pl_carbon",
+    "expected_type": "direct",
+    "expected_routes": [
+      "07B"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Alumnos to Colon",
+    "origin_place_id": "pl_alumnos",
+    "destination_place_id": "pl_colon",
+    "expected_type": "direct",
+    "expected_routes": [
+      "08G"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Basak to Ibabao",
+    "origin_place_id": "pl_basak",
+    "destination_place_id": "pl_ibabao",
+    "expected_type": "direct",
+    "expected_routes": [
+      "09F"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Bulacao to Colon",
+    "origin_place_id": "pl_bulacao",
+    "destination_place_id": "pl_colon",
+    "expected_type": "direct",
+    "expected_routes": [
+      "10F"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Pardo to Magallanes",
+    "origin_place_id": "pl_pardo",
+    "destination_place_id": "pl_magallanes",
+    "expected_type": "direct",
+    "expected_routes": [
+      "10G"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Inayawan to Colon",
+    "origin_place_id": "pl_inayawan",
+    "destination_place_id": "pl_colon",
+    "expected_type": "direct",
+    "expected_routes": [
+      "11A"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Labangon to Colon",
+    "origin_place_id": "pl_labangon",
+    "destination_place_id": "pl_colon",
+    "expected_type": "direct",
+    "expected_routes": [
+      "12D"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Labangon to ('Ayala'",
+    "origin_place_id": "pl_labangon",
+    "destination_place_id": "pl_ayala",
+    "expected_type": "direct",
+    "expected_routes": [
+      "12L"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Talamban to ('Carbon'",
+    "origin_place_id": "pl_talamban",
+    "destination_place_id": "pl_carbon",
+    "expected_type": "direct",
+    "expected_routes": [
+      "13B"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Talamban to Colon",
+    "origin_place_id": "pl_talamban",
+    "destination_place_id": "pl_colon",
+    "expected_type": "direct",
+    "expected_routes": [
+      "13C"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Pit-os to ('Mandaue'",
+    "origin_place_id": "pl_pit_os",
+    "destination_place_id": "pl_mandaue",
+    "expected_type": "direct",
+    "expected_routes": [
+      "13H"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "('Ayala' to Colon",
+    "origin_place_id": "pl_ayala",
+    "destination_place_id": "pl_colon",
+    "expected_type": "direct",
+    "expected_routes": [
+      "14D"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Apas to ('Carbon'",
+    "origin_place_id": "pl_apas",
+    "destination_place_id": "pl_carbon",
+    "expected_type": "direct",
+    "expected_routes": [
+      "17B"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "('Ayala' to ('Mandaue'",
+    "origin_place_id": "pl_ayala",
+    "destination_place_id": "pl_mandaue",
+    "expected_type": "direct",
+    "expected_routes": [
+      "20A"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "('Mandaue' to Cathedral",
+    "origin_place_id": "pl_mandaue",
+    "destination_place_id": "pl_cathedral",
+    "expected_type": "direct",
+    "expected_routes": [
+      "21A"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "CEBU METROPOLITAN CATHEDRAL to MANDAUE cathedral",
+    "origin_place_id": "pl_cebu_metropolitan_cathedral",
+    "destination_place_id": "pl_mandaue_cathedral",
+    "expected_type": "direct",
+    "expected_routes": [
+      "21D"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "('Parkmall' to ('Opon'",
+    "origin_place_id": "pl_parkmall",
+    "destination_place_id": "pl_opon",
+    "expected_type": "direct",
+    "expected_routes": [
+      "23D"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Pit-os to ('Carbon'",
+    "origin_place_id": "pl_pit_os",
+    "destination_place_id": "pl_carbon",
+    "expected_type": "direct",
+    "expected_routes": [
+      "62B"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "('Mandaue' to ('Parkmall'",
+    "origin_place_id": "pl_mandaue",
+    "destination_place_id": "pl_parkmall",
+    "expected_type": "direct",
+    "expected_routes": [
+      "MI-02B"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Mactan to Cordova",
+    "origin_place_id": "pl_mactan",
+    "destination_place_id": "pl_cordova",
+    "expected_type": "direct",
+    "expected_routes": [
+      "MI-03B"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "Mactan to ('Opon'",
+    "origin_place_id": "pl_mactan",
+    "destination_place_id": "pl_opon",
+    "expected_type": "direct",
+    "expected_routes": [
+      "MI-05A"
+    ],
+    "should_not_include": []
+  },
+  {
+    "query": "AS Fortuna Dunkin to Banilad Town Center",
+    "origin_place_id": "pl_as_fortuna_dunkin",
+    "destination_place_id": "pl_banilad_town_center",
+    "expected_type": "direct",
+    "expected_routes": [
+      "22I"
+    ],
+    "should_not_include": []
+  }
+]

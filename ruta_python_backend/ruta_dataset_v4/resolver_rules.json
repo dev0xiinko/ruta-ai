@@ -1,0 +1,5 @@
+{
+  "min_confidence": 0.2,
+  "always_require_confirmation": true,
+  "generic_name_keywords": ["gaisano", "jollibee", "sm", "robinsons"]
+}

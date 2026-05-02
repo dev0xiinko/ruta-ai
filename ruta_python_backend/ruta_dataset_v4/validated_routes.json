@@ -1,0 +1,1182 @@
+[
+  {
+    "origin_place_id": "pl_it_park",
+    "destination_place_id": "pl_colon",
+    "routes": [
+      "17B",
+      "17C"
+    ],
+    "validated_by": "seed_dataset",
+    "confidence": "high"
+  },
+  {
+    "origin_place_id": "pl_sambag_1_private",
+    "destination_place_id": "pl_pier_3_and_2",
+    "routes": [
+      "01B"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_private",
+    "destination_place_id": "pl_swu",
+    "routes": [
+      "01C"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_parkmall",
+    "destination_place_id": "pl_swu",
+    "routes": [
+      "01K"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_south_bus_terminal",
+    "destination_place_id": "pl_colonnade",
+    "routes": [
+      "02B"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_mabolo",
+    "destination_place_id": "pl_progreso_st",
+    "routes": [
+      "03A"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_mabolo",
+    "destination_place_id": "pl_carbon",
+    "routes": [
+      "03B"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_mabolo",
+    "destination_place_id": "pl_carbon",
+    "routes": [
+      "03L"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_ayala",
+    "destination_place_id": "pl_sm",
+    "routes": [
+      "03Q"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_lahug",
+    "destination_place_id": "pl_university_of_san_carlos_main_campus",
+    "routes": [
+      "04B"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_campo_lahug",
+    "destination_place_id": "pl_carbon",
+    "routes": [
+      "04C"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_route_no_04d",
+    "destination_place_id": "pl_magallanes_st",
+    "routes": [
+      "04D"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_plaza_housing",
+    "destination_place_id": "pl_university_of_san_carlos_main_campus",
+    "routes": [
+      "04H"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_plaza_housing",
+    "destination_place_id": "pl_cim",
+    "routes": [
+      "04I"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_lahug",
+    "destination_place_id": "pl_salinas_drive",
+    "routes": [
+      "04L"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_lahug",
+    "destination_place_id": "pl_salinas_drive",
+    "routes": [
+      "04M"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_guadalupe",
+    "destination_place_id": "pl_cebu_doctors_university_hospital",
+    "routes": [
+      "06B"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_guadalupe",
+    "destination_place_id": "pl_carbon",
+    "routes": [
+      "06C"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_guadalupe",
+    "destination_place_id": "pl_carbon_guadalupe_to_capitol_guadalupe_to_jones_ave",
+    "routes": [
+      "06F"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_guadalupe",
+    "destination_place_id": "pl_tabo_an",
+    "routes": [
+      "06G"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_guadalupe",
+    "destination_place_id": "pl_sm",
+    "routes": [
+      "06H"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_banawa",
+    "destination_place_id": "pl_cebu_doctors_university_hospital",
+    "routes": [
+      "07B"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_alumnos",
+    "destination_place_id": "pl_sm",
+    "routes": [
+      "08F"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_alumnos",
+    "destination_place_id": "pl_magallanes_st",
+    "routes": [
+      "08G"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_basak",
+    "destination_place_id": "pl_colon",
+    "routes": [
+      "09C"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_basak",
+    "destination_place_id": "pl_university_of_san_jose_recoletos",
+    "routes": [
+      "09F"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_basak",
+    "destination_place_id": "pl_university_of_san_jose_recoletos",
+    "routes": [
+      "09G"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_bulacao",
+    "destination_place_id": "pl_university_of_san_jose_recoletos",
+    "routes": [
+      "10F"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_pardo",
+    "destination_place_id": "pl_university_of_san_jose_recoletos",
+    "routes": [
+      "10G"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_bulacao",
+    "destination_place_id": "pl_sm",
+    "routes": [
+      "10H"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_bulacao",
+    "destination_place_id": "pl_sm",
+    "routes": [
+      "10M"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_inayawan",
+    "destination_place_id": "pl_colonnade",
+    "routes": [
+      "11A"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_labangon",
+    "destination_place_id": "pl_university_of_san_jose_recoletos",
+    "routes": [
+      "12D"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_labangon",
+    "destination_place_id": "pl_sm",
+    "routes": [
+      "12G"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_labangon",
+    "destination_place_id": "pl_sm",
+    "routes": [
+      "12I"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_labangon",
+    "destination_place_id": "pl_gorordo_ave",
+    "routes": [
+      "12L"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_talamban",
+    "destination_place_id": "pl_university_of_cebu_banilad_campus",
+    "routes": [
+      "13B"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_talamban",
+    "destination_place_id": "pl_university_of_san_jose_recoletos",
+    "routes": [
+      "13C"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_pit_os",
+    "destination_place_id": "pl_cebu_institute_of_technology_university_citu",
+    "routes": [
+      "13H"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_ayala",
+    "destination_place_id": "pl_university_of_san_carlos_main_campus",
+    "routes": [
+      "14D"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_apas",
+    "destination_place_id": "pl_university_of_san_jose_recoletos",
+    "routes": [
+      "17B"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_apas",
+    "destination_place_id": "pl_university_of_san_carlos_main_campus",
+    "routes": [
+      "17C"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_apas",
+    "destination_place_id": "pl_university_of_san_carlos_main_campus",
+    "routes": [
+      "17D"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_ayala",
+    "destination_place_id": "pl_pope_john_paul_ii_ave",
+    "routes": [
+      "20A"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_route_no_20b",
+    "destination_place_id": "pl_mandaue_and_vice_versa",
+    "routes": [
+      "20B"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_mandaue",
+    "destination_place_id": "pl_benedicto_st",
+    "routes": [
+      "21A"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_cebu_metropolitan_cathedral",
+    "destination_place_id": "pl_mabolo",
+    "routes": [
+      "21D"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_mandaue",
+    "destination_place_id": "pl_sm_city_cebu",
+    "routes": [
+      "22A"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_mandaue",
+    "destination_place_id": "pl_colonnade",
+    "routes": [
+      "22D"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_ouano_mandaue",
+    "destination_place_id": "pl_cathedral_to_mabolo",
+    "routes": [
+      "22G"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_mandaue",
+    "destination_place_id": "pl_gaisano_country_mall",
+    "routes": [
+      "22I"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_parkmall",
+    "destination_place_id": "pl_punta_enga\u00f1o",
+    "routes": [
+      "23"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_parkmall",
+    "destination_place_id": "pl_mandaue",
+    "routes": [
+      "23D"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_consolacion",
+    "destination_place_id": "pl_sm_city_cebu_white_gold_and_vice_versa",
+    "routes": [
+      "24"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_liloan",
+    "destination_place_id": "pl_white_gold_and_sm",
+    "routes": [
+      "25"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_pit_os",
+    "destination_place_id": "pl_university_of_cebu_banilad_campus",
+    "routes": [
+      "62B"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_pit_os",
+    "destination_place_id": "pl_talamban_to_banilad_to_ayala_to_carbon_and_vice_versa",
+    "routes": [
+      "62C"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_mactan",
+    "destination_place_id": "pl_punta_enga\u00f1o",
+    "routes": [
+      "MI-01A"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_mandaue",
+    "destination_place_id": "pl_cebu_doctors_university",
+    "routes": [
+      "MI-02B"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_cordova",
+    "destination_place_id": "pl_lapu_lapu",
+    "routes": [
+      "MI-03A"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_mactan",
+    "destination_place_id": "pl_lapu_lapu",
+    "routes": [
+      "MI-03B"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_mactan",
+    "destination_place_id": "pl_tamiya",
+    "routes": [
+      "MI-04A"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_mactan",
+    "destination_place_id": "pl_mepz2",
+    "routes": [
+      "MI-04B"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_mactan",
+    "destination_place_id": "pl_lapu_lapu",
+    "routes": [
+      "MI-05A"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_it_park",
+    "destination_place_id": "pl_colon",
+    "routes": [
+      "17B"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_it_park",
+    "destination_place_id": "pl_colon",
+    "routes": [
+      "17C"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_simbahan_tisa",
+    "destination_place_id": "pl_act",
+    "routes": [
+      "10H"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_simbahan_tisa",
+    "destination_place_id": "pl_act",
+    "routes": [
+      "10F"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_simbahan_tisa",
+    "destination_place_id": "pl_act",
+    "routes": [
+      "10M"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_cim",
+    "destination_place_id": "pl_mango_ave",
+    "routes": [
+      "04I"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_andy_hotel",
+    "destination_place_id": "pl_benedicto_st",
+    "routes": [
+      "21A"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_as_fortuna_roadside",
+    "destination_place_id": "pl_banilad_town_center",
+    "routes": [
+      "22I"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_banilad_town_center",
+    "destination_place_id": "pl_pagibig_cebu",
+    "routes": [
+      "13C"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_pagibig_cebu",
+    "destination_place_id": "pl_guadalupe_church",
+    "routes": [
+      "06H"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_calamba_cemetery",
+    "destination_place_id": "pl_prc",
+    "routes": [
+      "06G"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_private",
+    "destination_place_id": "pl_university_of_visayas_main_campus",
+    "routes": [
+      "01C"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_parkmall",
+    "destination_place_id": "pl_cebu_institute_of_technology_university_citu",
+    "routes": [
+      "01K"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_south_bus_terminal",
+    "destination_place_id": "pl_university_of_cebu_main_campus",
+    "routes": [
+      "02B"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_route_no_04d",
+    "destination_place_id": "pl_magallanes",
+    "routes": [
+      "04D"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_plaza_housing",
+    "destination_place_id": "pl_university_of_visayas_main_campus",
+    "routes": [
+      "04I"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_banawa",
+    "destination_place_id": "pl_cebu_doctors_university",
+    "routes": [
+      "07B"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_alumnos",
+    "destination_place_id": "pl_cebu_technological_university_main_campus",
+    "routes": [
+      "08G"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_basak",
+    "destination_place_id": "pl_swu",
+    "routes": [
+      "09G"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_pardo",
+    "destination_place_id": "pl_university_of_visayas_main_campus",
+    "routes": [
+      "10G"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_talamban",
+    "destination_place_id": "pl_university_of_cebu_main_campus",
+    "routes": [
+      "13B"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_apas",
+    "destination_place_id": "pl_university_of_the_philippines_cebu",
+    "routes": [
+      "17B"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_apas",
+    "destination_place_id": "pl_university_of_visayas_main_campus",
+    "routes": [
+      "17C"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_cebu_metropolitan_cathedral",
+    "destination_place_id": "pl_cebu_institute_of_technology_university_citu",
+    "routes": [
+      "21D"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_mandaue",
+    "destination_place_id": "pl_cebu_technological_university_main_campus",
+    "routes": [
+      "22D"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_parkmall",
+    "destination_place_id": "pl_mactan",
+    "routes": [
+      "23D"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_pit_os",
+    "destination_place_id": "pl_university_of_visayas_main_campus",
+    "routes": [
+      "62B"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_mandaue",
+    "destination_place_id": "pl_university_of_visayas_main_campus",
+    "routes": [
+      "MI-02B"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_mactan",
+    "destination_place_id": "pl_university_of_cebu_main_campus",
+    "routes": [
+      "MI-04A"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_private",
+    "destination_place_id": "pl_colon",
+    "routes": [
+      "01C"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_parkmall",
+    "destination_place_id": "pl_urgello",
+    "routes": [
+      "01K"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_south_bus_terminal",
+    "destination_place_id": "pl_colon",
+    "routes": [
+      "02B"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_mabolo",
+    "destination_place_id": "pl_carbon",
+    "routes": [
+      "03A"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_lahug",
+    "destination_place_id": "pl_carbon",
+    "routes": [
+      "04B"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_route_no_04d",
+    "destination_place_id": "pl_carbon",
+    "routes": [
+      "04D"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_plaza_housing",
+    "destination_place_id": "pl_carbon",
+    "routes": [
+      "04H"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_plaza_housing",
+    "destination_place_id": "pl_carbon",
+    "routes": [
+      "04I"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_lahug",
+    "destination_place_id": "pl_ayala",
+    "routes": [
+      "04L"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_lahug",
+    "destination_place_id": "pl_ayala",
+    "routes": [
+      "04M"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_guadalupe",
+    "destination_place_id": "pl_carbon",
+    "routes": [
+      "06B"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_banawa",
+    "destination_place_id": "pl_carbon",
+    "routes": [
+      "07B"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_alumnos",
+    "destination_place_id": "pl_colon",
+    "routes": [
+      "08G"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_basak",
+    "destination_place_id": "pl_ibabao",
+    "routes": [
+      "09F"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_basak",
+    "destination_place_id": "pl_colon",
+    "routes": [
+      "09G"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_bulacao",
+    "destination_place_id": "pl_colon",
+    "routes": [
+      "10F"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_pardo",
+    "destination_place_id": "pl_magallanes",
+    "routes": [
+      "10G"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_inayawan",
+    "destination_place_id": "pl_colon",
+    "routes": [
+      "11A"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_labangon",
+    "destination_place_id": "pl_colon",
+    "routes": [
+      "12D"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_labangon",
+    "destination_place_id": "pl_ayala",
+    "routes": [
+      "12L"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_talamban",
+    "destination_place_id": "pl_carbon",
+    "routes": [
+      "13B"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_talamban",
+    "destination_place_id": "pl_colon",
+    "routes": [
+      "13C"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_pit_os",
+    "destination_place_id": "pl_mandaue",
+    "routes": [
+      "13H"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_ayala",
+    "destination_place_id": "pl_colon",
+    "routes": [
+      "14D"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_apas",
+    "destination_place_id": "pl_carbon",
+    "routes": [
+      "17B"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_apas",
+    "destination_place_id": "pl_carbon",
+    "routes": [
+      "17C"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_apas",
+    "destination_place_id": "pl_carbon",
+    "routes": [
+      "17D"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_ayala",
+    "destination_place_id": "pl_mandaue",
+    "routes": [
+      "20A"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_mandaue",
+    "destination_place_id": "pl_cathedral",
+    "routes": [
+      "21A"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_cebu_metropolitan_cathedral",
+    "destination_place_id": "pl_mandaue_cathedral",
+    "routes": [
+      "21D"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_mandaue",
+    "destination_place_id": "pl_cathedral",
+    "routes": [
+      "22A"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_mandaue",
+    "destination_place_id": "pl_cathedral",
+    "routes": [
+      "22D"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_parkmall",
+    "destination_place_id": "pl_opon",
+    "routes": [
+      "23D"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_pit_os",
+    "destination_place_id": "pl_carbon",
+    "routes": [
+      "62B"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_mandaue",
+    "destination_place_id": "pl_parkmall",
+    "routes": [
+      "MI-02B"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_mactan",
+    "destination_place_id": "pl_cordova",
+    "routes": [
+      "MI-03B"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_mactan",
+    "destination_place_id": "pl_opon",
+    "routes": [
+      "MI-05A"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  },
+  {
+    "origin_place_id": "pl_as_fortuna_dunkin",
+    "destination_place_id": "pl_banilad_town_center",
+    "routes": [
+      "22I"
+    ],
+    "validated_by": "repo_seed_bootstrap",
+    "confidence": "medium"
+  }
+]

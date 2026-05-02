@@ -1,0 +1,7 @@
+{
+  "walk_threshold_m": 1000,
+  "max_rides": 3,
+  "max_walk_segments": 3,
+  "max_walk_minutes_per_segment": 15,
+  "max_search_states": 500
+}

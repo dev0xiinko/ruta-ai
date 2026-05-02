@@ -1,0 +1,1377 @@
+[
+  {
+    "place_id": "pl_campo_lahug",
+    "name": "(campo) Lahug",
+    "aliases": [
+      "(campo) Lahug"
+    ],
+    "area": null,
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_as_fortuna_roadside",
+    "name": "A.S. Fortuna Roadside",
+    "aliases": [
+      "a.s. fortuna roadside",
+      "as fortuna roadside",
+      "AS Fortuna",
+      "A.S. Fortuna",
+      "AS Fortuna",
+      "A.S. Fortuna"
+    ],
+    "area": "AS Fortuna",
+    "cluster_id": "cluster_as_fortuna",
+    "latitude": 10.3379,
+    "longitude": 123.9241,
+    "importance_rank": 63
+  },
+  {
+    "place_id": "pl_as_fortuna_dunkin",
+    "name": "AS Fortuna Dunkin",
+    "aliases": [
+      "as fortuna dunkin",
+      "dunkin as fortuna"
+    ],
+    "area": "AS Fortuna",
+    "cluster_id": "cluster_as_fortuna",
+    "latitude": 10.3377,
+    "longitude": 123.9235,
+    "importance_rank": 75
+  },
+  {
+    "place_id": "pl_alumnos",
+    "name": "Alumnos",
+    "aliases": [
+      "Alumnos",
+      "alumnos cebu",
+      "alumnos st"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_andy_hotel",
+    "name": "Andy Hotel",
+    "aliases": [
+      "andy hotel"
+    ],
+    "area": "Osmena",
+    "cluster_id": "cluster_downtown",
+    "latitude": 10.2985,
+    "longitude": 123.899,
+    "importance_rank": 68
+  },
+  {
+    "place_id": "pl_apas",
+    "name": "Apas",
+    "aliases": [
+      "Apas"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": 10.3364,
+    "longitude": 123.9181,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_act",
+    "name": "Asian College of Technology (ACT)",
+    "aliases": [
+      "act",
+      "asian college of technology"
+    ],
+    "area": "Colon",
+    "cluster_id": "cluster_colon",
+    "latitude": 10.2962,
+    "longitude": 123.9037,
+    "importance_rank": 92,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_ayala",
+    "name": "Ayala",
+    "aliases": [
+      "Ayala",
+      "ayala center",
+      "ayala mall",
+      "ayala cebu",
+      "cebu business park"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": 10.3173,
+    "longitude": 123.9058,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_banawa",
+    "name": "Banawa",
+    "aliases": [
+      "Banawa",
+      "banawa cebu",
+      "banawa junction"
+    ],
+    "area": "Guadalupe",
+    "cluster_id": "cluster_guadalupe",
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_banilad_town_center",
+    "name": "Banilad Town Center",
+    "aliases": [
+      "banilad town center",
+      "btc"
+    ],
+    "area": "Banilad",
+    "cluster_id": "cluster_banilad",
+    "latitude": 10.3477,
+    "longitude": 123.9186,
+    "importance_rank": 90
+  },
+  {
+    "place_id": "pl_basak",
+    "name": "Basak",
+    "aliases": [
+      "Basak",
+      "basak cebu",
+      "basak mandaue"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_benedicto_st",
+    "name": "Benedicto St",
+    "aliases": [
+      "benedicto st"
+    ],
+    "area": "Mabolo",
+    "cluster_id": "cluster_mabolo",
+    "latitude": 10.3125,
+    "longitude": 123.9153,
+    "importance_rank": 66
+  },
+  {
+    "place_id": "pl_bonifacio_district",
+    "name": "Bonifacio District",
+    "aliases": [
+      "bonifacio district"
+    ],
+    "area": "Mabolo",
+    "cluster_id": "cluster_mabolo",
+    "latitude": 10.3171,
+    "longitude": 123.9197,
+    "importance_rank": 80
+  },
+  {
+    "place_id": "pl_bulacao",
+    "name": "Bulacao",
+    "aliases": [
+      "Bulacao",
+      "bulacao cebu",
+      "bulacao talisay"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_cebu_metropolitan_cathedral",
+    "name": "CEBU METROPOLITAN CATHEDRAL",
+    "aliases": [
+      "CEBU METROPOLITAN CATHEDRAL",
+      "cebu cathedral",
+      "metropolitan cathedral",
+      "basilica minore",
+      "sto nino"
+    ],
+    "area": "Colon",
+    "cluster_id": "cluster_colon",
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_cim",
+    "name": "CIM",
+    "aliases": [
+      "cim",
+      "cebu institute of medicine"
+    ],
+    "area": "Urgello",
+    "cluster_id": "cluster_urgello",
+    "latitude": 10.3011,
+    "longitude": 123.8922,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_calamba_cemetery",
+    "name": "Calamba Cemetery",
+    "aliases": [
+      "calamba cemetery"
+    ],
+    "area": "Calamba",
+    "cluster_id": "cluster_calamba",
+    "latitude": 10.2974,
+    "longitude": 123.8872,
+    "importance_rank": 70
+  },
+  {
+    "place_id": "pl_carbon",
+    "name": "Carbon",
+    "aliases": [
+      "Carbon",
+      "carbon public market",
+      "carbon market",
+      "south market",
+      "colon carbon"
+    ],
+    "area": "Cebu",
+    "cluster_id": "cluster_colon",
+    "latitude": 10.2921,
+    "longitude": 123.8986,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_carbon_guadalupe_to_capitol_guadalupe_to_jones_ave",
+    "name": "Carbon guadalupe to capitol guadalupe to jones ave",
+    "aliases": [
+      "Carbon guadalupe to capitol guadalupe to jones ave"
+    ],
+    "area": null,
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_cathedral",
+    "name": "Cathedral",
+    "aliases": [
+      "Cathedral"
+    ],
+    "area": null,
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_cathedral_to_mabolo",
+    "name": "Cathedral to Mabolo",
+    "aliases": [
+      "Cathedral to Mabolo"
+    ],
+    "area": null,
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_cebu_doctors_university",
+    "name": "Cebu Doctors University",
+    "aliases": [
+      "Cebu Doctors University",
+      "cdu"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": 10.3156,
+    "longitude": 123.8993,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_cebu_doctors_university_hospital",
+    "name": "Cebu Doctors University Hospital",
+    "aliases": [
+      "Cebu Doctors University Hospital",
+      "cdu hospital"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": 10.3099,
+    "longitude": 123.8942,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_cebu_institute_of_technology_university_citu",
+    "name": "Cebu Institute of Technology University CITU",
+    "aliases": [
+      "Cebu Institute of Technology University CITU",
+      "cit",
+      "cit-u",
+      "citu",
+      "cit university",
+      "cebu institute of technology",
+      "cebu institute of technology university",
+      "cebu institute of technological university"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": 10.2949,
+    "longitude": 123.8855,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_cebu_normal_university",
+    "name": "Cebu Normal University",
+    "aliases": [
+      "Cebu Normal University",
+      "cnu"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": 10.3016,
+    "longitude": 123.9003,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_cebu_technological_university_main_campus",
+    "name": "Cebu Technological University Main Campus",
+    "aliases": [
+      "Cebu Technological University Main Campus",
+      "ctu",
+      "ctu main",
+      "ctu main campus",
+      "cebu technological university",
+      "cebu technological university main"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": 10.3033,
+    "longitude": 123.9019,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_centro_mandaue",
+    "name": "Centro Mandaue",
+    "aliases": [
+      "Centro Mandaue"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": 10.3234,
+    "longitude": 123.933,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_colon",
+    "name": "Colon",
+    "aliases": [
+      "colon",
+      "colon area",
+      "colon street",
+      "downtown cebu",
+      "colon st"
+    ],
+    "area": "Colon",
+    "cluster_id": "cluster_colon",
+    "latitude": 10.2951,
+    "longitude": 123.9022,
+    "importance_rank": 97,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_colonnade",
+    "name": "Colonnade",
+    "aliases": [
+      "Colonnade"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": 10.2957,
+    "longitude": 123.9009,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_consolacion",
+    "name": "Consolacion",
+    "aliases": [
+      "Consolacion",
+      "consolacion cebu",
+      "north consolacion"
+    ],
+    "area": "North Cebu",
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_cordova",
+    "name": "Cordova",
+    "aliases": [
+      "Cordova",
+      "cordova cebu",
+      "cordova mactan"
+    ],
+    "area": "Mactan",
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_fuente_osmena",
+    "name": "Fuente Osmena",
+    "aliases": [
+      "Fuente Osmena",
+      "fuente",
+      "fuente circle",
+      "osmena circle",
+      "fuente osmena circle"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": 10.3066,
+    "longitude": 123.8945,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_gaisano_south",
+    "name": "Gaisano Capital South",
+    "aliases": [
+      "gaisano south",
+      "gaisano capital south"
+    ],
+    "area": "Tisa",
+    "cluster_id": "cluster_tisa",
+    "latitude": 10.294,
+    "longitude": 123.885,
+    "importance_rank": 78
+  },
+  {
+    "place_id": "pl_gaisano_country_mall",
+    "name": "Gaisano Country Mall",
+    "aliases": [
+      "Gaisano Country Mall"
+    ],
+    "area": null,
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_gaisano_main_colon",
+    "name": "Gaisano Main Colon",
+    "aliases": [
+      "gaisano near colon",
+      "gaisano colon",
+      "gaisano main colon",
+      "gaisano main",
+      "gaisano colon area",
+      "gaisano sm"
+    ],
+    "area": "Colon",
+    "cluster_id": "cluster_colon",
+    "latitude": 10.2954,
+    "longitude": 123.9026,
+    "importance_rank": 85
+  },
+  {
+    "place_id": "pl_galleria",
+    "name": "Galleria Cebu",
+    "aliases": [
+      "galleria",
+      "galleria cebu"
+    ],
+    "area": "Mabolo",
+    "cluster_id": "cluster_mabolo",
+    "latitude": 10.3129,
+    "longitude": 123.9161,
+    "importance_rank": 88
+  },
+  {
+    "place_id": "pl_gorordo_ave",
+    "name": "Gorordo Ave",
+    "aliases": [
+      "Gorordo Ave"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": 10.3193,
+    "longitude": 123.8999,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_guadalupe",
+    "name": "Guadalupe",
+    "aliases": [
+      "Guadalupe",
+      "guadalupe cebu",
+      "guada"
+    ],
+    "area": "Guadalupe",
+    "cluster_id": "cluster_guadalupe",
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_guadalupe_church",
+    "name": "Guadalupe Church",
+    "aliases": [
+      "guadalupe church"
+    ],
+    "area": "Guadalupe",
+    "cluster_id": "cluster_guadalupe",
+    "latitude": 10.3168,
+    "longitude": 123.8851,
+    "importance_rank": 87
+  },
+  {
+    "place_id": "pl_it_park",
+    "name": "IT Park",
+    "aliases": [
+      "it park",
+      "cebu it park",
+      "it park cebu",
+      "asiatown it park",
+      "asiatown"
+    ],
+    "area": "Lahug",
+    "cluster_id": "cluster_lahug",
+    "latitude": 10.3296,
+    "longitude": 123.9067,
+    "importance_rank": 98,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_ibabao",
+    "name": "Ibabao",
+    "aliases": [
+      "Ibabao",
+      "ibabao mandaue",
+      "ibabao bridge"
+    ],
+    "area": "Mandaue",
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_inayawan",
+    "name": "Inayawan",
+    "aliases": [
+      "Inayawan",
+      "inayawan cebu",
+      "inayawan labangon"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_jy_square",
+    "name": "JY Square",
+    "aliases": [
+      "JY Square"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": 10.3331,
+    "longitude": 123.899,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_juan_luna_ave",
+    "name": "Juan Luna Ave",
+    "aliases": [
+      "Juan Luna Ave"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": 10.3098,
+    "longitude": 123.9128,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_labangon",
+    "name": "Labangon",
+    "aliases": [
+      "Labangon",
+      "labangon cebu",
+      "labangon church"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_lahug",
+    "name": "Lahug",
+    "aliases": [
+      "Lahug",
+      "lahug cebu",
+      "camp lahug"
+    ],
+    "area": "Cebu",
+    "cluster_id": "cluster_lahug",
+    "latitude": 10.3338,
+    "longitude": 123.9032,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_lapu_lapu",
+    "name": "Lapu-Lapu",
+    "aliases": [
+      "Lapu-Lapu"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": 10.3103,
+    "longitude": 123.9494,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_liloan",
+    "name": "Liloan",
+    "aliases": [
+      "Liloan",
+      "liloan cebu",
+      "liloan north"
+    ],
+    "area": "North Cebu",
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_mandaue_cathedral",
+    "name": "MANDAUE cathedral",
+    "aliases": [
+      "MANDAUE cathedral"
+    ],
+    "area": null,
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_mepz2",
+    "name": "MEPZ2",
+    "aliases": [
+      "MEPZ2"
+    ],
+    "area": null,
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_mabolo",
+    "name": "Mabolo",
+    "aliases": [
+      "Mabolo",
+      "mabolo district",
+      "mabolo cebu"
+    ],
+    "area": "Mabolo",
+    "cluster_id": "cluster_mabolo",
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_mactan",
+    "name": "Mactan",
+    "aliases": [
+      "Mactan",
+      "mactan cebu",
+      "mactan island"
+    ],
+    "area": "Mactan",
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_magallanes",
+    "name": "Magallanes",
+    "aliases": [
+      "Magallanes",
+      "magallanes cebu",
+      "magallanes area"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_magallanes_st",
+    "name": "Magallanes St",
+    "aliases": [
+      "Magallanes St",
+      "magallanes street",
+      "magallanes st cebu"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": 10.294,
+    "longitude": 123.9001,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_mandaue",
+    "name": "Mandaue",
+    "aliases": [
+      "Mandaue",
+      "mandaue city",
+      "mandaue cebu",
+      "mantawe"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": 10.3236,
+    "longitude": 123.9228,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_mandaue_and_vice_versa",
+    "name": "Mandaue and vice versa",
+    "aliases": [
+      "Mandaue and vice versa"
+    ],
+    "area": null,
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_mango_ave",
+    "name": "Mango Ave",
+    "aliases": [
+      "mango",
+      "mango ave",
+      "gen maxilom"
+    ],
+    "area": "Mango",
+    "cluster_id": "cluster_mango",
+    "latitude": 10.309,
+    "longitude": 123.8988,
+    "importance_rank": 84
+  },
+  {
+    "place_id": "pl_metro_colon",
+    "name": "Metro Colon",
+    "aliases": [
+      "Metro Colon"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": 10.2962,
+    "longitude": 123.9016,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_opon",
+    "name": "Opon",
+    "aliases": [
+      "Opon"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": 10.3103,
+    "longitude": 123.9494,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_ouano",
+    "name": "Ouano",
+    "aliases": [
+      "Ouano"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": 10.3239,
+    "longitude": 123.9316,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_ouano_mandaue",
+    "name": "Ouano Mandaue",
+    "aliases": [
+      "Ouano Mandaue"
+    ],
+    "area": null,
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_prc",
+    "name": "PRC",
+    "aliases": [
+      "prc"
+    ],
+    "area": "Capitol",
+    "cluster_id": "cluster_capitol",
+    "latitude": 10.3117,
+    "longitude": 123.8927,
+    "importance_rank": 76
+  },
+  {
+    "place_id": "pl_pagibig_cebu",
+    "name": "Pag-IBIG Fund Cebu Office",
+    "aliases": [
+      "pag ibig",
+      "pag-ibig",
+      "pag-ibig fund cebu office"
+    ],
+    "area": "Lahug",
+    "cluster_id": "cluster_lahug",
+    "latitude": 10.3253,
+    "longitude": 123.9074,
+    "importance_rank": 82
+  },
+  {
+    "place_id": "pl_pardo",
+    "name": "Pardo",
+    "aliases": [
+      "Pardo",
+      "pardo cebu",
+      "pardo talisay"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_parkmall",
+    "name": "Parkmall",
+    "aliases": [
+      "Parkmall"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": 10.3307,
+    "longitude": 123.9372,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_pier_3_and_2",
+    "name": "Pier 3 and 2",
+    "aliases": [
+      "Pier 3 and 2"
+    ],
+    "area": null,
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_pit_os",
+    "name": "Pit-os",
+    "aliases": [
+      "Pit-os",
+      "pit os cebu",
+      "pitos"
+    ],
+    "area": "Talamban",
+    "cluster_id": "cluster_talamban",
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_plaza_housing",
+    "name": "Plaza Housing",
+    "aliases": [
+      "Plaza Housing"
+    ],
+    "area": null,
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_pope_john_paul_ii_ave",
+    "name": "Pope John Paul II Ave",
+    "aliases": [
+      "pope john paul ii ave",
+      "jpj"
+    ],
+    "area": "Mabolo",
+    "cluster_id": "cluster_mabolo",
+    "latitude": 10.3162,
+    "longitude": 123.9188,
+    "importance_rank": 73
+  },
+  {
+    "place_id": "pl_private",
+    "name": "Private",
+    "aliases": [
+      "Private"
+    ],
+    "area": null,
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_progreso_st",
+    "name": "Progreso St",
+    "aliases": [
+      "Progreso St"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": 10.2918,
+    "longitude": 123.8963,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_punta_enga\u00f1o",
+    "name": "Punta Enga\u00f1o",
+    "aliases": [
+      "Punta Enga\u00f1o"
+    ],
+    "area": null,
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_robinsons_fuente",
+    "name": "Robinsons Fuente",
+    "aliases": [
+      "Robinsons Fuente"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": 10.3084,
+    "longitude": 123.8935,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_route_no_04d",
+    "name": "Route No. 04D",
+    "aliases": [
+      "Route No. 04D"
+    ],
+    "area": null,
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_route_no_20b",
+    "name": "Route No. 20B",
+    "aliases": [
+      "Route No. 20B"
+    ],
+    "area": null,
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_sm",
+    "name": "SM",
+    "aliases": [
+      "SM",
+      "sm city cebu",
+      "sm mall",
+      "sm north reclamation"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_sm_city_cebu",
+    "name": "SM City Cebu",
+    "aliases": [
+      "SM City Cebu",
+      "sm",
+      "sm city"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": 10.3111,
+    "longitude": 123.918,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_swu",
+    "name": "SWU",
+    "aliases": [
+      "swu",
+      "southwestern university",
+      "south western university"
+    ],
+    "area": "Urgello",
+    "cluster_id": "cluster_urgello",
+    "latitude": 10.3003,
+    "longitude": 123.8918,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_salinas_drive",
+    "name": "Salinas Drive",
+    "aliases": [
+      "Salinas Drive"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": 10.3282,
+    "longitude": 123.9044,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_sambag_1_private",
+    "name": "Sambag 1 (Private)",
+    "aliases": [
+      "Sambag 1 (Private)"
+    ],
+    "area": null,
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_simbahan_tisa",
+    "name": "Simbahan sa Tisa",
+    "aliases": [
+      "simbahan sa tisa",
+      "tisa church"
+    ],
+    "area": "Tisa",
+    "cluster_id": "cluster_tisa",
+    "latitude": 10.2922,
+    "longitude": 123.8817,
+    "importance_rank": 81
+  },
+  {
+    "place_id": "pl_sm_city_cebu_white_gold_and_vice_versa",
+    "name": "Sm City Cebu / White Gold and vice versa",
+    "aliases": [
+      "Sm City Cebu / White Gold and vice versa"
+    ],
+    "area": null,
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_south_bus_terminal",
+    "name": "South Bus Terminal",
+    "aliases": [
+      "South Bus Terminal"
+    ],
+    "area": null,
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_southwestern_university_basak_campus",
+    "name": "Southwestern University Basak Campus",
+    "aliases": [
+      "Southwestern University Basak Campus",
+      "swu basak"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": 10.2818,
+    "longitude": 123.8658,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_tabo_an",
+    "name": "Tabo-an",
+    "aliases": [
+      "Tabo-an"
+    ],
+    "area": null,
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_taboan",
+    "name": "Taboan",
+    "aliases": [
+      "Taboan",
+      "taboan public market"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": 10.2924,
+    "longitude": 123.8918,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_talamban",
+    "name": "Talamban",
+    "aliases": [
+      "Talamban",
+      "talamban cebu",
+      "talamban area"
+    ],
+    "area": "Talamban",
+    "cluster_id": "cluster_talamban",
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_talamban_to_banilad_to_ayala_to_carbon_and_vice_versa",
+    "name": "Talamban to Banilad to Ayala to Carbon and Vice versa",
+    "aliases": [
+      "Talamban to Banilad to Ayala to Carbon and Vice versa"
+    ],
+    "area": null,
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_tamiya",
+    "name": "Tamiya",
+    "aliases": [
+      "Tamiya"
+    ],
+    "area": null,
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_university_of_cebu_banilad_campus",
+    "name": "University of Cebu Banilad Campus",
+    "aliases": [
+      "University of Cebu Banilad Campus",
+      "uc banilad",
+      "uc banilad campus",
+      "university of cebu banilad"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": 10.3398,
+    "longitude": 123.9187,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_university_of_cebu_main_campus",
+    "name": "University of Cebu Main Campus",
+    "aliases": [
+      "University of Cebu Main Campus",
+      "uc",
+      "ucm",
+      "uc main",
+      "uc main campus",
+      "university of cebu",
+      "university of cebu main"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": 10.2988,
+    "longitude": 123.8994,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_university_of_san_carlos_main_campus",
+    "name": "University of San Carlos Main Campus",
+    "aliases": [
+      "University of San Carlos Main Campus",
+      "usc main",
+      "usc main campus",
+      "usc downtown",
+      "usc downtown campus",
+      "university of san carlos main",
+      "downtown campus",
+      "main campus"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": 10.2974,
+    "longitude": 123.8997,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_university_of_san_carlos_talamban_campus",
+    "name": "University of San Carlos Talamban Campus",
+    "aliases": [
+      "University of San Carlos Talamban Campus",
+      "usc tc",
+      "usc tc campus",
+      "usc talamban",
+      "usc talamban campus",
+      "university of san carlos talamban"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": 10.3547,
+    "longitude": 123.9115,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_university_of_san_jose_recoletos",
+    "name": "University of San Jose Recoletos",
+    "aliases": [
+      "University of San Jose Recoletos",
+      "usjr"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": 10.2947,
+    "longitude": 123.8979,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_university_of_southern_philippines_foundation",
+    "name": "University of Southern Philippines Foundation",
+    "aliases": [
+      "University of Southern Philippines Foundation",
+      "uspf",
+      "universit of southern philippines foundation"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": 10.3252,
+    "longitude": 123.8998,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_university_of_visayas_main_campus",
+    "name": "University of Visayas Main Campus",
+    "aliases": [
+      "University of Visayas Main Campus",
+      "uv",
+      "uv main",
+      "university of visayas",
+      "university of the visayas",
+      "university of visayas main",
+      "university of the visayas main",
+      "university of the visayas main campus"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": 10.2966,
+    "longitude": 123.9012,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_university_of_the_philippines_cebu",
+    "name": "University of the Philippines Cebu",
+    "aliases": [
+      "University of the Philippines Cebu",
+      "up",
+      "upc",
+      "up cebu",
+      "up lahug",
+      "university of the philippines"
+    ],
+    "area": "Cebu",
+    "cluster_id": null,
+    "latitude": 10.3231,
+    "longitude": 123.8996,
+    "importance_rank": 88,
+    "source": "manual_seed_known_places"
+  },
+  {
+    "place_id": "pl_urgello",
+    "name": "Urgello",
+    "aliases": [
+      "Urgello"
+    ],
+    "area": null,
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  },
+  {
+    "place_id": "pl_white_gold_and_sm",
+    "name": "White Gold and SM",
+    "aliases": [
+      "White Gold and SM"
+    ],
+    "area": null,
+    "cluster_id": null,
+    "latitude": null,
+    "longitude": null,
+    "importance_rank": 72
+  }
+]
