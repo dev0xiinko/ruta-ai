@@ -1,0 +1,4867 @@
+[
+  {
+    "route_code": "01B",
+    "place_id": "pl_act",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "01B",
+    "place_id": "pl_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "01B",
+    "place_id": "pl_colonnade",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "01B",
+    "place_id": "pl_gaisano_main_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "01B",
+    "place_id": "pl_gaisano_south",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "01B",
+    "place_id": "pl_mactan",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "01B",
+    "place_id": "pl_metro_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "01B",
+    "place_id": "pl_pier_3_and_2",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "01B",
+    "place_id": "pl_private",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "01B",
+    "place_id": "pl_sambag_1_private",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "01B",
+    "place_id": "pl_university_of_visayas_main_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "01C",
+    "place_id": "pl_benedicto_st",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "01C",
+    "place_id": "pl_cebu_doctors_university",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "01C",
+    "place_id": "pl_cebu_institute_of_technology_university_citu",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "01C",
+    "place_id": "pl_cebu_technological_university_main_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "01C",
+    "place_id": "pl_colon",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "01C",
+    "place_id": "pl_colonnade",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "01C",
+    "place_id": "pl_gaisano_main_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "01C",
+    "place_id": "pl_private",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "01C",
+    "place_id": "pl_sm",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "01C",
+    "place_id": "pl_sm_city_cebu",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "01C",
+    "place_id": "pl_swu",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "01C",
+    "place_id": "pl_swu",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "01C",
+    "place_id": "pl_university_of_cebu_main_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "01C",
+    "place_id": "pl_university_of_visayas_main_campus",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "01C",
+    "place_id": "pl_university_of_visayas_main_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "01C",
+    "place_id": "pl_urgello",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "01K",
+    "place_id": "pl_cebu_doctors_university",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "01K",
+    "place_id": "pl_cebu_institute_of_technology_university_citu",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "01K",
+    "place_id": "pl_cebu_institute_of_technology_university_citu",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "01K",
+    "place_id": "pl_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "01K",
+    "place_id": "pl_colonnade",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "01K",
+    "place_id": "pl_gaisano_main_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "01K",
+    "place_id": "pl_parkmall",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "01K",
+    "place_id": "pl_sm",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "01K",
+    "place_id": "pl_sm_city_cebu",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "01K",
+    "place_id": "pl_swu",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "01K",
+    "place_id": "pl_university_of_visayas_main_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "01K",
+    "place_id": "pl_urgello",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "02B",
+    "place_id": "pl_cathedral",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "02B",
+    "place_id": "pl_cebu_metropolitan_cathedral",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "02B",
+    "place_id": "pl_colon",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "02B",
+    "place_id": "pl_colonnade",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "02B",
+    "place_id": "pl_gaisano_main_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "02B",
+    "place_id": "pl_south_bus_terminal",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "02B",
+    "place_id": "pl_university_of_cebu_main_campus",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "02B",
+    "place_id": "pl_university_of_cebu_main_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "02B",
+    "place_id": "pl_university_of_visayas_main_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "03A",
+    "place_id": "pl_carbon",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "03A",
+    "place_id": "pl_cebu_technological_university_main_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "03A",
+    "place_id": "pl_colonnade",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "03A",
+    "place_id": "pl_gaisano_main_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "03A",
+    "place_id": "pl_mabolo",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "03A",
+    "place_id": "pl_pope_john_paul_ii_ave",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "03A",
+    "place_id": "pl_progreso_st",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "03B",
+    "place_id": "pl_carbon",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "03B",
+    "place_id": "pl_cebu_normal_university",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "03B",
+    "place_id": "pl_cebu_technological_university_main_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "03B",
+    "place_id": "pl_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "03B",
+    "place_id": "pl_fuente_osmena",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "03B",
+    "place_id": "pl_mabolo",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "03B",
+    "place_id": "pl_mango_ave",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "03B",
+    "place_id": "pl_metro_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "03B",
+    "place_id": "pl_university_of_san_jose_recoletos",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "03L",
+    "place_id": "pl_carbon",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "03L",
+    "place_id": "pl_cebu_technological_university_main_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "03L",
+    "place_id": "pl_juan_luna_ave",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "03L",
+    "place_id": "pl_mabolo",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "03L",
+    "place_id": "pl_progreso_st",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "03Q",
+    "place_id": "pl_ayala",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "03Q",
+    "place_id": "pl_juan_luna_ave",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "03Q",
+    "place_id": "pl_sm",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "03Q",
+    "place_id": "pl_sm_city_cebu",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04B",
+    "place_id": "pl_carbon",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "04B",
+    "place_id": "pl_cathedral",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04B",
+    "place_id": "pl_cebu_doctors_university",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04B",
+    "place_id": "pl_cebu_doctors_university_hospital",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04B",
+    "place_id": "pl_cebu_metropolitan_cathedral",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04B",
+    "place_id": "pl_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04B",
+    "place_id": "pl_colonnade",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04B",
+    "place_id": "pl_fuente_osmena",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04B",
+    "place_id": "pl_gorordo_ave",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04B",
+    "place_id": "pl_jy_square",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04B",
+    "place_id": "pl_lahug",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "04B",
+    "place_id": "pl_magallanes",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04B",
+    "place_id": "pl_magallanes_st",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04B",
+    "place_id": "pl_metro_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04B",
+    "place_id": "pl_progreso_st",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04B",
+    "place_id": "pl_robinsons_fuente",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04B",
+    "place_id": "pl_salinas_drive",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04B",
+    "place_id": "pl_university_of_san_carlos_main_campus",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "04B",
+    "place_id": "pl_university_of_san_carlos_main_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04B",
+    "place_id": "pl_university_of_san_jose_recoletos",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04B",
+    "place_id": "pl_university_of_the_philippines_cebu",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04C",
+    "place_id": "pl_campo_lahug",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "04C",
+    "place_id": "pl_carbon",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "04D",
+    "place_id": "pl_carbon",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "04D",
+    "place_id": "pl_cebu_doctors_university",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04D",
+    "place_id": "pl_cebu_metropolitan_cathedral",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04D",
+    "place_id": "pl_cebu_normal_university",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04D",
+    "place_id": "pl_fuente_osmena",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04D",
+    "place_id": "pl_gorordo_ave",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04D",
+    "place_id": "pl_jy_square",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04D",
+    "place_id": "pl_lahug",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04D",
+    "place_id": "pl_magallanes",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04D",
+    "place_id": "pl_magallanes_st",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04D",
+    "place_id": "pl_plaza_housing",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04D",
+    "place_id": "pl_robinsons_fuente",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04D",
+    "place_id": "pl_route_no_04d",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "04D",
+    "place_id": "pl_taboan",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04D",
+    "place_id": "pl_university_of_cebu_main_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04D",
+    "place_id": "pl_university_of_the_philippines_cebu",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04H",
+    "place_id": "pl_carbon",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "04H",
+    "place_id": "pl_cathedral",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04H",
+    "place_id": "pl_cebu_doctors_university",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04H",
+    "place_id": "pl_cebu_doctors_university_hospital",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04H",
+    "place_id": "pl_cebu_metropolitan_cathedral",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04H",
+    "place_id": "pl_cebu_normal_university",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04H",
+    "place_id": "pl_colonnade",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04H",
+    "place_id": "pl_fuente_osmena",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04H",
+    "place_id": "pl_gorordo_ave",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04H",
+    "place_id": "pl_jy_square",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04H",
+    "place_id": "pl_lahug",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04H",
+    "place_id": "pl_magallanes",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04H",
+    "place_id": "pl_magallanes_st",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04H",
+    "place_id": "pl_plaza_housing",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "04H",
+    "place_id": "pl_progreso_st",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04H",
+    "place_id": "pl_robinsons_fuente",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04H",
+    "place_id": "pl_university_of_cebu_main_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04H",
+    "place_id": "pl_university_of_san_carlos_main_campus",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "04H",
+    "place_id": "pl_university_of_san_carlos_main_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04H",
+    "place_id": "pl_university_of_san_jose_recoletos",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04H",
+    "place_id": "pl_university_of_the_philippines_cebu",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04I",
+    "place_id": "pl_carbon",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "04I",
+    "place_id": "pl_cathedral",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04I",
+    "place_id": "pl_cebu_doctors_university",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04I",
+    "place_id": "pl_cebu_metropolitan_cathedral",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04I",
+    "place_id": "pl_cim",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04I",
+    "place_id": "pl_cim",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04I",
+    "place_id": "pl_fuente_osmena",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04I",
+    "place_id": "pl_gorordo_ave",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04I",
+    "place_id": "pl_jy_square",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04I",
+    "place_id": "pl_lahug",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04I",
+    "place_id": "pl_magallanes",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04I",
+    "place_id": "pl_magallanes_st",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04I",
+    "place_id": "pl_mango_ave",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04I",
+    "place_id": "pl_plaza_housing",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "04I",
+    "place_id": "pl_progreso_st",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04I",
+    "place_id": "pl_university_of_cebu_main_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04I",
+    "place_id": "pl_university_of_san_jose_recoletos",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04I",
+    "place_id": "pl_university_of_the_philippines_cebu",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04I",
+    "place_id": "pl_university_of_visayas_main_campus",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "04I",
+    "place_id": "pl_university_of_visayas_main_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04L",
+    "place_id": "pl_ayala",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "04L",
+    "place_id": "pl_gorordo_ave",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04L",
+    "place_id": "pl_jy_square",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04L",
+    "place_id": "pl_lahug",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "04L",
+    "place_id": "pl_mabolo",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04L",
+    "place_id": "pl_pagibig_cebu",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04L",
+    "place_id": "pl_pope_john_paul_ii_ave",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04L",
+    "place_id": "pl_salinas_drive",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "04L",
+    "place_id": "pl_salinas_drive",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04L",
+    "place_id": "pl_sm",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04L",
+    "place_id": "pl_sm_city_cebu",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04L",
+    "place_id": "pl_university_of_the_philippines_cebu",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04M",
+    "place_id": "pl_ayala",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "04M",
+    "place_id": "pl_gorordo_ave",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04M",
+    "place_id": "pl_jy_square",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04M",
+    "place_id": "pl_lahug",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "04M",
+    "place_id": "pl_salinas_drive",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "04M",
+    "place_id": "pl_salinas_drive",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "04M",
+    "place_id": "pl_university_of_the_philippines_cebu",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06B",
+    "place_id": "pl_carbon",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "06B",
+    "place_id": "pl_cebu_doctors_university",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06B",
+    "place_id": "pl_cebu_doctors_university_hospital",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "06B",
+    "place_id": "pl_cebu_doctors_university_hospital",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06B",
+    "place_id": "pl_cebu_metropolitan_cathedral",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06B",
+    "place_id": "pl_cebu_normal_university",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06B",
+    "place_id": "pl_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06B",
+    "place_id": "pl_fuente_osmena",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06B",
+    "place_id": "pl_gaisano_main_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06B",
+    "place_id": "pl_guadalupe",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "06B",
+    "place_id": "pl_guadalupe_church",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06B",
+    "place_id": "pl_magallanes",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06B",
+    "place_id": "pl_magallanes_st",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06B",
+    "place_id": "pl_prc",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06B",
+    "place_id": "pl_university_of_san_jose_recoletos",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06C",
+    "place_id": "pl_carbon",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "06C",
+    "place_id": "pl_cebu_normal_university",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06C",
+    "place_id": "pl_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06C",
+    "place_id": "pl_fuente_osmena",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06C",
+    "place_id": "pl_guadalupe",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "06C",
+    "place_id": "pl_guadalupe_church",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06C",
+    "place_id": "pl_prc",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06F",
+    "place_id": "pl_carbon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06F",
+    "place_id": "pl_carbon_guadalupe_to_capitol_guadalupe_to_jones_ave",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "06F",
+    "place_id": "pl_cebu_normal_university",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06F",
+    "place_id": "pl_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06F",
+    "place_id": "pl_fuente_osmena",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06F",
+    "place_id": "pl_gaisano_main_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06F",
+    "place_id": "pl_guadalupe",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "06F",
+    "place_id": "pl_guadalupe_church",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06F",
+    "place_id": "pl_prc",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06F",
+    "place_id": "pl_progreso_st",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06G",
+    "place_id": "pl_calamba_cemetery",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06G",
+    "place_id": "pl_guadalupe",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "06G",
+    "place_id": "pl_guadalupe_church",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06G",
+    "place_id": "pl_prc",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06G",
+    "place_id": "pl_tabo_an",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "06G",
+    "place_id": "pl_taboan",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06H",
+    "place_id": "pl_ayala",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06H",
+    "place_id": "pl_banawa",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06H",
+    "place_id": "pl_cebu_doctors_university",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06H",
+    "place_id": "pl_fuente_osmena",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06H",
+    "place_id": "pl_guadalupe",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "06H",
+    "place_id": "pl_guadalupe_church",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06H",
+    "place_id": "pl_mabolo",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06H",
+    "place_id": "pl_mango_ave",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06H",
+    "place_id": "pl_pagibig_cebu",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "06H",
+    "place_id": "pl_pope_john_paul_ii_ave",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06H",
+    "place_id": "pl_prc",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06H",
+    "place_id": "pl_robinsons_fuente",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "06H",
+    "place_id": "pl_sm",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "06H",
+    "place_id": "pl_sm_city_cebu",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "07B",
+    "place_id": "pl_banawa",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "07B",
+    "place_id": "pl_carbon",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "07B",
+    "place_id": "pl_cebu_doctors_university",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "07B",
+    "place_id": "pl_cebu_doctors_university",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "07B",
+    "place_id": "pl_cebu_doctors_university_hospital",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "07B",
+    "place_id": "pl_cebu_doctors_university_hospital",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "07B",
+    "place_id": "pl_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "07B",
+    "place_id": "pl_fuente_osmena",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "07B",
+    "place_id": "pl_magallanes",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "07B",
+    "place_id": "pl_magallanes_st",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "07B",
+    "place_id": "pl_metro_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "07B",
+    "place_id": "pl_progreso_st",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "07B",
+    "place_id": "pl_robinsons_fuente",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "07B",
+    "place_id": "pl_university_of_san_jose_recoletos",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "08F",
+    "place_id": "pl_alumnos",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "08F",
+    "place_id": "pl_benedicto_st",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "08F",
+    "place_id": "pl_colon",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "08F",
+    "place_id": "pl_colonnade",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "08F",
+    "place_id": "pl_magallanes",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "08F",
+    "place_id": "pl_magallanes_st",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "08F",
+    "place_id": "pl_sm",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "08F",
+    "place_id": "pl_sm_city_cebu",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "08F",
+    "place_id": "pl_university_of_visayas_main_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "08G",
+    "place_id": "pl_alumnos",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "08G",
+    "place_id": "pl_cebu_technological_university_main_campus",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "08G",
+    "place_id": "pl_cebu_technological_university_main_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "08G",
+    "place_id": "pl_colon",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "08G",
+    "place_id": "pl_colonnade",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "08G",
+    "place_id": "pl_gaisano_main_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "08G",
+    "place_id": "pl_magallanes",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "08G",
+    "place_id": "pl_magallanes_st",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "08G",
+    "place_id": "pl_magallanes_st",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "08G",
+    "place_id": "pl_university_of_visayas_main_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "09C",
+    "place_id": "pl_basak",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "09C",
+    "place_id": "pl_cebu_institute_of_technology_university_citu",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "09C",
+    "place_id": "pl_colon",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "09C",
+    "place_id": "pl_southwestern_university_basak_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "09C",
+    "place_id": "pl_swu",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "09C",
+    "place_id": "pl_university_of_san_jose_recoletos",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "09F",
+    "place_id": "pl_act",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "09F",
+    "place_id": "pl_basak",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "09F",
+    "place_id": "pl_cathedral",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "09F",
+    "place_id": "pl_cebu_institute_of_technology_university_citu",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "09F",
+    "place_id": "pl_cebu_metropolitan_cathedral",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "09F",
+    "place_id": "pl_cebu_technological_university_main_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "09F",
+    "place_id": "pl_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "09F",
+    "place_id": "pl_gaisano_main_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "09F",
+    "place_id": "pl_ibabao",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "09F",
+    "place_id": "pl_southwestern_university_basak_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "09F",
+    "place_id": "pl_swu",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "09F",
+    "place_id": "pl_university_of_san_carlos_main_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "09F",
+    "place_id": "pl_university_of_san_jose_recoletos",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "09F",
+    "place_id": "pl_university_of_san_jose_recoletos",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "09F",
+    "place_id": "pl_university_of_visayas_main_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "09G",
+    "place_id": "pl_basak",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "09G",
+    "place_id": "pl_carbon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "09G",
+    "place_id": "pl_cathedral",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "09G",
+    "place_id": "pl_cebu_metropolitan_cathedral",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "09G",
+    "place_id": "pl_colon",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "09G",
+    "place_id": "pl_ibabao",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "09G",
+    "place_id": "pl_magallanes",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "09G",
+    "place_id": "pl_magallanes_st",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "09G",
+    "place_id": "pl_southwestern_university_basak_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "09G",
+    "place_id": "pl_swu",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "09G",
+    "place_id": "pl_swu",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "09G",
+    "place_id": "pl_university_of_san_jose_recoletos",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10F",
+    "place_id": "pl_act",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "10F",
+    "place_id": "pl_basak",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10F",
+    "place_id": "pl_bulacao",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "10F",
+    "place_id": "pl_cebu_institute_of_technology_university_citu",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10F",
+    "place_id": "pl_colon",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "10F",
+    "place_id": "pl_colonnade",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10F",
+    "place_id": "pl_pardo",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10F",
+    "place_id": "pl_simbahan_tisa",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "10F",
+    "place_id": "pl_south_bus_terminal",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10F",
+    "place_id": "pl_university_of_san_jose_recoletos",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "10F",
+    "place_id": "pl_university_of_san_jose_recoletos",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10G",
+    "place_id": "pl_basak",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10G",
+    "place_id": "pl_carbon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10G",
+    "place_id": "pl_cathedral",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10G",
+    "place_id": "pl_cebu_metropolitan_cathedral",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10G",
+    "place_id": "pl_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10G",
+    "place_id": "pl_colonnade",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10G",
+    "place_id": "pl_magallanes",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "10G",
+    "place_id": "pl_magallanes_st",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10G",
+    "place_id": "pl_pardo",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "10G",
+    "place_id": "pl_university_of_san_jose_recoletos",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10G",
+    "place_id": "pl_university_of_visayas_main_campus",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "10G",
+    "place_id": "pl_university_of_visayas_main_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10H",
+    "place_id": "pl_act",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10H",
+    "place_id": "pl_basak",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10H",
+    "place_id": "pl_benedicto_st",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10H",
+    "place_id": "pl_bulacao",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "10H",
+    "place_id": "pl_cebu_institute_of_technology_university_citu",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10H",
+    "place_id": "pl_cebu_technological_university_main_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10H",
+    "place_id": "pl_pardo",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10H",
+    "place_id": "pl_simbahan_tisa",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "10H",
+    "place_id": "pl_sm",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "10H",
+    "place_id": "pl_sm_city_cebu",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10H",
+    "place_id": "pl_south_bus_terminal",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10H",
+    "place_id": "pl_university_of_san_jose_recoletos",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10M",
+    "place_id": "pl_act",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "10M",
+    "place_id": "pl_basak",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10M",
+    "place_id": "pl_benedicto_st",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10M",
+    "place_id": "pl_bulacao",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "10M",
+    "place_id": "pl_cathedral",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10M",
+    "place_id": "pl_cebu_institute_of_technology_university_citu",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10M",
+    "place_id": "pl_cebu_metropolitan_cathedral",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10M",
+    "place_id": "pl_cebu_technological_university_main_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10M",
+    "place_id": "pl_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10M",
+    "place_id": "pl_colonnade",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10M",
+    "place_id": "pl_gaisano_main_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10M",
+    "place_id": "pl_metro_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10M",
+    "place_id": "pl_pardo",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10M",
+    "place_id": "pl_simbahan_tisa",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "10M",
+    "place_id": "pl_sm",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "10M",
+    "place_id": "pl_sm_city_cebu",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10M",
+    "place_id": "pl_south_bus_terminal",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10M",
+    "place_id": "pl_university_of_san_jose_recoletos",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "10M",
+    "place_id": "pl_university_of_visayas_main_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "11A",
+    "place_id": "pl_cebu_metropolitan_cathedral",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "11A",
+    "place_id": "pl_colon",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "11A",
+    "place_id": "pl_colonnade",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "11A",
+    "place_id": "pl_colonnade",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "11A",
+    "place_id": "pl_gaisano_main_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "11A",
+    "place_id": "pl_inayawan",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "11A",
+    "place_id": "pl_magallanes",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "11A",
+    "place_id": "pl_magallanes_st",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "11A",
+    "place_id": "pl_university_of_visayas_main_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "12D",
+    "place_id": "pl_act",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "12D",
+    "place_id": "pl_cathedral",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "12D",
+    "place_id": "pl_cebu_metropolitan_cathedral",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "12D",
+    "place_id": "pl_colon",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "12D",
+    "place_id": "pl_gaisano_main_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "12D",
+    "place_id": "pl_labangon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "12D",
+    "place_id": "pl_south_bus_terminal",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "12D",
+    "place_id": "pl_university_of_san_carlos_main_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "12D",
+    "place_id": "pl_university_of_san_jose_recoletos",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "12D",
+    "place_id": "pl_university_of_san_jose_recoletos",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "12D",
+    "place_id": "pl_university_of_southern_philippines_foundation",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "12D",
+    "place_id": "pl_university_of_visayas_main_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "12G",
+    "place_id": "pl_benedicto_st",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "12G",
+    "place_id": "pl_cebu_institute_of_technology_university_citu",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "12G",
+    "place_id": "pl_labangon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "12G",
+    "place_id": "pl_sm",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "12G",
+    "place_id": "pl_sm_city_cebu",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "12G",
+    "place_id": "pl_taboan",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "12G",
+    "place_id": "pl_university_of_cebu_main_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "12G",
+    "place_id": "pl_university_of_san_jose_recoletos",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "12I",
+    "place_id": "pl_cathedral",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "12I",
+    "place_id": "pl_cebu_institute_of_technology_university_citu",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "12I",
+    "place_id": "pl_cebu_metropolitan_cathedral",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "12I",
+    "place_id": "pl_cebu_technological_university_main_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "12I",
+    "place_id": "pl_labangon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "12I",
+    "place_id": "pl_mango_ave",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "12I",
+    "place_id": "pl_sm",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "12I",
+    "place_id": "pl_sm_city_cebu",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "12I",
+    "place_id": "pl_university_of_san_carlos_main_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "12I",
+    "place_id": "pl_university_of_san_jose_recoletos",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "12I",
+    "place_id": "pl_university_of_southern_philippines_foundation",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "12I",
+    "place_id": "pl_university_of_visayas_main_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "12L",
+    "place_id": "pl_ayala",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "12L",
+    "place_id": "pl_fuente_osmena",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "12L",
+    "place_id": "pl_gorordo_ave",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "12L",
+    "place_id": "pl_labangon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "12L",
+    "place_id": "pl_mango_ave",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13B",
+    "place_id": "pl_ayala",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13B",
+    "place_id": "pl_banilad_town_center",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13B",
+    "place_id": "pl_carbon",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "13B",
+    "place_id": "pl_cathedral",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13B",
+    "place_id": "pl_cebu_metropolitan_cathedral",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13B",
+    "place_id": "pl_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13B",
+    "place_id": "pl_gaisano_country_mall",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13B",
+    "place_id": "pl_gaisano_main_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13B",
+    "place_id": "pl_gorordo_ave",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13B",
+    "place_id": "pl_progreso_st",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13B",
+    "place_id": "pl_talamban",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "13B",
+    "place_id": "pl_university_of_cebu_banilad_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13B",
+    "place_id": "pl_university_of_cebu_main_campus",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "13B",
+    "place_id": "pl_university_of_cebu_main_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13B",
+    "place_id": "pl_university_of_san_carlos_main_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13B",
+    "place_id": "pl_university_of_san_carlos_talamban_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13B",
+    "place_id": "pl_university_of_visayas_main_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13C",
+    "place_id": "pl_ayala",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13C",
+    "place_id": "pl_banilad_town_center",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13C",
+    "place_id": "pl_colon",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "13C",
+    "place_id": "pl_colonnade",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13C",
+    "place_id": "pl_gaisano_country_mall",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13C",
+    "place_id": "pl_gaisano_main_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13C",
+    "place_id": "pl_gorordo_ave",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13C",
+    "place_id": "pl_mactan",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13C",
+    "place_id": "pl_pagibig_cebu",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13C",
+    "place_id": "pl_talamban",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "13C",
+    "place_id": "pl_university_of_cebu_banilad_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13C",
+    "place_id": "pl_university_of_cebu_main_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13C",
+    "place_id": "pl_university_of_san_carlos_main_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13C",
+    "place_id": "pl_university_of_san_carlos_talamban_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13C",
+    "place_id": "pl_university_of_san_jose_recoletos",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "13C",
+    "place_id": "pl_university_of_san_jose_recoletos",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13C",
+    "place_id": "pl_university_of_visayas_main_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13H",
+    "place_id": "pl_andy_hotel",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13H",
+    "place_id": "pl_as_fortuna_roadside",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13H",
+    "place_id": "pl_cebu_institute_of_technology_university_citu",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "13H",
+    "place_id": "pl_cebu_institute_of_technology_university_citu",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13H",
+    "place_id": "pl_colonnade",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13H",
+    "place_id": "pl_mandaue",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "13H",
+    "place_id": "pl_pit_os",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "13H",
+    "place_id": "pl_talamban",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13H",
+    "place_id": "pl_university_of_san_carlos_talamban_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "13H",
+    "place_id": "pl_university_of_visayas_main_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "14D",
+    "place_id": "pl_ayala",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "14D",
+    "place_id": "pl_cebu_doctors_university",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "14D",
+    "place_id": "pl_cebu_doctors_university_hospital",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "14D",
+    "place_id": "pl_cim",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "14D",
+    "place_id": "pl_colon",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "14D",
+    "place_id": "pl_fuente_osmena",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "14D",
+    "place_id": "pl_gaisano_main_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "14D",
+    "place_id": "pl_university_of_san_carlos_main_campus",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "14D",
+    "place_id": "pl_university_of_san_carlos_main_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "14D",
+    "place_id": "pl_university_of_visayas_main_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17B",
+    "place_id": "pl_apas",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "17B",
+    "place_id": "pl_carbon",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "17B",
+    "place_id": "pl_cathedral",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17B",
+    "place_id": "pl_cebu_doctors_university",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17B",
+    "place_id": "pl_cebu_doctors_university_hospital",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17B",
+    "place_id": "pl_cebu_metropolitan_cathedral",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17B",
+    "place_id": "pl_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17B",
+    "place_id": "pl_colonnade",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17B",
+    "place_id": "pl_fuente_osmena",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17B",
+    "place_id": "pl_gorordo_ave",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17B",
+    "place_id": "pl_it_park",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17B",
+    "place_id": "pl_jy_square",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17B",
+    "place_id": "pl_lahug",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17B",
+    "place_id": "pl_lapu_lapu",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17B",
+    "place_id": "pl_magallanes",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17B",
+    "place_id": "pl_magallanes_st",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17B",
+    "place_id": "pl_metro_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17B",
+    "place_id": "pl_progreso_st",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17B",
+    "place_id": "pl_robinsons_fuente",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17B",
+    "place_id": "pl_salinas_drive",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17B",
+    "place_id": "pl_university_of_san_carlos_main_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17B",
+    "place_id": "pl_university_of_san_jose_recoletos",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "17B",
+    "place_id": "pl_university_of_san_jose_recoletos",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17B",
+    "place_id": "pl_university_of_the_philippines_cebu",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "17B",
+    "place_id": "pl_university_of_the_philippines_cebu",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17C",
+    "place_id": "pl_apas",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "17C",
+    "place_id": "pl_carbon",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "17C",
+    "place_id": "pl_cathedral",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17C",
+    "place_id": "pl_cebu_metropolitan_cathedral",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17C",
+    "place_id": "pl_cim",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17C",
+    "place_id": "pl_colon",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "17C",
+    "place_id": "pl_fuente_osmena",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17C",
+    "place_id": "pl_gorordo_ave",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17C",
+    "place_id": "pl_it_park",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17C",
+    "place_id": "pl_jy_square",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17C",
+    "place_id": "pl_lahug",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17C",
+    "place_id": "pl_lapu_lapu",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17C",
+    "place_id": "pl_magallanes",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17C",
+    "place_id": "pl_magallanes_st",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17C",
+    "place_id": "pl_mango_ave",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17C",
+    "place_id": "pl_progreso_st",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17C",
+    "place_id": "pl_robinsons_fuente",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17C",
+    "place_id": "pl_salinas_drive",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17C",
+    "place_id": "pl_university_of_cebu_main_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17C",
+    "place_id": "pl_university_of_san_carlos_main_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17C",
+    "place_id": "pl_university_of_san_jose_recoletos",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17C",
+    "place_id": "pl_university_of_the_philippines_cebu",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17C",
+    "place_id": "pl_university_of_visayas_main_campus",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "17C",
+    "place_id": "pl_university_of_visayas_main_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17D",
+    "place_id": "pl_apas",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "17D",
+    "place_id": "pl_carbon",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "17D",
+    "place_id": "pl_cathedral",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17D",
+    "place_id": "pl_cebu_doctors_university",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17D",
+    "place_id": "pl_cebu_doctors_university_hospital",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17D",
+    "place_id": "pl_cebu_metropolitan_cathedral",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17D",
+    "place_id": "pl_cebu_normal_university",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17D",
+    "place_id": "pl_colonnade",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17D",
+    "place_id": "pl_fuente_osmena",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17D",
+    "place_id": "pl_gorordo_ave",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17D",
+    "place_id": "pl_it_park",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17D",
+    "place_id": "pl_jy_square",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17D",
+    "place_id": "pl_lahug",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17D",
+    "place_id": "pl_lapu_lapu",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17D",
+    "place_id": "pl_magallanes",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17D",
+    "place_id": "pl_magallanes_st",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17D",
+    "place_id": "pl_progreso_st",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17D",
+    "place_id": "pl_salinas_drive",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17D",
+    "place_id": "pl_taboan",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17D",
+    "place_id": "pl_university_of_cebu_main_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17D",
+    "place_id": "pl_university_of_san_carlos_main_campus",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "17D",
+    "place_id": "pl_university_of_san_carlos_main_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17D",
+    "place_id": "pl_university_of_san_jose_recoletos",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17D",
+    "place_id": "pl_university_of_southern_philippines_foundation",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "17D",
+    "place_id": "pl_university_of_the_philippines_cebu",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "20A",
+    "place_id": "pl_ayala",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "20A",
+    "place_id": "pl_colonnade",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "20A",
+    "place_id": "pl_ibabao",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "20A",
+    "place_id": "pl_mabolo",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "20A",
+    "place_id": "pl_mactan",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "20A",
+    "place_id": "pl_mandaue",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "20A",
+    "place_id": "pl_parkmall",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "20A",
+    "place_id": "pl_pope_john_paul_ii_ave",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "20A",
+    "place_id": "pl_pope_john_paul_ii_ave",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "20B",
+    "place_id": "pl_ayala",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "20B",
+    "place_id": "pl_centro_mandaue",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "20B",
+    "place_id": "pl_ibabao",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "20B",
+    "place_id": "pl_mabolo",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "20B",
+    "place_id": "pl_mandaue",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "20B",
+    "place_id": "pl_mandaue_and_vice_versa",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "20B",
+    "place_id": "pl_route_no_20b",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "21A",
+    "place_id": "pl_andy_hotel",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "21A",
+    "place_id": "pl_as_fortuna_roadside",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "21A",
+    "place_id": "pl_benedicto_st",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "21A",
+    "place_id": "pl_benedicto_st",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "21A",
+    "place_id": "pl_cathedral",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "21A",
+    "place_id": "pl_cebu_technological_university_main_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "21A",
+    "place_id": "pl_centro_mandaue",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "21A",
+    "place_id": "pl_colonnade",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "21A",
+    "place_id": "pl_mabolo",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "21A",
+    "place_id": "pl_mandaue",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "21A",
+    "place_id": "pl_sm",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "21A",
+    "place_id": "pl_sm_city_cebu",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "21D",
+    "place_id": "pl_benedicto_st",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "21D",
+    "place_id": "pl_cathedral",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "21D",
+    "place_id": "pl_cebu_institute_of_technology_university_citu",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "21D",
+    "place_id": "pl_cebu_metropolitan_cathedral",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "21D",
+    "place_id": "pl_centro_mandaue",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "21D",
+    "place_id": "pl_colonnade",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "21D",
+    "place_id": "pl_mabolo",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "21D",
+    "place_id": "pl_mandaue",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "21D",
+    "place_id": "pl_mandaue_cathedral",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "21D",
+    "place_id": "pl_parkmall",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "21D",
+    "place_id": "pl_sm",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "21D",
+    "place_id": "pl_sm_city_cebu",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "22A",
+    "place_id": "pl_as_fortuna_roadside",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "22A",
+    "place_id": "pl_cathedral",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "22A",
+    "place_id": "pl_cebu_technological_university_main_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "22A",
+    "place_id": "pl_centro_mandaue",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "22A",
+    "place_id": "pl_colonnade",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "22A",
+    "place_id": "pl_mabolo",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "22A",
+    "place_id": "pl_mandaue",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "22A",
+    "place_id": "pl_ouano",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "22A",
+    "place_id": "pl_parkmall",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "22A",
+    "place_id": "pl_sm",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "22A",
+    "place_id": "pl_sm_city_cebu",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "22A",
+    "place_id": "pl_sm_city_cebu",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "22D",
+    "place_id": "pl_as_fortuna_roadside",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "22D",
+    "place_id": "pl_benedicto_st",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "22D",
+    "place_id": "pl_cathedral",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "22D",
+    "place_id": "pl_cebu_technological_university_main_campus",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "22D",
+    "place_id": "pl_cebu_technological_university_main_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "22D",
+    "place_id": "pl_colonnade",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "22D",
+    "place_id": "pl_mandaue",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "22D",
+    "place_id": "pl_mango_ave",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "22D",
+    "place_id": "pl_ouano",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "22D",
+    "place_id": "pl_parkmall",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "22D",
+    "place_id": "pl_sm",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "22D",
+    "place_id": "pl_sm_city_cebu",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "22G",
+    "place_id": "pl_as_fortuna_roadside",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "22G",
+    "place_id": "pl_cathedral",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "22G",
+    "place_id": "pl_cathedral_to_mabolo",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "22G",
+    "place_id": "pl_cebu_technological_university_main_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "22G",
+    "place_id": "pl_colonnade",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "22G",
+    "place_id": "pl_mandaue",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "22G",
+    "place_id": "pl_ouano",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "22G",
+    "place_id": "pl_ouano_mandaue",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "22G",
+    "place_id": "pl_sm",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "22G",
+    "place_id": "pl_sm_city_cebu",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "22I",
+    "place_id": "pl_andy_hotel",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "22I",
+    "place_id": "pl_as_fortuna_dunkin",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "22I",
+    "place_id": "pl_as_fortuna_roadside",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "22I",
+    "place_id": "pl_banilad_town_center",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "22I",
+    "place_id": "pl_cebu_doctors_university",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "22I",
+    "place_id": "pl_colonnade",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "22I",
+    "place_id": "pl_gaisano_country_mall",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "22I",
+    "place_id": "pl_mactan",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "22I",
+    "place_id": "pl_mandaue",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "22I",
+    "place_id": "pl_university_of_cebu_main_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "22I",
+    "place_id": "pl_university_of_visayas_main_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "23",
+    "place_id": "pl_cebu_doctors_university",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "23",
+    "place_id": "pl_mactan",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "23",
+    "place_id": "pl_mandaue",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "23",
+    "place_id": "pl_ouano",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "23",
+    "place_id": "pl_parkmall",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "23",
+    "place_id": "pl_punta_enga\u00f1o",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "23",
+    "place_id": "pl_university_of_visayas_main_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "23D",
+    "place_id": "pl_mactan",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "23D",
+    "place_id": "pl_mandaue",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "23D",
+    "place_id": "pl_opon",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "23D",
+    "place_id": "pl_parkmall",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "24",
+    "place_id": "pl_basak",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "24",
+    "place_id": "pl_consolacion",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "24",
+    "place_id": "pl_mandaue",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "24",
+    "place_id": "pl_sm",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "24",
+    "place_id": "pl_sm_city_cebu",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "24",
+    "place_id": "pl_sm_city_cebu_white_gold_and_vice_versa",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "25",
+    "place_id": "pl_basak",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "25",
+    "place_id": "pl_consolacion",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "25",
+    "place_id": "pl_galleria",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "25",
+    "place_id": "pl_liloan",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "25",
+    "place_id": "pl_mandaue",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "25",
+    "place_id": "pl_mango_ave",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "25",
+    "place_id": "pl_sm",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "25",
+    "place_id": "pl_sm_city_cebu",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "25",
+    "place_id": "pl_white_gold_and_sm",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "62B",
+    "place_id": "pl_ayala",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "62B",
+    "place_id": "pl_banilad_town_center",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "62B",
+    "place_id": "pl_carbon",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "62B",
+    "place_id": "pl_cathedral",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "62B",
+    "place_id": "pl_cebu_metropolitan_cathedral",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "62B",
+    "place_id": "pl_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "62B",
+    "place_id": "pl_gaisano_country_mall",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "62B",
+    "place_id": "pl_gorordo_ave",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "62B",
+    "place_id": "pl_pit_os",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "62B",
+    "place_id": "pl_progreso_st",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "62B",
+    "place_id": "pl_talamban",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "62B",
+    "place_id": "pl_university_of_cebu_banilad_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "62B",
+    "place_id": "pl_university_of_cebu_main_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "62B",
+    "place_id": "pl_university_of_san_carlos_talamban_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "62B",
+    "place_id": "pl_university_of_visayas_main_campus",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "62B",
+    "place_id": "pl_university_of_visayas_main_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "62C",
+    "place_id": "pl_ayala",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "62C",
+    "place_id": "pl_carbon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "62C",
+    "place_id": "pl_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "62C",
+    "place_id": "pl_gaisano_country_mall",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "62C",
+    "place_id": "pl_gaisano_main_colon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "62C",
+    "place_id": "pl_gorordo_ave",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "62C",
+    "place_id": "pl_juan_luna_ave",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "62C",
+    "place_id": "pl_pit_os",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "62C",
+    "place_id": "pl_progreso_st",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "62C",
+    "place_id": "pl_talamban",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "62C",
+    "place_id": "pl_talamban_to_banilad_to_ayala_to_carbon_and_vice_versa",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "62C",
+    "place_id": "pl_university_of_san_carlos_main_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "62C",
+    "place_id": "pl_university_of_san_carlos_talamban_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "62C",
+    "place_id": "pl_university_of_visayas_main_campus",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "MI-01A",
+    "place_id": "pl_mactan",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "MI-01A",
+    "place_id": "pl_mandaue",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "MI-01A",
+    "place_id": "pl_opon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "MI-01A",
+    "place_id": "pl_punta_enga\u00f1o",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "MI-02B",
+    "place_id": "pl_cebu_doctors_university",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "MI-02B",
+    "place_id": "pl_mactan",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "MI-02B",
+    "place_id": "pl_mandaue",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "MI-02B",
+    "place_id": "pl_parkmall",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "MI-02B",
+    "place_id": "pl_university_of_visayas_main_campus",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "MI-02B",
+    "place_id": "pl_university_of_visayas_main_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "MI-03A",
+    "place_id": "pl_cordova",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "MI-03A",
+    "place_id": "pl_lapu_lapu",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "MI-03A",
+    "place_id": "pl_opon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "MI-03B",
+    "place_id": "pl_cordova",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "MI-03B",
+    "place_id": "pl_lapu_lapu",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "MI-03B",
+    "place_id": "pl_lapu_lapu",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "MI-03B",
+    "place_id": "pl_mactan",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "MI-03B",
+    "place_id": "pl_mandaue",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "MI-03B",
+    "place_id": "pl_opon",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "MI-04A",
+    "place_id": "pl_cebu_doctors_university",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "MI-04A",
+    "place_id": "pl_mactan",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "MI-04A",
+    "place_id": "pl_mandaue",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "MI-04A",
+    "place_id": "pl_ouano",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "MI-04A",
+    "place_id": "pl_parkmall",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "MI-04A",
+    "place_id": "pl_tamiya",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "MI-04A",
+    "place_id": "pl_university_of_cebu_main_campus",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "MI-04A",
+    "place_id": "pl_university_of_cebu_main_campus",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "MI-04B",
+    "place_id": "pl_lapu_lapu",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "MI-04B",
+    "place_id": "pl_mactan",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "MI-04B",
+    "place_id": "pl_mepz2",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "MI-04B",
+    "place_id": "pl_tamiya",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "MI-05A",
+    "place_id": "pl_lapu_lapu",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  },
+  {
+    "route_code": "MI-05A",
+    "place_id": "pl_lapu_lapu",
+    "access_type": "nearby_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "MI-05A",
+    "place_id": "pl_mactan",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": false
+  },
+  {
+    "route_code": "MI-05A",
+    "place_id": "pl_mandaue",
+    "access_type": "direct_access",
+    "pickup": true,
+    "dropoff": true
+  },
+  {
+    "route_code": "MI-05A",
+    "place_id": "pl_opon",
+    "access_type": "direct_access",
+    "pickup": false,
+    "dropoff": true
+  }
+]

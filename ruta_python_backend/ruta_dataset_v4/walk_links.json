@@ -1,0 +1,37 @@
+[
+  {
+    "from_place_id": "pl_gaisano_main_colon",
+    "to_place_id": "pl_act",
+    "walk_minutes": 5,
+    "distance_m": 350,
+    "bidirectional": true
+  },
+  {
+    "from_place_id": "pl_swu",
+    "to_place_id": "pl_cim",
+    "walk_minutes": 5,
+    "distance_m": 360,
+    "bidirectional": true
+  },
+  {
+    "from_place_id": "pl_benedicto_st",
+    "to_place_id": "pl_galleria",
+    "walk_minutes": 5,
+    "distance_m": 340,
+    "bidirectional": true
+  },
+  {
+    "from_place_id": "pl_as_fortuna_dunkin",
+    "to_place_id": "pl_as_fortuna_roadside",
+    "walk_minutes": 3,
+    "distance_m": 180,
+    "bidirectional": true
+  },
+  {
+    "from_place_id": "pl_pope_john_paul_ii_ave",
+    "to_place_id": "pl_bonifacio_district",
+    "walk_minutes": 4,
+    "distance_m": 300,
+    "bidirectional": true
+  }
+]

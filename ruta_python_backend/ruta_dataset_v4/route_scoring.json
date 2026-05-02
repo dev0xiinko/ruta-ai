@@ -1,0 +1,18 @@
+{
+  "base": {
+    "walk_only": 110,
+    "direct": 100,
+    "walk_ride": 70,
+    "ride_walk": 70,
+    "one_transfer": 60,
+    "two_transfers": 40
+  },
+  "penalties": {
+    "extra_ride": 15,
+    "walk_segment": 5,
+    "walk_minute": 1,
+    "direction_unknown": 20,
+    "confidence_medium": 30,
+    "confidence_low": 999
+  }
+}
